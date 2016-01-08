@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:fillViewport="true"
+            android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/checkin_bg_color"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnIamFacing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_large"
+            android:background="@drawable/white_bg_top_bottom_line_shape"
+            android:drawableLeft="@drawable/arrow_left"
+            android:ellipsize="end"
+            android:gravity="right"
+            android:hint="@string/i_am_facing"
+            android:maxLines="2"
+            android:padding="@dimen/margin_large"
+            android:textColorHint="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/txtSituation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_large"
+            android:background="@drawable/white_bg_top_bottom_line_shape"
+            android:gravity="right"
+            android:hint="@string/describe_situation"
+            android:lines="4"
+            android:padding="@dimen/margin_large"
+            android:singleLine="false"/>
+
+        <RelativeLayout
+            android:id="@+id/rltLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_large"
+            android:background="@drawable/white_bg_top_bottom_line_shape"
+            android:paddingBottom="@dimen/margin_normal"
+            android:paddingTop="@dimen/margin_normal">
+
+            <TextView
+                android:id="@+id/txtChooseLocation"
+                style="@style/TextAppearance.Medium.Inverse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin_large"
+                android:layout_marginRight="@dimen/margin_large"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="@string/enter_your_location"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rltPrivate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_large"
+            android:background="@drawable/white_bg_top_bottom_line_shape"
+            android:paddingBottom="@dimen/margin_normal"
+            android:paddingLeft="@dimen/margin_large"
+            android:paddingRight="@dimen/margin_large"
+            android:paddingTop="@dimen/margin_normal">
+
+            <TextView
+                android:id="@+id/lblPrivate"
+                style="@style/TextAppearance.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/txtEdit"
+                android:text="@string/private_circle_default"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/txtEdit"
+                style="@style/TextAppearance.Medium.Inverse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/margin_large"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/edit"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_large"
+            android:background="@drawable/white_bg_top_bottom_line_shape"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rlt_public"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/margin_small"
+                android:paddingLeft="@dimen/margin_large"
+                android:paddingRight="@dimen/margin_large"
+                android:paddingTop="@dimen/margin_small">
+
+                <TextView
+                    android:id="@+id/lblPublic"
+                    style="@style/TextAppearance.Medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/txtPublic"
+                    android:drawablePadding="@dimen/margin_normal"
+                    android:text="@string/public_circle"/>
+
+                <TextView
+                    android:id="@+id/txtPublic"
+                    style="@style/TextAppearance.Medium.Inverse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/margin_large"
+                    android:layout_marginTop="@dimen/margin_normal"
+                    android:text="@string/add"/>
+            </RelativeLayout>
+
+            <include layout="@layout/line"/>
+
+            <RelativeLayout
+                android:id="@+id/rltsocial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/margin_small"
+                android:paddingLeft="@dimen/margin_large"
+                android:paddingRight="@dimen/margin_large"
+                android:paddingTop="@dimen/margin_small">
+
+                <TextView
+                    android:id="@+id/lblSocial"
+                    style="@style/TextAppearance.Medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/txtSocial"
+                    android:drawablePadding="@dimen/margin_normal"
+                    android:text="@string/social_circle"/>
+
+                <TextView
+                    android:id="@+id/txtSocial"
+                    style="@style/TextAppearance.Medium.Inverse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/margin_large"
+                    android:layout_marginTop="@dimen/margin_normal"
+                    android:text="@string/add"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rltMedia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_large"
+            android:background="@drawable/white_bg_top_bottom_line_shape"
+            android:paddingBottom="@dimen/margin_normal"
+            android:paddingLeft="@dimen/margin_large"
+            android:paddingRight="@dimen/margin_large"
+            android:paddingTop="@dimen/margin_normal">
+
+            <TextView
+                android:id="@+id/txtCheckinFreqOption"
+                style="@style/TextAppearance.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/txtCheckinFrequency"
+                android:drawablePadding="@dimen/margin_normal"
+                android:text="@string/add_photo_video_audio"/>
+
+            <TextView
+                android:id="@+id/txtCheckinFrequency"
+                style="@style/TextAppearance.Medium.Inverse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/margin_large"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:text="@string/optional"/>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnSendAlert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_large"
+            android:background="@drawable/checkin_start_now_button"
+            android:text="@string/send_alert"
+            android:textColor="@color/orange_color"/>
+    </LinearLayout>
+
+</ScrollView>

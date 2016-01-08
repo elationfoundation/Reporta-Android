@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="actionbar_color">#4C4C4C</color>
+    <color name="actionbar_color_semi_trans">#AA4C4C4C</color>
+    <color name="statusbar_color">#FF2C2C2C</color>
+    <!--<color name="line_color">#D7D7D7</color>-->
+    <color name="line_color">#B9B9B9</color>
+    <color name="checkin_bg_color">#EBEBEB</color>
+    <color name="light_gray_color">#8E8E8E</color>
+    <color name="checking_start_btn_bg_normal_color">#262626</color>
+    <color name="checking_start_btn_bg_pressed_color">#161616</color>
+    <color name="checking_startlater_btn_bg_normal_color">#5D5D5D</color>
+    <color name="checking_startlater_btn_bg_pressed_color">#4D4D4D</color>
+    <color name="white_semi_transparent">#77ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="orange_color">#F4460C</color>
+    <color name="info_popup_color">#B0B0B0</color>
+    <color name="active_circle_text">#0F89DC</color>
+
+</resources>

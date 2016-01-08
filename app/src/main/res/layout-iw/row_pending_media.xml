@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:padding="@dimen/margin_normal">
+
+    <ImageView
+        android:id="@+id/imgMedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/icon_media_pic"
+        tools:ignore="ContentDescription"/>
+
+    <TextView
+        android:id="@+id/txtMedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:layout_toLeftOf="@+id/imgMedia"
+        android:gravity="right|center_vertical"
+        android:text="@string/txt_media_file"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_14"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtCreated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_toLeftOf="@+id/txtMedia"
+        android:gravity="right|center_vertical"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_10"/>
+
+    <TextView
+        android:id="@+id/txtRetry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtMedia"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:layout_toLeftOf="@+id/imgMedia"
+        android:gravity="right|center_vertical"
+        android:text="@string/retry_within_7_days"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_14"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtRetry"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:layout_toLeftOf="@+id/imgMedia"
+        android:gravity="right|center_vertical"
+        android:text="@string/txt_media_resend_delete"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_10"/>
+
+</RelativeLayout>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/fragment_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="72dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/lnrFrequency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/rdgFrequency"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/white_bg_top_bottom_line_shape"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/margin_normal"
+                android:paddingRight="@dimen/margin_normal"
+                android:paddingTop="@dimen/margin_normal">
+
+                <TextView
+                    android:id="@+id/lblChooseAutoHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="28dp"
+                    android:text="@string/checkin_freq_header_title"/>
+
+                <include
+                    layout="@layout/line"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="28dp"
+                    android:layout_marginTop="@dimen/margin_normal"/>
+
+                <RadioButton
+                    android:id="@+id/rbtFifteenMinute"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_normal"
+                    android:button="@null"
+                    android:checked="true"
+                    android:drawablePadding="@dimen/margin_normal"
+                    android:drawableRight="@drawable/tick_selector"
+                    android:text="@string/every_fifteen_minutes"/>
+
+                <include
+                    layout="@layout/line"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="28dp"
+                    android:layout_marginTop="@dimen/margin_normal"/>
+
+                <RadioButton
+                    android:id="@+id/rbtThirtyMinute"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_normal"
+                    android:button="@null"
+                    android:checked="true"
+                    android:drawablePadding="@dimen/margin_normal"
+                    android:drawableRight="@drawable/tick_selector"
+                    android:text="@string/every_thirty_minutes"/>
+
+                <include
+                    layout="@layout/line"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="28dp"
+                    android:layout_marginTop="@dimen/margin_normal"/>
+
+                <RadioButton
+                    android:id="@+id/rbtHourly"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_normal"
+                    android:button="@null"
+                    android:checked="true"
+                    android:drawablePadding="@dimen/margin_normal"
+                    android:drawableRight="@drawable/tick_selector"
+                    android:text="@string/hourly"/>
+
+                <include
+                    layout="@layout/line"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="28dp"
+                    android:layout_marginTop="@dimen/margin_normal"/>
+
+                <RadioButton
+                    android:id="@+id/rbtThreeHour"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_normal"
+                    android:button="@null"
+                    android:checked="true"
+                    android:drawablePadding="@dimen/margin_normal"
+                    android:drawableRight="@drawable/tick_selector"
+                    android:text="@string/every_three_hours"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/lblCustom"
+                style="@style/TextAppearance.Medium.Inverse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_large"
+                android:background="@drawable/white_bg_top_bottom_line_shape"
+                android:drawableLeft="@drawable/arrow_left"
+                android:paddingBottom="@dimen/margin_normal"
+                android:paddingLeft="14dp"
+                android:paddingRight="28dp"
+                android:paddingTop="@dimen/margin_normal"
+                android:text="@string/create_custom"
+                android:textColor="@android:color/black"/>
+
+            <LinearLayout
+                android:id="@+id/rdgReceivePromt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_large"
+                android:background="@drawable/white_bg_top_bottom_line_shape"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/margin_normal"
+                android:paddingRight="@dimen/margin_normal"
+                android:paddingTop="@dimen/margin_normal">
+
+                <TextView
+                    android:id="@+id/lblReceivePromtsHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/margin_normal"
+                    android:paddingRight="28dp"
+                    android:paddingTop="@dimen/margin_normal"
+                    android:text="@string/receive_promts"/>
+
+                <include
+                    layout="@layout/line"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="28dp"
+                    android:layout_marginTop="@dimen/margin_normal"/>
+
+                <CheckBox
+                    android:id="@+id/rbtEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_normal"
+                    android:button="@null"
+                    android:checked="true"
+                    android:drawablePadding="@dimen/margin_normal"
+                    android:drawableRight="@drawable/theme_checkbox"
+                    android:text="@string/radio_email"/>
+
+                <include
+                    layout="@layout/line"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="28dp"
+                    android:layout_marginTop="@dimen/margin_normal"/>
+
+                <CheckBox
+                    android:id="@+id/rbtNotifications"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_normal"
+                    android:button="@null"
+                    android:checked="true"
+                    android:drawablePadding="@dimen/margin_normal"
+                    android:drawableRight="@drawable/theme_checkbox"
+                    android:text="@string/radio_notification"/>
+
+                <include
+                    layout="@layout/line"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="28dp"
+                    android:layout_marginTop="@dimen/margin_normal"/>
+
+                <CheckBox
+                    android:id="@+id/rbtSMS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_normal"
+                    android:button="@null"
+                    android:checked="true"
+                    android:drawablePadding="@dimen/margin_normal"
+                    android:drawableRight="@drawable/theme_checkbox"
+                    android:text="@string/radio_sms"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnFrequencyDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginRight="@dimen/margin_large"
+        android:background="@drawable/checkin_start_now_button"
+        android:text="@string/done"
+        android:textColor="@color/orange_color"/>
+
+</FrameLayout> <!-- this is an framelayout end ....... -->
+

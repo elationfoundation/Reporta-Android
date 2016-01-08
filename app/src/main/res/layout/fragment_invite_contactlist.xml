@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/checkin_bg_color"
+              android:clickable="true"
+              android:focusable="true"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtCircleName"
+            style="@style/TextAppearance.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="left|center_vertical"
+            android:layout_toLeftOf="@+id/btnDone"
+            android:gravity="left|center_vertical"
+            android:paddingBottom="@dimen/margin_normal"
+            android:paddingLeft="@dimen/margin_large"
+            android:paddingRight="@dimen/margin_normal"
+            android:paddingTop="@dimen/margin_normal"
+            android:text="@string/private_circle_name"/>
+
+        <Button
+            android:id="@+id/btnDone"
+            style="@style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:gravity="right|center_vertical"
+            android:padding="@dimen/margin_large"
+            android:text="@string/done"
+            android:textColor="@color/orange_color"/>
+    </RelativeLayout>
+
+    <include layout="@layout/line"/>
+
+    <EditText
+        android:id="@+id/edt_search"
+        style="@style/TextAppearance.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:layout_margin="@dimen/margin_normal"
+        android:background="@drawable/bg_corder_raduis"
+        android:drawableLeft="@drawable/search_icon"
+        android:drawablePadding="@dimen/margin_small"
+        android:gravity="left|center_vertical"
+        android:hint="@string/search_contact"
+        android:imeOptions="actionDone"
+        android:maxLength="25"/>
+
+    <include
+        android:id="@+id/line"
+        layout="@layout/line"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtNoDataFound"
+            style="@style/TextAppearance.Medium.Inverse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_large"
+            android:gravity="center"
+            android:text="@string/no_contacts_found"
+            android:visibility="gone"/>
+
+        <com.iwmf.views.stickylistheaders.StickyListHeadersListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:fastScrollEnabled="true"
+            android:listSelector="@android:color/transparent"
+            android:overScrollMode="never">
+        </com.iwmf.views.stickylistheaders.StickyListHeadersListView>
+
+    </FrameLayout>
+
+</LinearLayout>

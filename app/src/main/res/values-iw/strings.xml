@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Reporta</string>
+    <string name="reporta">Reporta</string>
+    <string name="powered_by">Powered by</string>
+    <string name="iwmf">International Women’s Media Foundation</string>
+    <string name="tw_key">none</string>
+    <string name="tw_secret">none</string>
+
+    <!-- select language -->
+
+    <string name="select_your_language">Select your language</string>
+    <string name="lng_english">English</string>
+    <string name="lng_spanish">Español</string>
+    <string name="lng_french">Français</string>
+    <string name="lng_turkish">Türkçe</string>
+    <string name="lng_arabic">العربية</string>
+    <string name="lng_hebrew">עברית</string>
+
+    <!-- select language end -->
+
+    <!-- Alert -->
+
+    <string name="alerts">התרעות</string>
+    <string name="i_am_facing">אני מדווח/ת</string>
+    <string name="describe_situation">תאר את מצבך</string>
+    <string name="enter_location">הזן את מיקומך</string>
+    <string name="edit">ערוך</string>
+    <string name="private_circle_default">מעגל פרטי (ברירת מחדל)</string>
+    <string name="private_circle_name">מעגל פרטי</string>
+    <string name="public_circle">מעגלים ציבוריים</string>
+    <string name="social_circle">מעגלים חברתיים</string>
+    <string name="optional">אופציונלי</string>
+    <string name="add_photo_video_audio">הוסף תמונות, וידאו או אודיו</string>
+    <string name="send_alert"> שלח התרעה</string>
+    <string name="saved_circles">מעגלים שנשמרו</string>
+    <string name="search_contact">חיפוש</string>
+    <string name="create_a_list">צור מעגל</string>
+    <string name="choose_valid_situation">בחר מצב</string>
+    <string name="enter_valid_description">הזן תיאור</string>
+    <string name="enter_valid_contact">הזן איש קשר</string>
+    <string name="choose_valid_location">אשר את מיקומך</string>
+    <string name="please_describe">נא תאר</string>
+    <string name="select_language">בחר שפה</string>
+    <string name="info_alerts">אתראות\n\nפונקציית האתראה מאפשרת לך לשלוח למעגלי אנשי קשר נבחרים מידע אודות המצב אליו את/ה או עיתונאי/ת עמית/ה נקלעתם. באפשרותך להשתמש בתפריט נפתח שמתאר תקריות אפשריות; באפשרותך גם לבחור להזין מידע נוסף. חובה לבחור מיקום באמצעות שימוש בתכונת \'מיקום גיאוגרפי\' או להזין את המיקום באופן ידני.\n\nאתראות נשלחות ללא עיכוב וכוללות אפשרות להוסיף קובצי מדיה.\n\nניתן לבצע התאמה אישית של האתראות לשיתוף עם מעגלים שונים.</string>
+    <string name="alert_sent_successfully">ההתרעה שלך נשלחה</string>
+
+    <!-- Alert End -->
+
+
+    <!-- profile -->
+
+    <string name="info_profile">פרופיל\n\nכל משתמשי Reporta חייבים ליצור לעצמם פרופיל. הפרופיל שלך כולל מידע חשוב הנחוץ כדי לאפשר ל-Reporta לפעול באופן שבו נועד לפעול.\n\nארגון IWMF מחויב לשמירה על פרטיותך וניהול היישומון Reporta נעשה בהתאם לנוהלי והליכי האבטחה המקובלים על מנת להגן על המידע המזהה אישית שנמסר על ידך מפני גישה, שימוש וחשיפה בלתי-מורשים. אנו דורשים גם מספקי השירות המורשים שלנו להחיל ולקיים נוהלי והליכי אבטחה כאמור. אף על פי כן, עליך להיות מודע/ת לכך שהעברות נתונים באינטרנט לעולם אינן פרטיות או בטוחות באופן מוחלט.\n\nלמידע נוסף, נא לעיין במסמכים \'תנאי השימוש ב-Reporta\' וכן \'מדיניות שמירת הפרטיות של Reporta\'.</string>
+    <string name="profile">פרופיל</string>
+    <string name="signout_head">רוצה להתנתק? </string>
+    <string name="cancel">ביטול</string>
+    <string name="signout">התנתק</string>
+    <string name="version"> גירסה</string>
+    <string name="enternewpassword">הזן סיסמה חדשה</string>
+    <string name="enterpassword">הזן סיסמה</string>
+    <string name="invalid_password">סיסמה לא חוקית</string>
+    <string name="selectjobtitle">בחר תפקיד</string>
+    <string name="selectcountryorigin">ארץ מוצא</string>
+    <string name="selectcountryworking">ארץ עבודה</string>
+    <string name="invalid_firstname">הזן שם פרטי</string>
+    <string name="invalid_lastname">הזן שם משפחה</string>
+    <string name="invalid_phone">הזן מספר טלפון חוקי</string>
+    <string name="password_notmatch">הסיסמה לא מתאימה</string>
+    <string name="firstname">שם פרטי</string>
+    <string name="try_again">נסה שנית</string>
+    <string name="lastname">שם משפחה</string>
+    <string name="email">דואר אלקטרוני</string>
+    <string name="phone">טלפון</string>
+    <string name="password">סיסמה</string>
+    <string name="re_enternewpassword">הזן שנית את הסיסמה החדשה</string>
+    <string name="re_enterpassword">הזן סיסמה שנית</string>
+    <string name="professional_details">פרטים מקצועיים </string>
+    <string name="job_title">התפקיד</string>
+    <string name="affiliation">שיוך קבוצתי</string>
+    <string name="freelancer">פרילנסר</string>
+    <string name="update">עדכן</string>
+    <string name="signoutdialog">אתה בטוח שברצונך להתנתק?</string>
+
+    <!-- profile End -->
+
+
+    <!-- create account -->
+
+    <string name="countries">מדינות</string>
+    <string name="create_account_header">צור חשבון</string>
+    <string name="prodetails">שלב 1: הוספת פרטים מקצועיים </string>
+    <string name="username">שם משתמש</string>
+    <string name="re_email">הזן דו"אל שנית</string>
+    <string name="gender">מין</string>
+    <string name="male">זכר</string>
+    <string name="female">נקבה</string>
+    <string name="other">אחר</string>
+    <string name="choose">בחר</string>
+    <string name="select_country">בחר מדינה</string>
+    <string name="passhint">(8 תווים לפחות)</string>
+    <string name="next">הבא</string>
+    <string name="selectlanguage">בחר שפה</string>
+    <string name="email_notmatch">כתובת דואר אלקטרוני לא מתאימה</string>
+    <string name="createprivatecircle">שלב 2: צור מעגל אישי</string>
+    <string name="create_a_new_private">צור מעגל פרטי חדש</string>
+    <string name="new_circle">מעגל חדש</string>
+    <string name="ok">אישור</string>
+    <string name="build_this_circle">בנה מעגל זה</string>
+    <string name="done">בוצע</string>
+    <string name="termcondition">שלב 4: קבל את תנאי שימוש</string>
+    <string name="agree">אשר את תנאי השימוש</string>
+    <string name="confirmemail">שלח דואר אלקטרוני לאישור הרשמה</string>
+    <string name="completeaccount"> השלם יצירת חשבון </string>
+    <string name="textagree">מסכים</string>
+    <string name="agree_tc">נא קבל את תנאי השימוש</string>
+    <string name="gender_is_required">מין הוא שדה נדרש</string>
+    <string name="please_make_your">בחר זכר, נקבה או אחר</string>
+    <string name="these_contacts_will_be_notified">הודעה תישלח לאנשי קשר אלה כאשר תשלח אות חיים או כאשר תשלח התרעה או אס-או-אס.</string>
+    <string name="please_enter_username">הזן שם משתמש</string>
+    <string name="invalid_username">שם משתמש לא חוקי</string>
+    <string name="enter_valid_email">נא הזן כתובת דואר אלקטרוני חוקית </string>
+    <string name="please_select_jobtitle">בחר תיאור תפקיד</string>
+    <string name="Please_select_country_of_origin">בחר ארץ מקור</string>
+    <string name="Please_select_country_where_working">בחר את הארץ שבה אתה עובד</string>
+
+    <!-- create account End -->
+
+
+    <!-- Login -->
+
+    <string name="forget_password_dialog">שכחת את הסיסמה שלך?</string>
+    <string name="login_screen">כניסה</string>
+    <string name="create_account">צור חשבון</string>
+    <string name="stay_logged_in">הישאר מחובר</string>
+    <string name="enter_email_reset">הזן כתובת דואר אלקטרוני כדי לאפס אותה</string>
+    <string name="enteremail">הזן את כתובת הדואר אלקטרוני שלך</string>
+
+    <!-- Login end -->
+
+
+    <!-- home -->
+
+    <string name="home_contacts">אנשי קשר</string>
+    <string name="home_profile">פרופיל</string>
+    <string name="home_checkin">אות חיים</string>
+    <string name="home_alerts">התרעות</string>
+    <string name="about_reporta">אודות Reporta</string>
+    <string name="pending_media_files">קבצים ממתינים</string>
+    <string name="app_unlocked">הזן סיסמה וקוד לשחרור נעילת הישומון כדי לשחרר את נעילת Reporta</string>
+    <string name="enter_passcode">הזן קוד</string>
+    <string name="enable">אפשר</string>
+    <string name="upload_later">טען מאוחר יותר </string>
+    <string name="app_locked">Reporta ננעלה והתרעה נשלחה.</string>
+    <string name="media_uploads">טעינת מדיה</string>
+    <string name="media_uploads_details">ישנם קבצי מדיה בהמתנה. לטעון עכשיו?</string>
+    <string name="upload_now">טען עכשיו</string>
+    <string name="back">חזרה</string>
+    <string name="unlock_reporta">בטל את נעילת  Reporta</string>
+    <string name="device_not_supported">המכשיר אינו מאפשר התרעות בדחיפה.</string>
+    <string name="pushnotification_will_not_work">המכשיר אינו מאפשר התרעות בדחיפה.</string>
+    <string name="internet_connection_unavailable">אין חיבור לאינטרנט. נא בדוק ונסה שנית מאוחר יותר.</string>
+    <string name="try_later"> משהו השתבש! נסה שנית מאוחר יותר.</string>
+
+    <!-- home end -->
+
+
+    <!-- checkin -->
+
+    <string name="enter_your_location">הזן את מיקומך</string>
+    <string name="choose_options">בחר אפשרויות</string>
+    <string name="checkin_frequency">תדירות בדיקת אות חיים</string>
+    <string name="edit_alert_msgs">ערוך הודעות</string>
+    <string name="start_now">התחל עכשיו</string>
+    <string name="start_later">התחל מאוחר יותר</string>
+    <string name="set_end_time">הגדר זמן סיום</string>
+    <string name="check_in">אות חיים</string>
+    <string name="checkin_freq_header_title">בחר תדירות של בדיקת אות חיים</string>
+    <string name="every_fifteen_minutes">כל 15 דקות</string>
+    <string name="every_thirty_minutes">כל 30 דקות</string>
+    <string name="hourly">כל שעה</string>
+    <string name="every_three_hours">כל 3 שעות</string>
+    <string name="create_custom">הגדר תדירות מותאמת אישית</string>
+    <string name="receive_promts">קבל הודעות באמצעות</string>
+    <string name="radio_email">דואר אלקטרוני</string>
+    <string name="radio_notification">הודעות</string>
+    <string name="radio_sms">מסרונים</string>
+    <string name="email_message">הודעת דואר אלקטרוני</string>
+    <string name="sms_message">מסרון</string>
+    <string name="social_media_message">הודעת מדיה חברתית</string>
+    <string name="end_time">שעת סיום</string>
+    <string name="cancel_checkin_message">הזן את סיסמתך לביטול בדיקת אות חיים זו</string>
+    <string name="your_next_conf">האישור הבא שלך יהיה בשעה :\u0020</string>
+    <string name="confirm_now">אשר עכשיו</string>
+    <string name="closenow">סגור </string>
+    <string name="hours">שעות</string>
+    <string name="minute">דקות</string>
+    <string name="your_checkin">בדיקת אות החיים שלך תיסגר בעוד 10 דקות</string>
+    <string name="addmedia">הוסף מדיה</string>
+    <string name="edit_checkin">ערוך בדיקת אות חיים</string>
+    <string name="close_checkin">סגור בדיקת אות חיים</string>
+    <string name="checkin_frequency_title">תדירות בדיקת אות חיים</string>
+    <string name="check_start_message">בדיקת אות החיים שלך תתחיל בשעה \u0020</string>
+    <string name="start_time">שעת התחלה</string>
+    <string name="info_checkin">צ\'ק-אין\nבאמצעות פונקציית הצ\'ק-אין באפשרותך למסור מידע מותאם אישית אודות מיקומך הנוכחי או העתידי, לבחור באיזו תדירות ברצונך לשלוח הודעות צ\'ק-אין, ולציין לאיזה ממעגלי אנשי הקשר שלך לשלוח את ההודעות.\n\nבאפשרותך להגדיר את תחילת משלוח הודעות הצ\'ק-אין ל\"\כבר עכשיו\"\ או למועד כלשהו בעתיד.\n\nעליך גם לבחור מיקום ובאפשרותך לעשות זאת באמצעות שימוש ב\'מיקום גיאוגרפי\' או על ידי הזנה ידנית של מיקומך.\n\nבאפשרותך גם לבחור להוסיף קובצי תמונה, וידיאו או אודיו לשיתוף כחלק מהודעת הצ\'ק-אין. קובצי מולטימדיה אלה מוּסרים מהיישומון לאחר שליחתם. לא ניתן לגשת לקבצים מתוך ספריית המדיה שבבסיס המכשיר.\n\nבאפשרותך לבחור את תדירות משלוח הודעות הצ\'ק-אין מתוך רשימה, או להגדיר מרווחי זמן מותאמים אישית. ניתן גם לבחור את האופן שבו ברצונך לקבל הודעות (מסרונים, דוא\"\ל או הודעת סמארטפון).\n\nכדי לסגור את פונקציית הצ\'ק-אין, חובה להזין את סיסמת Reporta שלך.\n\nאם הוחמצה הודעת צ\'ק-אין, תישלח אתראה לכל המעגלים שנבחרו, והיישומון יינעל. Reporta יישלח לכל מי שהוגדר כאיש קשר לשחרור נעילת היישומון הודעה המכילה קישור לקוד אימות, הנדרש כדי לשחרר את נעילת היישומון.</string>
+    <string name="your_checkin_now_active">בדיקת אות החיים שלך פעילה עכשיו</string>
+    <string name="checkin_edited_suc">עדכון בדיקת אות חיים הושלם בהצלחה</string>
+    <string name="checkin_will_start_at">בדיקת אות החיים שלך תתחיל בשעה</string>
+    <string name="enter_valid_checkin">נא הזן תדירות בדיקת אות חיים חוקית!</string>
+    <string name="enter_valid_endtime">נא הזן שעת סיום חוקית לבדיקת אות חיים!</string>
+    <string name="please_select_receive_promts">בחר העדפות הודעה</string>
+    <string name="missed_checkin_set_for">פספסת אישור אות חיים שנקבע לשעה  %s</string>
+    <string name="checkin_closed">בדיקת אות החיים שלך נסגרה</string>
+    <string name="cancel_checkin">בטל בדיקת אות חיים</string>
+    <string name="checkin_close_at">בדיקת אות החיים שלך תיסגר בשעה \u0020</string>
+
+    <!-- checkin End -->
+
+
+    <!-- contacts -->
+
+    <string name="please_enable_sos">נא אפשר אס-או-אס</string>
+    <string name="add_atleast_one_contact">נא הסף איש קשר אחד לפחות.</string>
+    <string name="add_from_addressbook">הוסף כתובת מפנקס כתובות</string>
+    <string name="no_contacts_found">ללא אנשי קשר</string>
+    <string name="add_manually">הוסף ידנית</string>
+    <string name="all_circle">כל המעגלים</string>
+    <string name="all_contacts">כל אנשי הקשר </string>
+    <string name="my_contacts">אנשי הקשר שלי</string>
+    <string name="save">שמור</string>
+    <string name="add_email"> הוסף דואר אלקטרוני</string>
+    <string name="add_phone">הוסף טלפון</string>
+    <string name="allows_contact_to_help">הפעלת שחרור נעילת ישומון מאפשרת לאנשי הקשר האלה לעזור לך לבטל את נעילת Reporta לאחר שהתרעה נועלת את הישומון.</string>
+    <string name="contact_is_part_of"> איש הקשר הוא חלק מ-:</string>
+    <string name="connect_to_your_social">התחבר אל המדיה החברתית שלך</string>
+    <string name="login">כניסה</string>
+    <string name="enable_friend_unlock">הפעל שחרור נעילה</string>
+    <string name="disable_friend_unlock">כבה שחרור נעילה</string>
+    <string name="pending_friend_unlock">איש קשר ממתין לשחרור נעילה</string>
+    <string name="private_">פרטי</string>
+    <string name="public_">ציבורי</string>
+    <string name="about_friend_unlock_title">אודות שחרור נעילת ישומון</string>
+    <string name="first_name_mandatory">חובה למלא שם פרטי</string>
+    <string name="last_name_mandatory">חובה למלא שם משפחה</string>
+    <string name="please_enter_phone">נא הזן מספר טלפון אחד לפחות!</string>
+    <string name="please_enter_email">נא הזן כתובת דואר אלקטרוני אחת לפחות!</string>
+    <string name="please_select_partof_circle">נא בחר מעגל</string>
+    <string name="you_must_select">להשלמת ההגדרה עליך לאפשר איש קשר אחד לפחות שנכלל במעגל פרטי עם סטטוס שחרור נעילת ישומון.</string>
+    <string name="contact_list_name"> שם המעגל של איש הקשר</string>
+    <string name="info_contacts">מעגלים\n\nבלב ליבו של היישומון Reporta נמצאת היכולת ליצור קשר עם האנשים שדואגים לשלומך ולביטחונך. באפשרותך לחלק את אנשי הקשר שלך לשלושה מעגלים נפרדים.\n\nהמעגל הפרטי\nעל המעגל הפרטי שלך נמנית קבוצת אנשי הקשר הקרובים ביותר אליך ומי שיינקטו פעולה מטעמך במקרה הצורך. אין מגבלה על מספר אנשי הקשר שבאפשרותך לכלול בקבוצה זו, אולם אנשי קשר אלה הם בדרך כלל שותפיך הקרובים ביותר, בני משפחה או עמיתים לעבודה, כגון העורך/ת שלך, השותף/ה שלך או אח/ות.\n\nאם את/ה מוסיף/ה אנשים למעגל זה, עליך לצייד אותם בהוראות, עדיף בכתב, לגבי מה עליהם לעשות אם מתקבלת אתראה מ-Reporta. כדאי שאנשי קשר אלה יידעו מה לעשות אם החמצת הודעת צ\'ק-אין, שלחת אתראה, או הפעלת הודעת SOS.\n\nכדי להשתמש ב-Reporta, חובה לציין לפחות איש קשר אחד במעגל הפרטי שלך שישמש איש קשר לשחרור נעילת היישומון. אנשי קשר לשחרור נעילת היישומון יקבלו קישור אל קוד אימות הנדרש כדי לשחרר את נעילת היישומון במקרה שהחמצת הודעת צ\'ק-אין או שלחת הודעת SOS. באפשרותך להוסיף מספר בלתי מוגבל של אנשי קשר לשחרור נעילת היישומון, אולם איש קשר לשחרור נעילת היישומון אחד לפחות חייב להיות כלול במעגל הפרטי שלך.\n\nמרגע שהוא ננעל, לא תוכל לגשת ליישומון באמצעות הטלפון שלך עד שתקבל את קוד שחרור נעילת היישומון. אין כל דרך אחרת לשחרור נעילת היישומון.\n\nבאפשרותך ליצור יותר ממעגל פרטי אחד, אולם רק מעגל פרטי אחד יכול להיות פעיל בכל זמן נתון. באפשרותך לבחור ליצור מעגלים פרטיים שונים, על בסיס הסיפור העיתונאי שאותו את/ה מכסה או על בסיס מקום העבודה שלך.\n\nלמען נוחותך, היישומון Reporta ישאל אותך אם ברצונך לעדכן את המעגלים שלך כאשר תיסע/י למרחק של 100 מייל (160 ק\"\מ) או יותר מהמקום האחרון שבו השתמשת ב-Reporta.\n\nמעגל ציבורי\nהמעגל הציבורי שלך הוא קבוצה של אנשים או ארגונים שעשויים לגלות עניין בשלומך. מעגל זה עשוי לכלול עמיתים למקצוע העיתונות, איגודי עובדים או ארגוני תקשורת. באפשרותך ליצור יותר ממעגל ציבורי אחד, אולם רק מעגל ציבורי אחד יכול להיות פעיל בכל זמן נתון. אין חובה ליצור מעגל ציבורי כדי להשתמש ב-Reporta.\n\nמעגל חברתי\nבאפשרותך לקשר את Reporta לחשבונות הפייסבוק והטוויטר שלך. שים/י לב שאנשים אחרים יוכלו לצפות בכל דבר שתפרסם/י במדיה חברתית באמצעות Reporta.</string>
+    <string name="your_private">המעגל הפרטי שלך יקבל הודעה כשתפספס בדיקת אות חיים, תשלח התרעה או תשלח הודעת אס-או-אס.</string>
+    <string name="your_public">המעגל הציבורי שלך הוא קבוצת אנשים או ארגונים שאפשר שמתעניינים בבטחונך. מעגל זה עשוי לכלול עמיתים למקצוע העיתונות, איגודי עובדים או ארגוני תקשורת.</string>
+    <string name="private_circle">מעגלים פרטיים</string>
+    <string name="no_saved_private_circle">אין לך מעגלים פרטיים שמורים</string>
+    <string name="no_saved_pulic_circle">אין לך הגדרות מכשיר ציבורי שמורות</string>
+    <string name="delete_contact_msg">האם אתה בטוח שאתה רוצה למחוק את איש קשר זה?</string>
+    <string name="delete_circle_msg">אתה בטוח שאתה רוצה למחוק את המעגל הזה?</string>
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+    <string name="create_a_new_public">צור מעגל ציבורי חדש</string>
+    <string name="are_you_sure">אתה בטוח שאתה רוצה לכבות את שחרור נעילת ישומון?</string>
+    <string name="please_select_private">בחר או צור מעגל פרטי חדש כדי לשנות את הגדרות ברירת המחדל שלך.</string>
+    <string name="please_select_public">בחר או צור מעגל ציבורי חדש כדי לשנות את הגדרות ברירת המחדל שלך.</string>
+    <string name="do_you_want_update_public">האם אתה רוצה לעשות את העדכון הזה למעגל הציבורי שלך?</string>
+    <string name="do_you_want_update_private">האם אתה רוצה לעשות את העדכון הזה למעגל הפרטי שלך?</string>
+    <string name="this_circle_has_no_contact"> - אינך יכול ליצור מעגל אם אין לך אנשי קשר. הוסף עכשיו איש קשר אחד לפחות.</string>
+
+    <!-- contacts End -->
+
+
+    <!-- Pick Location Screen -->
+    <string name="drag_pin">לחץ וגרור את הסיכה כדי לבחור מיקום במפה או כדי לבחור מבין האתרים המפורטים למטה.</string>
+    <string name="enter_loc_manually">הזן אתר באופן ידני </string>
+    <string name="no_loc_found"> לא נמצא אתר</string>
+    <string name="dist_mi" tools:ignore="StringFormatMatches">במרחק %d מייל</string>
+    <string name="dist_ft">במרחק %d  רגל</string>
+    <string name="gps_disable_msg">נא הפעל נוטן בטלפון שלך</string>
+    <string name="location_disable_msg">עבור אל הגדרות והפעל שירותי מיקום</string>
+    <string name="loc_not_found">מיקום לא נמצא</string>
+
+    <!-- social circles -->
+
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="add">הוסף </string>
+    <string name="remove">הסר</string>
+
+    <!-- social circles end -->
+
+
+    <!-- Pending Media File Screen -->
+
+    <string name="txt_pending_media">ישנם קבצי מדיה בהמתנה. לטעון עכשיו?</string>
+    <string name="txt_media_file">קובץ מדיה</string>
+    <string name="txt_media_resend_delete">לשלוח שנית או למחוק קובץ מדיה לחץ לחיצה ארוכה</string>
+    <string name="select_action">בחר פעולה</string>
+    <string name="menu_resend">שלח שנית</string>
+    <string name="menu_delete">מחק</string>
+    <string name="no_records_found"> לא נמצאו רשומות</string>
+    <string name="retry_within_7_days">ייעשו ניסיונות העלאה במשך 7 ימים.</string>
+    <string name="media_upload_success">טעינת קבצי מדיה הושלמה בהצלחה</string>
+    <string name="media_upload_fail">אירעה שגיאה בעת טעינה המדיה. נסה שנית.</string>
+    <string name="media_uploading_running">טעינת המדיה מתבצעת. בדוק שוב מאוחר יותר.</string>
+    <string name="password_hint"><b>אודות סיסמת Reporta שלך</b>\n\nאין לכלול בסיסמה שלך מידע אישי כלשהו או מילים שכיחות, כגון מילים שמופיעות במילון וכן לא יכולה לכלול את שם המשתמש שלך. הסיסמה שלך חייבת לכלול לפחות 8 תווים, וכמו כן:\n\n●  לפחות תו אחד באות רישית\n●  לפחות ספרה אחת\n●  לפחות תו מיוחד אחד\n\nלידיעתך, Reporta תינעל ל-24 שעות אחרי שישה ניסיונות כניסה כושלים. תידרש להמתין 24 שעות כדי לנסות להיכנס שנית.</string>
+
+    <string name="a_private_circle"><b>נדרש מעגל פרטי!</b>\n\nעל המעגל הפרטי שלך נמנית קבוצת אנשי הקשר הקרובים ביותר אליך ומי שיינקטו פעולה מטעמך במקרה הצורך. אין מגבלה על מספר אנשי הקשר שבאפשרותך לכלול בקבוצה זו, אולם אנשי קשר אלה הם בדרך כלל שותפיך הקרובים ביותר, בני משפחה או עמיתים לעבודה, כגון העורך/ת שלך, השותף/ה שלך או אח/ות.</string>
+
+    <string name="please_try_again">נסה/י שנית.</string>
+    <string name="password_invalid">הסיסמה שלך חייבת לכלול: \n\n■  לפחות 8 תווים\n■  לפחות תו אחד באות רישית\n■  לפחות ספרה אחת\n■  לפחות תו מיוחד אחד</string>
+
+    <string name="enableapplock">שלב 3: הפעל שחרור נעילת ישומון</string>
+
+    <string name="youmustenableapplock"><b>חובה להפעיל שחרור נעילת יישומון!</b>\n\nכדי להשתמש ב-Reporta, חובה לציין לפחות איש קשר אחד במעגל הפרטי שלך שישמש איש קשר לשחרור נעילת היישומון. אנשי קשר לשחרור נעילת היישומון יקבלו קישור אל קוד אימות הנדרש כדי לשחרר את נעילת היישומון במקרה שהחמצת הודעת צ\'ק-אין או שלחת הודעת SOS. באפשרותך להוסיף מספר בלתי מוגבל של אנשי קשר לשחרור נעילת היישומון, אולם איש קשר לשחרור נעילת היישומון אחד לפחות חייב להיות כלול במעגל הפרטי שלך. כדי לאפשר את שחרור נעילת היישומון עליך להקיש על סמל המנעול בפרופיל של איש הקשר שלך; המנעול יוצג באדום כאשר איש הקשר שלך יקבל על עצמו את התפקיד.</string>
+
+    <string name="see_termsofuse">ראה תנאי שימוש</string>
+    <string name="termsofuse"><b>תנאי השימוש ב-Reporta™ </b>\n\nמעצם השימוש ב-Reporta, הנך מסכים/ה ומקבל/ת לציית לאמור ב\'הסכם תנאי השימוש\' המסדיר את השימוש ב-Reporta. ארגון IWMF עשוי לשנות בכל עת את \'הסכם תנאי השימוש\' ואת \'מדיניות שמירת הפרטיות\' המשולבת בהסכם על ידי פרסום תנאי שימוש מתוקנים. מוסכם עליך גם ששינויים כאמור יחייבו אותך מעצם אישורך את \'הסכם תנאי השימוש\'. היישומון Reporta לא יפעל עד לאישור הסכמתך ל\'הסכם תנאי השימוש\' על ידי הקשה על Accept (מאשר/ת) למטה.</string>
+
+    <string name="confirmmyreg">אשרו את ההרשמה שלי בדוא"ל</string>
+    <string name="sendmeupdate">שלחו לי עדכונים אודות Reporta</string>
+
+    <string name="contactadded">איש הקשר הוּסף</string>
+    <string name="addanother">להוסיף איש קשר נוסף?</string>
+    <string name="accept">קבל</string>
+
+    <string name="duplicate_name">שם זה כבר בשימוש. בחר שם אחר.</string>
+    <string name="duplicate_email">כתובת דו"אל זו כבר בשימוש. בחר כתובת דו"אל אחרת.</string>
+    <string name="duplicate_number">מספר טלפון זה כבר בשימוש. בחר מספר טלפון אחר.</string>
+
+    <string name="invite">הזמן</string>
+    <string name="invited">הוזמן</string>
+
+    <string name="add_associate_circle">בחר מעגל אחד לפחות לאיש קשר זה.</string>
+
+    <string name="addnow">הוסף עכשיו</string>
+    <string name="confirm_checkin_10min">אשר את בדיקת אות החיים שלך תוך 10 דקות</string>
+    <string name="confirm_checkin_now">אשר את בדיקת אות החיים שלך תוך 2 דקות או שתישלח התרעה.</string>
+    <string name="save_checkin_changes_msg">האם ברצונך לשמור את השינויים שביצעת?</string>
+    <string name="add_from_reporta_contacts">הוסף מאנשי הקשר של Reporta</string>
+    <string name="facebook_app_id">none</string>
+    <string name="delete_this_contact">מחיקת איש קשר זה תמחוק גם את המעגל.</string>
+    <string name="delete_now">מחק עכשיו</string>
+    <string name="gapi">none</string>
+    <string name="fabricapikey">none</string>
+    <string name="change_password">סיסמא עדכון</string>
+    <string name="current_password">סיסמא נוכחית</string>
+    <string name="new_password">סיסמא חדשה</string>
+    <string name="confirm_password">אשר סיסמא</string>
+    <string name="rooting_detected_msg">Reporta cannot run on a rooted device.</string>
+    <string name="rooting_detected_title">Rooting Detected</string>
+    <string name="legal">Legal</string>
+    <string name="plus">+</string>
+
+</resources>

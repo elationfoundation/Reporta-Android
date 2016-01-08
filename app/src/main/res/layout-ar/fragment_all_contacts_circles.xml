@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:clickable="true"
+              android:focusable="true"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lblCircles"
+        style="@style/TextAppearance.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_large"
+        android:text="@string/all_circle"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+
+    <include layout="@layout/line"/>
+
+    <TextView
+        android:id="@+id/lblPrivateCircle"
+        style="@style/TextAppearance.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:drawableLeft="@drawable/arrow_left"
+        android:drawablePadding="@dimen/margin_normal"
+        android:padding="@dimen/margin_large"
+        android:text="@string/private_circle"
+        android:textColor="@android:color/black"/>
+
+    <include layout="@layout/line"/>
+
+    <TextView
+        android:id="@+id/lblPublicCircle"
+        style="@style/TextAppearance.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:drawableLeft="@drawable/arrow_left"
+        android:drawablePadding="@dimen/margin_normal"
+        android:padding="@dimen/margin_large"
+        android:text="@string/public_circle"
+        android:textColor="@android:color/black"/>
+
+    <include layout="@layout/line"/>
+
+    <TextView
+        android:id="@+id/lblSocialCircle"
+        style="@style/TextAppearance.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:drawableLeft="@drawable/arrow_left"
+        android:drawablePadding="@dimen/margin_normal"
+        android:padding="@dimen/margin_large"
+        android:text="@string/social_circle"
+        android:textColor="@android:color/black"/>
+
+    <include layout="@layout/line"/>
+
+    <TextView
+        android:id="@+id/lblAllContacts"
+        style="@style/TextAppearance.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_large"
+        android:text="@string/all_contacts"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/lblMyContacts"
+        style="@style/TextAppearance.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_bg_top_bottom_line_shape"
+        android:drawableLeft="@drawable/arrow_left"
+        android:drawablePadding="@dimen/margin_normal"
+        android:padding="@dimen/margin_large"
+        android:text="@string/my_contacts"
+        android:textColor="@android:color/black"/>
+
+</LinearLayout>

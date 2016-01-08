@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="Language">
+        <item>العربية</item>
+        <item>English</item>
+        <item>Français</item>
+        <item>עברית</item>
+        <item>Español</item>
+        <item>Türkçe</item>
+    </array>
+    <array name="JobTitle">
+        <item>صحفي/مراسل</item>
+        <item>محرر</item>
+        <item>مصور</item>
+        <item>موظف بدعم الإعلام</item>
+        <item>منتج</item>
+        <item>مقدم برامج</item>
+        <item>مصور سينمائي/فني صوت</item>
+        <item>غير ذلك</item>
+    </array>
+    <array name="imfacing">
+        <item>تنبيه بالنيابة عن زميل</item>
+        <item>اعتداء ببندقية</item>
+        <item>اعتداء بسكين</item>
+        <item>اعتداء بأداة أخرى</item>
+        <item>تهديدات بالموت</item>
+        <item>الاحتجاز</item>
+        <item>الخطف/الاختطاف</item>
+        <item>العنف الجسدي (الضرب، الدفع)</item>
+        <item>العنف/الاعتداء الجنسي</item>
+        <item>التهديد بالخطف/الاختطاف</item>
+        <item>تهديد بالاعتداء بسلاح</item>
+        <item>غير ذلك</item>
+    </array>
+
+</resources>

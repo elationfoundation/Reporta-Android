@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/scrollview"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/checkin_bg_color"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rltCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_bg_top_bottom_line_shape">
+
+            <TextView
+                android:id="@+id/txtSave"
+                style="@style/TextAppearance.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:paddingBottom="@dimen/margin_normal"
+                android:paddingLeft="@dimen/margin_large"
+                android:paddingRight="@dimen/margin_large"
+                android:paddingTop="@dimen/margin_normal"
+                android:text="@string/save"
+                android:textColor="@color/orange_color"/>
+
+            <TextView
+                android:id="@+id/txtCancel"
+                style="@style/TextAppearance.Medium.Inverse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingBottom="@dimen/margin_normal"
+                android:paddingLeft="@dimen/margin_large"
+                android:paddingRight="@dimen/margin_large"
+                android:paddingTop="@dimen/margin_normal"
+                android:text="@string/cancel"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_large"
+            android:background="@drawable/white_bg_top_bottom_line_shape"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtFullName"
+                style="@style/TextAppearance.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:gravity="right|center_vertical"
+                android:paddingBottom="@dimen/margin_normal"
+                android:paddingLeft="@dimen/margin_large"
+                android:paddingRight="@dimen/margin_large"
+                android:paddingTop="@dimen/margin_normal"
+                android:text=""
+                android:textStyle="bold"
+                android:visibility="gone"/>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/line_color"
+                android:visibility="gone">
+            </FrameLayout>
+
+            <EditText
+                android:id="@+id/edtFirstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="@dimen/margin_large"
+                android:gravity="right|center_vertical"
+                android:hint="@string/firstname"
+                android:imeOptions="actionNext"
+                android:inputType="textCapSentences"
+                android:maxLength="25"/>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginRight="@dimen/margin_large"
+                android:background="@color/line_color">
+            </FrameLayout>
+
+            <EditText
+                android:id="@+id/edtLastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="@dimen/margin_large"
+                android:gravity="right|center_vertical"
+                android:hint="@string/lastname"
+                android:imeOptions="actionDone"
+                android:inputType="textCapSentences"
+                android:maxLength="25"/>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginRight="@dimen/margin_large"
+                android:background="@color/line_color">
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/lnrEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rltEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgvOkEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/margin_large"
+                    android:paddingBottom="@dimen/margin_normal"
+                    android:paddingTop="@dimen/margin_normal"
+                    android:src="@drawable/add_contact"
+                    tools:ignore="ContentDescription"/>
+
+                <TextView
+                    style="@style/TextAppearance.Medium.Inverse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/imgvOkEmail"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:paddingBottom="@dimen/margin_normal"
+                    android:paddingRight="@dimen/margin_large"
+                    android:paddingTop="@dimen/margin_normal"
+                    android:singleLine="true"
+                    android:text="@string/add_email"
+                    android:textColor="@color/active_circle_text"/>
+            </RelativeLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginRight="50dp"
+                android:background="@color/line_color">
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/lnrPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rltPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgvOkPhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/margin_large"
+                    android:paddingBottom="@dimen/margin_normal"
+                    android:paddingTop="@dimen/margin_normal"
+                    android:src="@drawable/add_contact"
+                    tools:ignore="ContentDescription"/>
+
+                <TextView
+                    style="@style/TextAppearance.Medium.Inverse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/imgvOkPhone"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:paddingBottom="@dimen/margin_normal"
+                    android:paddingRight="@dimen/margin_large"
+                    android:paddingTop="@dimen/margin_normal"
+                    android:singleLine="true"
+                    android:text="@string/add_phone"
+                    android:textColor="@color/active_circle_text"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rltSOS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_large"
+            android:background="@drawable/white_bg_top_bottom_line_shape">
+
+            <ImageView
+                android:id="@+id/imgvLock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:paddingBottom="@dimen/margin_normal"
+                android:paddingLeft="@dimen/margin_large"
+                android:paddingRight="@dimen/margin_large"
+                android:paddingTop="@dimen/margin_normal"
+                android:src="@drawable/unlock"
+                tools:ignore="ContentDescription"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/imgvLock"
+                android:layout_toRightOf="@+id/imgvInfo"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtEnableLock"
+                    style="@style/TextAppearance.Medium.Inverse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="@dimen/margin_normal"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:maxLines="2"
+                    android:text="@string/enable_friend_unlock"/>
+
+                <TextView
+                    style="@style/TextAppearance.Small.Inverse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_normal"
+                    android:text="@string/allows_contact_to_help"/>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/line_color"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imgvInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingBottom="@dimen/margin_normal"
+                android:paddingLeft="@dimen/margin_large"
+                android:paddingRight="@dimen/margin_large"
+                android:paddingTop="@dimen/margin_normal"
+                android:src="@drawable/info_gray"
+                android:visibility="visible"
+                tools:ignore="ContentDescription"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_large"
+            android:background="@drawable/white_bg_top_bottom_line_shape"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rltAddCircle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/TextAppearance.Medium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/txtAdd"
+                    android:paddingBottom="@dimen/margin_normal"
+                    android:paddingLeft="@dimen/margin_large"
+                    android:paddingRight="@dimen/margin_large"
+                    android:paddingTop="@dimen/margin_normal"
+                    android:text="@string/contact_is_part_of"
+                    android:textStyle="bold"
+                    android:visibility="visible"/>
+
+                <TextView
+                    android:id="@+id/txtAdd"
+                    style="@style/TextAppearance.Large"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:paddingBottom="@dimen/margin_normal"
+                    android:paddingLeft="@dimen/margin_large"
+                    android:paddingRight="@dimen/margin_large"
+                    android:paddingTop="@dimen/margin_normal"
+                    android:text="@string/plus"
+                    android:visibility="visible"/>
+            </RelativeLayout>
+
+            <include layout="@layout/line"/>
+
+            <LinearLayout
+                android:id="@+id/lnrCircles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:orientation="vertical">
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

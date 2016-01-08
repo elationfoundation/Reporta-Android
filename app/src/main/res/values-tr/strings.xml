@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Reporta</string>
+    <string name="reporta">Reporta</string>
+    <string name="powered_by">Powered by</string>
+    <string name="iwmf">International Women’s Media Foundation</string>
+    <string name="tw_key">none</string>
+    <string name="tw_secret">none</string>
+
+    <!-- select language -->
+
+    <string name="select_your_language">Select your language</string>
+    <string name="lng_english">English</string>
+    <string name="lng_spanish">Español</string>
+    <string name="lng_french">Français</string>
+    <string name="lng_turkish">Türkçe</string>
+    <string name="lng_arabic">العربية</string>
+    <string name="lng_hebrew">עברית</string>
+
+    <!-- select language end -->
+
+
+    <!-- Alert -->
+
+    <string name="alerts">Uyarılar</string>
+    <string name="i_am_facing">Bir çalışma arkadaşım adına</string>
+    <string name="describe_situation">Durumunuzu açıklayın</string>
+    <string name="enter_location">Konumunuzu girin</string>
+    <string name="edit">Düzenle</string>
+    <string name="private_circle_default">Özel Halka (varsayılan)</string>
+    <string name="private_circle_name">Özel Halka</string>
+    <string name="public_circle">Genel Halkalar</string>
+    <string name="social_circle">Sosyal Halkalar</string>
+    <string name="optional">İsteğe bağlı</string>
+    <string name="add_photo_video_audio">Fotoğraf, video veya ses ekle</string>
+    <string name="send_alert">Uyarı Gönder</string>
+    <string name="saved_circles">Kayıtlı Halkalar</string>
+    <string name="search_contact">Ara</string>
+    <string name="create_a_list">Halka Oluştur</string>
+    <string name="choose_valid_situation">Lütfen bir Durum Seçin</string>
+    <string name="enter_valid_contact">Lütfen bir Kişi Girin</string>
+    <string name="enter_valid_description">Lütfen bir açıklama girin</string>
+    <string name="choose_valid_location">Lütfen konumunuzu onaylayın</string>
+    <string name="please_describe">Lütfen açıklayın</string>
+    <string name="select_language">Dil seçin</string>
+    <string name="info_alerts">UYARILAR\n\nUyarı fonksiyonu, sizin veya bir gazeteci meslektaşınızın karşılaştığı durum hakkında kişi Halkalarına bilgi göndermenizi sağlar. Olası olayları açıklayan bir açılır menüyü kullanabilirsiniz; ayrıca ek bilgiler girmeyi de tercih edebilirsiniz. Coğrafi konumu kullanarak veya manuel olarak girerek bir konum seçilmelidir.\n\nUyarılar gecikme olmaksızın ve medya dosyaları ekleme seçeneğiyle gönderilir.\n\nFarklı Halkalarla paylaşmak üzere uyarılar gönderilebilir.</string>
+    <string name="alert_sent_successfully">Uyarınız gönderildi</string>
+
+    <!-- Alert End -->
+
+
+    <!-- profile -->
+
+    <string name="info_profile">PROFİL\n\nReporta’nın bütün kullanıcıları bir profil oluşturmalıdır. Profiliniz, Reporta’nın amaçlandığı gibi çalışması için gereken önemli bilgiler içerir.\n\nIWMF, gizliliğinize saygı gösterme kararlılığındadır ve Reporta yönetimi, verdiğiniz Kişisel Tanıtıcı Bilgileri izinsiz erişim, kullanım ve açıklamaya karşı korumak amacıyla genel olarak kabul edilen güvenlik uygulamaları ve prosedürlerine uymaktadır. Yetkili hizmet sağlayıcılarımızın da bu tür güvenlik uygulamaları ve prosedürlerine sahip olmasını ve bunları uygulamasını istiyoruz. Ancak yine de internet üzerinden bilgi aktarımının hiçbir zaman tamamen gizli veya güvenli olmadığını unutmayın.\n\nDaha fazla bilgi için lütfen Reporta’nın Hizmet Koşulları ve Gizlilik Politikası’nı gözden geçirin.</string>
+    <string name="profile">Profil</string>
+    <string name="signout_head">Oturum kapatılsın mı?</string>
+    <string name="cancel">İptal</string>
+    <string name="signout">Oturumu kapat</string>
+    <string name="version">Sürüm</string>
+    <string name="enternewpassword">Yeni parola girin</string>
+    <string name="enterpassword">Parola girin</string>
+    <string name="invalid_password">Geçersiz Parola</string>
+    <string name="selectjobtitle">İş unvanı seçin</string>
+    <string name="selectcountryorigin">Gelinen ülke</string>
+    <string name="selectcountryworking">Çalışılan ülke</string>
+    <string name="invalid_firstname">Lütfen adınızı girin</string>
+    <string name="invalid_lastname">Lütfen soyadınızı girin</string>
+    <string name="invalid_phone">Lütfen Geçerli bir Telefon Numarası Girin</string>
+    <string name="password_notmatch">Parolalar eşleşmiyor</string>
+    <string name="firstname">Ad</string>
+    <string name="try_again">Tekrar Deneyin</string>
+    <string name="lastname">Soyadı</string>
+    <string name="email">E-posta</string>
+    <string name="phone">Telefon</string>
+    <string name="password">Parola</string>
+    <string name="re_enternewpassword">Yeni parolayı tekrr girin</string>
+    <string name="re_enterpassword">Parolayı yeniden girin</string>
+    <string name="professional_details">Profesyonel ayrıntılar</string>
+    <string name="job_title">İş unvanı</string>
+    <string name="affiliation">İş Bağlantısı</string>
+    <string name="freelancer">Serbest</string>
+    <string name="update">Güncelle</string>
+    <string name="signoutdialog">Oturumu kapatmak istediğinizden emin misiniz?</string>
+
+    <!-- profile End -->
+
+
+    <!-- create account -->
+
+    <string name="countries">Ülkeler</string>
+    <string name="create_account_header">Hesap oluştur</string>
+    <string name="prodetails">1. Adım: Profesyonel Ayrıntıları Ekleyin</string>
+    <string name="username">Kullanıcı adı</string>
+    <string name="re_email">E-postayı tkrr gir</string>
+    <string name="gender">Cinsiyet</string>
+    <string name="male">Erkek</string>
+    <string name="female">Kadın</string>
+    <string name="other">Başka</string>
+    <string name="choose">Seç</string>
+    <string name="select_country">Ülke seçin</string>
+    <string name="passhint">(Minimum 8 karakter)</string>
+    <string name="next">İleri</string>
+    <string name="selectlanguage">Dil seçin</string>
+    <string name="email_notmatch">E-posta adresleri eşleşmiyor</string>
+    <string name="createprivatecircle">2. Adım: Özel Halka Oluşturun</string>
+    <string name="new_circle">Yeni Halka</string>
+    <string name="create_a_new_private">Yeni özel halka oluştur</string>
+    <string name="ok">TAMAM</string>
+    <string name="build_this_circle">Bu Halkayı Oluştur</string>
+    <string name="done">Tamam</string>
+    <string name="termcondition">4. Adım: Kul. Koşulları Kabulü</string>
+    <string name="agree">Kullanım Koşullarını Kabul Et</string>
+    <string name="confirmemail">Kayıt onayı e-postası gönder</string>
+    <string name="completeaccount">Hesap oluşturmayı tamamla</string>
+    <string name="textagree">Kabul</string>
+    <string name="agree_tc">Lütfen Kullanım Koşullarını Kabul Edin</string>
+    <string name="gender_is_required">Cinsiyet Zorunlu bir Alan</string>
+    <string name="please_make_your">Lütfen kadın, erkek veya başka seçeneğini seçin</string>
+    <string name="these_contacts_will_be_notified">Check in yaptığınızda veya bir Uyarı ya da İmdat mesajı gönderdiğinizde bu kişilere bildirimde bulunulacaktır.</string>
+    <string name="please_enter_username">Lütfen kullanıcı adınızı girin</string>
+    <string name="invalid_username">Geçersiz kullanıcı adı</string>
+    <string name="enter_valid_email">Lütfen geçerli bir e-posta adresi girin</string>
+    <string name="please_select_jobtitle">Lütfen iş unvanınızı seçin</string>
+    <string name="Please_select_country_of_origin">Lütfen hangi ülkeden geldiğinizi seçin</string>
+    <string name="Please_select_country_where_working">Lütfen Hangi Ülkede Çalıştığınızı Seçin</string>
+
+    <!-- create account End -->
+
+
+    <!-- Login -->
+
+    <string name="forget_password_dialog">Parolanızı mı unuttunuz?</string>
+    <string name="login_screen">Giriş yap</string>
+    <string name="create_account">Hesap oluştur</string>
+    <string name="stay_logged_in">Oturumu açık tut</string>
+    <string name="enter_email_reset">Sıfırlamak için e-posta adresinizi girin</string>
+    <string name="enteremail">E-postanızı girin</string>
+
+    <!-- Login end -->
+
+
+    <!-- home -->
+
+    <string name="home_contacts">Kişiler</string>
+    <string name="home_profile">Profil</string>
+    <string name="home_checkin">Check in</string>
+    <string name="home_alerts">Uyarılar</string>
+    <string name="about_reporta">Reporta Hakkında</string>
+    <string name="pending_media_files">Bekleyen Dosyalar</string>
+    <string name="app_unlocked">Reporta kilidini açmak için parolanızı ve uygulama kilidi açma kodunuzu girin</string>
+    <string name="enter_passcode">Şifrenizi girin</string>
+    <string name="enable">Etkinleştir</string>
+    <string name="upload_later">Daha sonra karşıya yükle</string>
+    <string name="app_locked">Reporta kilitlendi ve bir uyarı gönderildi.</string>
+    <string name="media_uploads">Medya karşıya yükleme</string>
+    <string name="media_uploads_details">Bekleyen medya dosyalarınız var. Şimdi karşıya yüklensin mi?</string>
+    <string name="upload_now">Şimdi karşıya yükle</string>
+    <string name="back">Geri</string>
+    <string name="unlock_reporta">Reporta kilidini aç</string>
+    <string name="device_not_supported">Cihaz anında bildirimleri desteklemiyor.</string>
+    <string name="pushnotification_will_not_work">Cihaz anında bildirimleri desteklemiyor.</string>
+    <string name="internet_connection_unavailable">İnternet bağlantısı yok. Lütfen daha sonra tekrar deneyin.</string>
+    <string name="try_later">Bir hata oluştu! Lütfen daha sonra tekrar deneyin.</string>
+
+    <!-- home end -->
+
+    <!-- checkin -->
+
+    <string name="enter_your_location">Konumunuzu girin</string>
+    <string name="choose_options">Seçenekleri Seç</string>
+    <string name="checkin_frequency">Check in sıklığı</string>
+    <string name="edit_alert_msgs">Mesajları düzenle</string>
+    <string name="start_now">Hemen başla</string>
+    <string name="start_later">Daha sonra başla</string>
+    <string name="set_end_time">Bitiş zamanını belirle</string>
+    <string name="check_in">Check-in</string>
+    <string name="checkin_freq_header_title">Lütfen Check in sıklığını seçin</string>
+    <string name="every_fifteen_minutes">15 dakikada bir</string>
+    <string name="every_thirty_minutes">30 dakikada bir</string>
+    <string name="hourly">Saat başı</string>
+    <string name="every_three_hours">3 saatte bir</string>
+    <string name="create_custom">Özel sıklık belirle</string>
+    <string name="receive_promts">Hatırlatma alma biçimi:</string>
+    <string name="radio_email">E-posta</string>
+    <string name="radio_notification">Bildirimler</string>
+    <string name="radio_sms">SMS</string>
+    <string name="email_message">E-posta mesajı</string>
+    <string name="sms_message">SMS mesajı</string>
+    <string name="social_media_message">Sosyal medya mesajı</string>
+    <string name="end_time">Bitiş Zamanı</string>
+    <string name="cancel_checkin_message">Bu Check in’i İptal Etmek için Parolanızı Girin</string>
+    <string name="your_next_conf">Bir sonraki onayınızın zamanı :\u0020</string>
+    <string name="confirm_now">Şimdi onayla</string>
+    <string name="closenow">Kapat </string>
+    <string name="hours">Saat</string>
+    <string name="minute">Dakika</string>
+    <string name="your_checkin">Check in 10 Dakikada Kapanacak</string>
+    <string name="addmedia">Medya ekle</string>
+    <string name="edit_checkin">Check in düzenle</string>
+    <string name="close_checkin">Check in’i kapat</string>
+    <string name="checkin_frequency_title">Check in sıklığı</string>
+    <string name="check_start_message">Check-in Başlangıç Zamanı \u0020</string>
+    <string name="start_time">Başlangıç Zamanı</string>
+    <string name="info_checkin">CHECK IN\nCheck in fonksiyonunu kullanarak mevcut veya gelecekteki konumunuz hakkında özel bilgiler sağlayabilir, ne sıklıkla Check in yapmak istediğinizi seçebilir ve hangi Halkalara bildirim yapılacağını belirleyebilirsiniz.\n\n“Hemen” veya gelecekte başlayacak bir Check in belirleyebilirsiniz.\n\nAyrıca bir konum seçmelisiniz ya da bir coğrafi konum kullanarak veya konumunuzu manuel olarak girerek konumu seçebilirsiniz.\n\nCheck in mesajının bir parçası olarak paylaşılacak fotoğraf, video veya ses dosyaları eklemeyi tercih edebilirsiniz. Bu multimedya dosyaları iletildikten sonra uygulamadan silinir. Dosyalara cihazın temel ortam kitaplığından erişilemez.\n\nListeden veya belirlenen özel aralıklardan Check in istemi sıklığını seçebilirsiniz. İstemleri (SMS, e-posta veya akıllı telefon bildirimleri) nasıl almak istediğinizi de seçebilirsiniz.\n\nCheck in’i kapatmak için Reporta parolanızı girmelisiniz.\n\nBir Check in’i atlarsanız, bütün seçilen Halkalara bir uyarı gönderilir ve uygulama kilitlenir. Reporta, Uygulama Kilidi Açma kişilerinizi uygulama kilidini açmak için gereken doğrulama kodu bağlantısını içeren bir mesajla bilgilendirecektir.</string>
+    <string name="your_checkin_now_active">Check in’iniz şimdi aktif</string>
+    <string name="checkin_edited_suc">Check in Başarılı Şekilde Güncellendi</string>
+    <string name="checkin_will_start_at">Check in başlangıç zamanı </string>
+    <string name="enter_valid_checkin">Lütfen geçerli bir Check in sıklığı girin!</string>
+    <string name="enter_valid_endtime">Lütfen geçerli bir Check in bitiş zamanı girin!</string>
+    <string name="please_select_receive_promts">Lütfen Bildirim Tercihlerinizi Seçin</string>
+    <string name="missed_checkin_set_for">için Ayarlanan bir Onayı Kaçırdınız %s</string>
+    <string name="checkin_closed">Check-in Kapatıldı</string>
+    <string name="cancel_checkin">Check in İptal Et</string>
+    <string name="checkin_close_at">Check in kapanış zamanı \u0020</string>
+
+    <!-- checkin End -->
+
+
+    <!-- contacts -->
+
+    <string name="please_enable_sos">Lütfen İmdat mesajını etkinleştirin</string>
+    <string name="add_atleast_one_contact">Lütfen en az bir kişi ekleyin.</string>
+    <string name="add_from_addressbook">Adres defterinden ekle</string>
+    <string name="no_contacts_found">Kişi Yok</string>
+    <string name="add_manually">Manuel ekle</string>
+    <string name="all_circle">Bütün Halkalar</string>
+    <string name="all_contacts">Bütün Kişiler</string>
+    <string name="my_contacts">Kişilerim</string>
+    <string name="save">Kaydet</string>
+    <string name="add_email">E-posta ekle</string>
+    <string name="add_phone">Telefon ekle</string>
+    <string name="allows_contact_to_help">Uygulama Kilidi Açma etkinleştirildiğinde iletişim kişiniz, uygulamayı kilitleyen bir uyarının ardından Reporta kilidini açmanıza yardımcı olur.</string>
+    <string name="contact_is_part_of">Kişi aşağıdakinin parçası:</string>
+    <string name="connect_to_your_social">Sosyal medyaya bağlan</string>
+    <string name="login">Giriş yap</string>
+    <string name="enable_friend_unlock">Uyg. Klt Aç Etknlştr</string>
+    <string name="disable_friend_unlock">Uyg. Klt Aç D. Dışı</string>
+    <string name="pending_friend_unlock">Uyg. Klt Aç Kişisi Bekleniyor</string>
+    <string name="private_">Özel</string>
+    <string name="public_">Genel</string>
+    <string name="about_friend_unlock_title">Uygulama Kilidi Açma Hakkında</string>
+    <string name="first_name_mandatory">Ad Zorunlu</string>
+    <string name="last_name_mandatory">Soyadı zorunludur</string>
+    <string name="please_enter_phone">Lütfen en az bir telefon numarası girin!</string>
+    <string name="please_enter_email">Lütfen en az bir e-posta adresi girin!</string>
+    <string name="please_select_partof_circle">Lütfen Halka Seçin</string>
+    <string name="you_must_select">Kurulumu tamamlamak için Uygulama Kilidi Açma statüsüne sahip en az bir Özel Halka kişisi etkinleştirmelisiniz.</string>
+    <string name="contact_list_name">Kişi Halkası Adı</string>
+    <string name="info_contacts">HALKALAR\n\nReporta’nın en önemli özelliği, güvenliğinize önem veren kişilerle iletişim kurma imkanıdır. Kişilerinizi üç ayrı Halka olarak sınıflandırabilirsiniz.\n\nÖZEL HALKA\nÖzel Halkanız, size en yakın olan ve gerektiğinde sizin adınıza harekete geçebilecek kişiler grubudur. Bu grupta tanımlayabileceğiniz kişi sayısıyla ilgili bir sınır bulunmamaktadır ancak bu kişiler genellikle editörünüz, eşiniz veya kardeşiniz gibi en yakın çalışanlar, aile üyeleri veya çalışma arkadaşlarınızdır.\n\nBu halkaya kişiler ekliyorsanız, Reporta’dan uyarı aldıklarında ne yapmaları gerektiğine ilişkin, tercihen yazılı bir bilgilendirme sağlamalısınız. Bir Check in’i atlamanız, bir Uyarı veya İmdat mesajı göndermeniz durumunda bu kişilerin ne yapmaları gerektiğini bilmelerini istersiniz.\n\nReporta’yı kullanmak için Özel Halkanızda Uygulama Kilidini Açacak kişi rolünü görecek en az bir kişi seçmelisiniz. Uygulama Kilidini Açma rolündeki kişiler bir Check in kaçırdığınızda veya bir İmdat mesajı gönderdiğinizde uygulama kilidini açmak için gereken doğrulama kodunun bağlantısını alacaktır. Uygulama Kilidi Açma rolünü istediğiniz kadar fazla kişiye verebilirsiniz ancak Uygulama Kilidi Açma rolü verilen kişi Özel Halkanızda yer almalıdır.\n\nKilitlendikten sonra, Uygulama Kilidini Açma kodunu alana kadar telefonunuzdan uygulamaya erişim sağlayamazsınız. Uygulama kilidini açmanın başka bir yolu bulunmamaktadır.\n\nBirden fazla Özel Halka oluşturabilirsiniz ancak bir seferde sadece bir Özel Halkayı etkinleştirebilirsiniz. Yaptığınız habere veya çalıştığınız yere bağlı olarak farklı Özel Halkalar oluşturmayı tercih edebilirsiniz.\n\nSize kolaylık sağlamak amacıyla Reporta, uygulamayı en son kullandığınız konumdan 100 mil veya daha uzağa gittiğinizde Halkalarınızı güncellemek isteyip istemediğinizi soracaktır.\n\nGENEL HALKA\nGenel Halkanız, güvenliğinizle ilgilenebilecek kişi veya kuruluşları kapsar. Bunlar arasında gazeteciler vakıfları, birlikleri veya medya organizasyonları bulunabilir. Birden fazla Genel Halka oluşturabilirsiniz ancak bir seferde sadece bir Genel Halkayı etkinleştirebilirsiniz. Reporta’yı kullanmak için Genel Halka oluşturmak zorunlu değildir.\n\nSOSYAL HALKA\nReporta’yı Facebook ve Twitter hesaplarınızla bağlantılandırabilirsiniz. Reporta vasıtasıyla sosyal medyada yayınladığınız mesajların başkaları tarafından görülebileceğini unutmayın.</string>
+    <string name="your_private">Bir Check in atladığınızda, bir Uyarı gönderdiğinizde veya bir İmdat mesajı gönderdiğinizde Özel Halkanız bir mesaj alacaktır.</string>
+    <string name="your_public">Genel Halkanız, güvenliğinizle ilgilenebilecek kişi veya kuruluşları kapsar. Bunlar arasında gazeteciler vakıfları, birlikleri veya medya organizasyonları bulunabilir.</string>
+    <string name="private_circle">Özel Halkalar</string>
+    <string name="no_saved_private_circle">Kayıtlı Özel Halkanız Bulunmuyor</string>
+    <string name="no_saved_pulic_circle">Kayıtlı Genel Cihaz Ayarlarınız Bulunmuyor</string>
+    <string name="delete_contact_msg">Bu kişiyi silmek istediğinizden emin misiniz?</string>
+    <string name="delete_circle_msg">Bu Halkayı silmek istediğinizden emin misiniz?</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="create_a_new_public">Yeni Genel Halka oluştur</string>
+    <string name="are_you_sure">Uygulama Kilidi Açmayı devre dışı bırakmak istediğinizden emin misiniz?</string>
+    <string name="please_select_private">Varsayılan ayarlarınızı değiştirmek için yeni bir Özel Halka seçin veya oluşturun.</string>
+    <string name="please_select_public">Varsayılan ayarlarınızı değiştirmek için yeni bir Genel Halka seçin veya oluşturun.</string>
+    <string name="do_you_want_update_public">Genel halkanızda bu güncellemeyi yapmak istiyor musunuz?</string>
+    <string name="do_you_want_update_private">Özel halkanızda bu güncellemeyi yapmak istiyor musunuz?</string>
+    <string name="this_circle_has_no_contact"> - Kişi bulunmayan bir Halka oluşturamazsınız. Lütfen şimdi en az bir kişi ekleyin.</string>
+
+    <!-- contacts End -->
+
+
+    <!-- Pick Location Screen -->
+    <string name="drag_pin">Haritada bir konum seçmek için iğneye basıp sürükleyin veya aşağıda belirtilen konumlardan seçim yapın.</string>
+    <string name="enter_loc_manually">Konumu manuel olarak gir</string>
+    <string name="no_loc_found">Konum bulunamadı</string>
+    <string name="dist_mi" tools:ignore="StringFormatMatches">%d mi uzakta</string>
+    <string name="dist_ft">%d ft uzakta</string>
+    <string name="gps_disable_msg">Lütfen Telefonunuzda GPS’i Etkinleştirin</string>
+    <string name="location_disable_msg">Ayarlar’a girin ve Konum Servisleri’ni Etkinleştirin</string>
+    <string name="loc_not_found">Konum bulunamadı</string>
+
+    <!-- social circles -->
+
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="add">Ekle</string>
+    <string name="remove">Kaldır</string>
+
+    <!-- social circles end -->
+
+
+    <!-- Pending Media File Screen -->
+
+    <string name="txt_pending_media">Bekleyen medya dosyalarınız var</string>
+    <string name="txt_media_file">Medya dosyaları</string>
+    <string name="txt_media_resend_delete">Medya Dosyası Gönder / Uzun basın Kaydır</string>
+    <string name="select_action">İşlemi Seçin</string>
+    <string name="menu_resend">Yeniden gönder</string>
+    <string name="menu_delete">Sil</string>
+    <string name="no_records_found">Kayıt bulunamadı</string>
+    <string name="retry_within_7_days">Karşıya yükleme 7 gün denenecek.</string>
+    <string name="media_upload_success">Medya Dosyaları Başarıyla Karşıya Yüklendi</string>
+    <string name="media_upload_fail">Medya dosyaları karşıya yüklenirken hata oluştu. Lütfen tekrar deneyin.</string>
+    <string name="media_uploading_running">Medya dosyaları karşıya yükleniyor. Daha sonra tekrar kontrol edin.</string>
+    <string name="password_hint"><b>Reporta Parolanız Hakkında</b></string>
+
+    <string name="a_private_circle"><b>Bir Özel Halka gerekiyor!</b>\n\nÖzel Halkanız, size en yakın olan ve gerektiğinde sizin adınıza harekete geçebilecek kişiler grubudur. Bu grupta tanımlayabileceğiniz kişi sayısıyla ilgili bir sınır bulunmamaktadır ancak bu kişiler genellikle editörünüz, eşiniz veya kardeşiniz gibi en yakın çalışanlar, aile üyeleri veya çalışma arkadaşlarınızdır.</string>
+
+    <string name="please_try_again">Lütfen Tekrar Deneyin</string>
+    <string name="password_invalid">Parolanız aşağıdakileri kapsamalıdır:\n\n■  En az 8 karakter\n■  En az bir büyük harf \n■  En az bir sayı\n■  En az bir özel karakter</string>
+
+    <string name="enableapplock">3. Adım: Uygulama Kilidi Açma Etkinleştir</string>
+
+    <string name="youmustenableapplock"><b>Uygulama Kilidi Açmayı etkinleştirmelisiniz!</b>\n\nReporta’yı kullanmak için Özel Halkanızda Uygulama Kilidini Açacak kişi rolünü görecek en az bir kişi seçmelisiniz. Uygulama Kilidini Açma rolündeki kişiler bir Check in kaçırdığınızda veya bir İmdat mesajı gönderdiğinizde uygulama kilidini açmak için gereken doğrulama kodunun bağlantısını alacaktır. Uygulama Kilidi Açma rolünü istediğiniz kadar fazla kişiye verebilirsiniz ancak Uygulama Kilidi Açma rolü verilen kişi Özel Halkanızda yer almalıdır. Uygulama Kilidi Açma’yı etkinleştirmek için, kişi profilinde kilit simgesine tıklayın; kişi rolü Kabul ettiğinde kilit koyu kırmızı olur.</string>
+
+    <string name="see_termsofuse">Kullanım Koşulları’na bakınız</string>
+    <string name="termsofuse"><b> Reporta™Kullanım Koşulları </b>\n\nReporta’yı kullanarak, Reporta kullanımı için geçerli olan Kullanım Koşulları Anlaşması’na uymayı kabul edersiniz. IWMF burada yer alan Kullanım Koşulları Anlaşması ve Gizlilik Politikası’nı değiştirilmiş terimleri yayınlayarak herhangi bir zamanda değiştirebilir. Ayrıca Kullanım Koşulları Anlaşması’nı kabul ederek bu değişikliklere bağlı kalmayı kabul edersiniz. Aşağıdaki Kabul düğmesine basarak Kullanım Koşulları Anlaşması kabul edilene kadar Reporta çalışmaz.</string>
+
+    <string name="confirmmyreg">Kaydımı e-postayla onayla</string>
+    <string name="sendmeupdate">Bana Reporta’yla ilgili güncellemeler gönderin</string>
+
+    <string name="contactadded">Kişi Eklendi</string>
+    <string name="addanother">Başka bir kişi eklensin mi?</string>
+
+    <string name="accept">Kabul</string>
+
+    <string name="duplicate_name">Bu ad zaten kullanılıyor. Lütfen başka bir ad seçin.</string>
+    <string name="duplicate_email">Bu e-posta adresi zaten kullanılıyor. Lütfen başka bir e-posta adresi seçin.</string>
+    <string name="duplicate_number">Bu telefon zaten kullanılıyor. Lütfen başka bir telefon seçin.</string>
+
+    <string name="invite">Davet</string>
+    <string name="invited">Davetli</string>
+
+    <string name="add_associate_circle">Lütfen bu kişi için en az bir Halka seçin.</string>
+
+    <string name="addnow">Şimdi ekle</string>
+    <string name="confirm_checkin_10min">Check in’i 10 Dakika İçinde Onaylayın</string>
+    <string name="confirm_checkin_now">Check in’i 2 dakika içinde onaylamadığınızda bir uyarı gönderilir.</string>
+    <string name="save_checkin_changes_msg">Değişiklikleri kaydetmek istiyor musunuz?</string>
+    <string name="add_from_reporta_contacts">Reporta kişilerinden ekle</string>
+    <string name="facebook_app_id">none</string>
+    <string name="delete_this_contact">Bu kişi silindiğinde bu Halka da silinir.</string>
+    <string name="delete_now">Şimdi sil</string>
+    <string name="gapi">none</string>
+    <string name="fabricapikey">none</string>
+    <string name="change_password">Güncelleme şifresi</string>
+    <string name="current_password">Mevcut şifre</string>
+    <string name="new_password">Yeni şifre</string>
+    <string name="confirm_password">Şifreyi Onayla</string>
+    <string name="rooting_detected_msg">Reporta cannot run on a rooted device.</string>
+    <string name="rooting_detected_title">Rooting Detected</string>
+    <string name="legal">Legal</string>
+    <string name="plus">+</string>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:descendantFocusability="blocksDescendants">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/switchActive"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtName"
+            style="@style/TextAppearance.Medium.Inverse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_margin="@dimen/margin_large"
+            android:ellipsize="end"
+            android:gravity="right|center_vertical"
+            android:maxLines="2"
+            android:text=""/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginRight="@dimen/margin_large"
+            android:background="@color/line_color"/>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/switchActive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:button="@null"
+        android:checked="false"
+        android:drawablePadding="0dp"
+        android:drawableRight="@drawable/selector_chkbox_switch"
+        android:padding="0dp"/>
+
+</RelativeLayout>

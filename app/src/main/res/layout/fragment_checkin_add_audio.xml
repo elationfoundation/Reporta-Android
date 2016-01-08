@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:clickable="true"
+                android:focusable="true">
+
+    <RelativeLayout
+        android:id="@+id/rltTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/black"
+        android:padding="@dimen/margin_normal">
+
+        <ImageButton
+            android:id="@+id/iBtnClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/close"
+            tools:ignore="ContentDescription"/>
+
+        <TextView
+            android:id="@+id/txtDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/font_16"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_above="@+id/frmBottom"
+        android:layout_below="@+id/rltTop"
+        android:layout_centerInParent="true"
+        android:src="@drawable/mike"
+        tools:ignore="ContentDescription"/>
+
+    <FrameLayout
+        android:id="@+id/frmBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/black"
+        android:paddingBottom="@dimen/margin_large"
+        android:paddingTop="@dimen/margin_large">
+
+        <CheckBox
+            android:id="@+id/chkCapture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:button="@drawable/selecter_btn_play"
+            android:checked="false"/>
+    </FrameLayout>
+
+</RelativeLayout>

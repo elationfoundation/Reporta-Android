@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Reporta</string>
+    <string name="reporta">Reporta</string>
+    <string name="powered_by">Powered by</string>
+    <string name="iwmf">International Women’s Media Foundation</string>
+
+    <!-- select language -->
+
+    <string name="select_your_language">Select your language</string>
+    <string name="lng_english">English</string>
+    <string name="lng_spanish">Español</string>
+    <string name="lng_french">Français</string>
+    <string name="lng_turkish">Türkçe</string>
+    <string name="lng_arabic">العربية</string>
+    <string name="lng_hebrew">עברית</string>
+    <string name="tw_key">none</string>
+    <string name="tw_secret">none</string>
+
+    <!-- select language end -->
+
+
+    <!-- Alert -->
+
+    <string name="alerts">Alerta</string>
+    <string name="i_am_facing">Estoy reportando</string>
+    <string name="describe_situation">Describa su situación</string>
+    <string name="enter_location">Ingrese su ubicación</string>
+    <string name="edit">Editar</string>
+    <string name="private_circle_default">Círculo priv. (predeterm.)</string>
+    <string name="private_circle_name">Círculo privado</string>
+    <string name="public_circle">Círculos Públicos</string>
+    <string name="social_circle">Círculos Sociales</string>
+    <string name="optional">Opcional</string>
+    <string name="add_photo_video_audio">Agregar foto, video o audio</string>
+    <string name="send_alert">Enviar alerta</string>
+    <string name="saved_circles">Círculos guardados</string>
+    <string name="search_contact">Buscar</string>
+    <string name="create_a_list">Crear un Círculo</string>
+    <string name="choose_valid_situation">Por Favor, Seleccione una Situación</string>
+    <string name="enter_valid_description">Por favor, ingrese una descripción</string>
+    <string name="enter_valid_contact">Por Favor, Ingrese un Contacto</string>
+    <string name="choose_valid_location">Por favor, confirme su ubicación</string>
+    <string name="please_describe">Por favor, describa</string>
+    <string name="select_language">Seleccionar idioma</string>
+    <string name="info_alerts">ALERTA\n\nLa función de Alerta le permite enviar información sobre una situación que está enfrentando usted o un colega a Círculos de contactos designados. Puede usar un menú desplegable que describe posibles incidentes; también puede ingresar información adicional. Debe seleccionar una ubicación utilizando la función de geolocalización o ingresar su ubicación manualmente.\n\nLas alertas son enviadas en forma inmediata y con la opción de agregar archivos de medios.\n\nLas alertas se pueden personalizar para compartirlas con diferentes Círculos.</string>
+    <string name="alert_sent_successfully">Su Alerta Fue Enviada</string>
+
+    <!-- Alert End -->
+
+
+    <!-- profile -->
+
+    <string name="info_profile">PERFIL\n\nTodos los usuarios de Reporta deben crear un perfil. El perfil contiene información importante que es necesaria para que Reporta funcione del modo esperado.\n\nIWMF se compromete a respetar su privacidad y declara que la gestión de Reporta obedece a prácticas y procedimientos de seguridad generalmente aceptados para proteger la Información Personalmente Identificable que usted proporciona contra el acceso, el uso y la divulgación no autorizados. Nuestros proveedores de servicio autorizados están obligados a implementar y mantener dichas prácticas y dichos procedimientos de seguridad. No obstante, tenga en cuenta que las transmisiones por Internet nunca son completamente privadas o seguras.\n\nPara más información, consulte los Términos de Uso y la Política de Privacidad de Reporta.</string>
+    <string name="profile">Perfil</string>
+    <string name="signout_head">¿Cerrar sesión?</string>
+    <string name="cancel">Cancelar</string>
+    <string name="signout">Cerrar sesión</string>
+    <string name="version">Versión</string>
+    <string name="enternewpassword">Ingresar nueva contraseña</string>
+    <string name="enterpassword">Ingresar contraseña</string>
+    <string name="invalid_password">Contraseña No Válida</string>
+    <string name="selectjobtitle">Seleccionar cargo</string>
+    <string name="selectcountryorigin">País de origen</string>
+    <string name="selectcountryworking">País en el que se encuentra trabajando</string>
+    <string name="invalid_firstname">Por favor, ingrese su nombre</string>
+    <string name="invalid_lastname">Por favor, ingrese su apellido</string>
+    <string name="invalid_phone">Por favor, ingrese un número de teléfono válido</string>
+    <string name="password_notmatch">La contraseña no coincide</string>
+    <string name="firstname">Nombre</string>
+    <string name="try_again">Intente nuevamente</string>
+    <string name="lastname">Apellido</string>
+    <string name="email">Correo electrónico</string>
+    <string name="phone">Teléfono</string>
+    <string name="password">Contraseña</string>
+    <string name="re_enternewpassword">Reingr. nueva ctraseña.</string>
+    <string name="re_enterpassword">Reingresar contraseña</string>
+    <string name="professional_details">Datos profesionales</string>
+    <string name="job_title">Cargo</string>
+    <string name="affiliation">Afiliación</string>
+    <string name="freelancer">Trabajador independiente</string>
+    <string name="update">Actualizar</string>
+    <string name="signoutdialog">¿Está seguro de que desea cerrar la sesión?</string>
+
+    <!-- profile End -->
+
+
+    <!-- create account -->
+
+    <string name="countries">Países</string>
+    <string name="create_account_header">Crear una cuenta</string>
+    <string name="prodetails">Paso 1: Agregar detalles profesionales</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="re_email">Reingr. c. electr.</string>
+    <string name="gender">Sexo</string>
+    <string name="male">Masculino</string>
+    <string name="female">Femenino</string>
+    <string name="other">Otro</string>
+    <string name="choose">Elegir</string>
+    <string name="select_country">Seleccionar país</string>
+    <string name="passhint">(Mínimo 8 caracteres)</string>
+    <string name="next">Siguiente</string>
+    <string name="selectlanguage">Seleccionar idioma</string>
+    <string name="email_notmatch">La dirección de correo electrónico no coincide</string>
+    <string name="createprivatecircle">Paso 2: Crear un Círculo Privado</string>
+    <string name="create_a_new_private">Crear un nuevo Círculo privado</string>
+    <string name="new_circle">Círculo nuevo</string>
+    <string name="ok">OK</string>
+    <string name="build_this_circle">Construir este Círculo</string>
+    <string name="done">Listo</string>
+    <string name="termcondition">Paso 4: Aceptar Términos de Uso</string>
+    <string name="agree">Acepto los <b>Términos de Uso</b></string>
+    <string name="confirmemail">Enviar c. electr. de confirm. de rgstro.</string>
+    <string name="completeaccount">Completar creación de cuenta</string>
+    <string name="textagree">Acepto</string>
+    <string name="agree_tc">Por Favor, Acepte los <b>Términos de Uso</b></string>
+    <string name="gender_is_required">Sexo es un campo obligatorio</string>
+    <string name="please_make_your">Por favor, seleccione masculino, femenino u otro</string>
+    <string name="these_contacts_will_be_notified">Se notificará a estos contactos cuando se registre o cuando envíe una alerta o SOS.</string>
+    <string name="please_enter_username">Por favor, ingrese su nombre de usuario</string>
+    <string name="invalid_username">Nombre de usuario no válido</string>
+    <string name="enter_valid_email">Por favor, ingrese una dirección de correo electrónico válida</string>
+    <string name="please_select_jobtitle">Por favor, seleccione su cargo</string>
+    <string name="Please_select_country_of_origin">Por favor, seleccione su país de origen</string>
+    <string name="Please_select_country_where_working">Por favor, seleccione el país en el que se encuentra trabajando</string>
+
+    <!-- create account End -->
+
+
+    <!-- Login -->
+
+    <string name="forget_password_dialog">¿Olvidó su contraseña?</string>
+    <string name="login_screen">Iniciar sesión</string>
+    <string name="create_account">Crear una cuenta</string>
+    <string name="stay_logged_in">Permanecer en sesión</string>
+    <string name="enter_email_reset">Ingrese su correo electrónico para restablecerla</string>
+    <string name="enteremail">Ingrese su correo electrónico</string>
+
+    <!-- Login end -->
+
+
+    <!-- home -->
+
+    <string name="home_contacts">Contactos</string>
+    <string name="home_profile">Perfil</string>
+    <string name="home_checkin">Registro</string>
+    <string name="home_alerts">Alerta</string>
+    <string name="about_reporta">Acerca de Reporta</string>
+    <string name="pending_media_files">Archivos Pendientes</string>
+    <string name="app_unlocked">Ingrese su contraseña y el Código para Desbloquear la Aplicación para desbloquear Reporta</string>
+    <string name="enter_passcode">Ingresar código</string>
+    <string name="enable">Habilitar </string>
+    <string name="upload_later">Subir más tarde</string>
+    <string name="app_locked">Reporta ha sido bloqueado y se ha enviado un mensaje de alerta.</string>
+    <string name="media_uploads">Subir en medios de comunicación social</string>
+    <string name="media_uploads_details">Usted tiene archivos de medios pendientes. ¿Desea subirlos ahora?</string>
+    <string name="upload_now">Subir ahora</string>
+    <string name="back">Atrás</string>
+    <string name="unlock_reporta">Desbloquear Reporta</string>
+    <string name="device_not_supported">Dispositivo no compatible con push notifications.</string>
+    <string name="pushnotification_will_not_work">Dispositivo no compatible con push notifications.</string>
+    <string name="internet_connection_unavailable">Sin conexión a Internet. Inténtelo más tarde.</string>
+    <string name="try_later">¡Algo salió mal! Inténtelo más tarde.</string>
+
+    <!-- home end -->
+
+
+    <!-- checkin -->
+
+    <string name="enter_your_location">Ingrese su ubicación</string>
+    <string name="choose_options">Elegir Opciones</string>
+    <string name="checkin_frequency">Frecuencia de rgstro.</string>
+    <string name="edit_alert_msgs">Editar mensajes</string>
+    <string name="start_now">Comenzar ahora</string>
+    <string name="start_later">Comenzar más tarde</string>
+    <string name="set_end_time">Configurar hora de finalización</string>
+    <string name="check_in">Registro</string>
+    <string name="checkin_freq_header_title">Seleccione Frecuencia de Registro</string>
+    <string name="every_fifteen_minutes">Cada 15 minutos</string>
+    <string name="every_thirty_minutes">Cada 30 minutos</string>
+    <string name="hourly">Cada hora</string>
+    <string name="every_three_hours">Cada 3 horas</string>
+    <string name="create_custom">Establecer frecuencia personalizada</string>
+    <string name="receive_promts">Recibir avisos de</string>
+    <string name="radio_email">Correo electrónico</string>
+    <string name="radio_notification">Notificaciones</string>
+    <string name="radio_sms">SMS</string>
+    <string name="email_message">Mensaje de correo electrónico</string>
+    <string name="sms_message">Mensaje SMS</string>
+    <string name="social_media_message">Mensaje en medios de comunicación social</string>
+    <string name="end_time">Hora de finalización</string>
+    <string name="cancel_checkin_message">Ingrese Su Contraseña para Cancelar Este Registro</string>
+    <string name="your_next_conf">Su próxima confirmación es a las:\u0020</string>
+    <string name="confirm_now">Confirmar ahora</string>
+    <string name="closenow">Cerrar</string>
+    <string name="hours">Horas</string>
+    <string name="minute">Minutos</string>
+    <string name="your_checkin">Su Registro Finaliza en 10 Minutos</string>
+    <string name="addmedia">Agregar medios</string>
+    <string name="edit_checkin">Editar Registro</string>
+    <string name="close_checkin">Cerrar Registro</string>
+    <string name="checkin_frequency_title">Frecuencia de rgstro.</string>
+    <string name="check_start_message">Su Registro comenzará a las\u0020</string>
+    <string name="start_time">Hora de comienzo</string>
+    <string name="info_checkin">REGISTRO\nA través de la función de Registro puede proporcionar información personalizada sobre su ubicación actual o futura, seleccionar con qué frecuencia desea recibir Registros, y designar a qué Círculos de contactos se notificará.\n\nPuede configurar un Registro para que comience “ahora mismo” o en un momento futuro.\n\nTambién debe seleccionar una ubicación; puede hacerlo usando la función de geolocalización o puede ingresar su ubicación manualmente.\n\nTambién puede elegir agregar una fotografía, un video o archivos de audio para compartirlos como parte del mensaje de Registro. Estos archivos multimedia son eliminados de la aplicación después de la transmisión. No se puede acceder a los archivos desde la biblioteca de medios del dispositivo.\n\nPuede seleccionar la frecuencia del Registro de una lista de intervalos predeterminados o configurar intervalos personalizados. También puede elegir cómo desea recibir las notificaciones (por SMS, correo electrónico o a su teléfono inteligente).\n\nPara cerrar la función de Registro, debe ingresar su contraseña de Reporta.\n\nSi no responde a un Registro, se les enviará una alerta a todos los Círculos seleccionados, y la aplicación se bloqueará. Reporta notificará a sus contactos de Desbloqueo de la Aplicación con un mensaje que incluirá un enlace a un código de verificación requerido para desbloquear la aplicación.</string>
+    <!-- <string name="cannot_close_app">Your Check In is running, you can\'t close App.</string> -->
+    <string name="your_checkin_now_active">Su Registro está activo ahora</string>
+    <string name="checkin_edited_suc">Registro Cargado con Éxito</string>
+    <string name="checkin_will_start_at">Su Registro\n Comenzará a las </string>
+    <string name="enter_valid_checkin">Por Favor, Ingrese una Frecuencia de Registro Válida</string>
+    <string name="enter_valid_endtime">Por favor, ingrese un horario de finalización de Registro válido</string>
+    <string name="please_select_receive_promts">Por Favor, Seleccione sus Preferencias de Notificaciones</string>
+    <string name="missed_checkin_set_for">Perdió una Confirmación Programada para las %s</string>
+    <string name="checkin_closed">Su Registro está Cerrado</string>
+    <string name="cancel_checkin">Cancelar Registro</string>
+    <string name="checkin_close_at">Su Registro cerrará a las\u0020</string>
+
+    <!-- checkin End -->
+
+
+    <!-- contacts -->
+
+    <string name="please_enable_sos">Habilitar SOS</string>
+    <string name="add_atleast_one_contact">Por favor, agregue por lo menos un contacto.</string>
+    <string name="add_from_addressbook">Agregar Desde la Agenda</string>
+    <string name="no_contacts_found">Sin contactos</string>
+    <string name="add_manually">Agregar manualmente</string>
+    <string name="all_circle">Todos los círculos</string>
+    <string name="all_contacts">Todos los contactos</string>
+    <string name="my_contacts">Mis Contactos</string>
+    <string name="save">Guardar</string>
+    <string name="add_email">Agregar correo electrónico</string>
+    <string name="add_phone">Agregar teléfono</string>
+    <string name="allows_contact_to_help">Permitir que el Desbloqueo de la aplicación habilite a estos contactos para ayudarlo a desbloquear Reporta después de que una alerta bloquee la aplicación.</string>
+    <string name="contact_is_part_of">El contacto es parte de:</string>
+    <string name="connect_to_your_social">Conectar con sus redes sociales</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="enable_friend_unlock">Activ. Desbloq. Apl.</string>
+    <string name="disable_friend_unlock">Desact. Desbloq. Apl.</string>
+    <string name="pending_friend_unlock">Cntcto. Desbloq. Aplic. Pend.</string>
+    <string name="private_">Privado</string>
+    <string name="public_">Público</string>
+    <string name="about_friend_unlock_title">Acerca del Desbloqueo de la Aplicación</string>
+    <string name="first_name_mandatory">El Nombre Es Obligatorio</string>
+    <string name="last_name_mandatory">El apellido es obligatorio</string>
+    <string name="please_enter_phone">Por favor, ingrese al menos un número telefónico</string>
+    <string name="please_enter_email">Por favor, ingrese al menos un correo electrónico</string>
+    <string name="please_select_partof_circle">Por Favor, Seleccione un Círculo</string>
+    <string name="you_must_select">Debe habilitar al menos a un contacto del Círculo Privado para que actúe como contacto de Desbloqueo de la Aplicación para completar la configuración.</string>
+    <string name="contact_list_name">Nombre del Círculo de Contactos</string>
+    <string name="info_contacts">CÍRCULOS\n\nLa característica central de Reporta es la posibilidad de contactar a personas que se preocupan por su seguridad. Usted puede categorizar a sus contactos en tres Círculos distintos.\n\nCÍRCULO PRIVADO\nSu Círculo Privado es el grupo de contactos que son más cercanos a usted y que tomarán medidas en su nombre si resulta necesario. No hay ningún límite con respecto a la cantidad de contactos que puede designar en este grupo, pero estos contactos son en general los colaboradores más cercanos, familiares o colegas, como su editor, su socio o un hermano.\n\nSi agrega una persona a este Círculo, debe darle instrucciones, preferentemente por escrito, sobre lo que debe hacer si recibe un mensaje de alerta de Reporta. Seguramente querrá que estos contactos sepan lo que deben hacer si usted no responde a un Registro, envía una Alerta, o un SOS. \n\nPara usar Reporta, debe designar por lo menos a un contacto en su Círculo Privado para que actúe como contacto de Desbloqueo de la Aplicación. Los contactos de Desbloqueo de la Aplicación recibirán un enlace a un código de verificación para desbloquear la aplicación si usted no responde a un mensaje de Registro o envía un SOS. Puede agregar todos los contactos de Desbloqueo de la Aplicación que desee, pero es necesario que haya un contacto de Desbloqueo de la Aplicación designado en su Círculo Privado.\n\nUna vez que se bloquee la aplicación, no podrá acceder a ella en su teléfono hasta que tenga el código de Desbloqueo de la Aplicación. No hay ninguna otra forma de desbloquear la aplicación.\n\nPuede crear más de un Círculo Privado, pero puede tener solo un Círculo Privado activo por vez. Puede optar por crear diferentes Círculos Privados según la historia que esté cubriendo o el lugar donde esté trabajando.\n\nPara su conveniencia, Reporta le preguntará si desea actualizar sus Círculos cuando viaje 160 km (100 millas) o más desde el último lugar en el que usó la aplicación.\n\nCÍRCULO PÚBLICO\nSu Círculo Público es un grupo de personas u organizaciones que pueden estar interesadas en su seguridad. Puede incluir asociaciones periodísticas, sindicatos u organizaciones de medios. Puede crear más de un Círculo Público, pero puede tener solo un Círculo Público activo por vez. No es obligatorio crear un Círculo Público para usar Reporta.\n\nCÍRCULO SOCIAL\nPuede conectar Reporta a sus cuentas de Facebook y Twitter. Tenga en cuenta que cualquier publicación que haga en las redes sociales a través de Reporta podrá ser vista por terceros.</string>
+    <string name="your_private">Su Círculo Privado recibirá un mensaje cuando usted no responda un Registro o cuando envíe una alerta o SOS.</string>
+    <string name="your_public">Su Círculo Público es un grupo de personas u organizaciones que pueden estar interesadas en su seguridad. Puede incluir asociaciones periodísticas, sindicatos u organizaciones de medios.</string>
+    <string name="private_circle">Círculos Privados</string>
+    <string name="no_saved_private_circle">No Tiene Círculos Privados Guardados</string>
+    <string name="no_saved_pulic_circle">No Ha Guardado Configuraciones Públicas del Dispositivo</string>
+    <string name="delete_contact_msg">¿Está seguro de que desea eliminar a este contacto?</string>
+    <string name="delete_circle_msg">¿Está seguro de que desea eliminar este Círculo?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="create_a_new_public">Crear un nuevo Círculo Público</string>
+    <string name="are_you_sure">¿Está seguro de que desea desactivar el Desbloqueo de la Aplicación?</string>
+    <string name="please_select_private">Seleccionar o crear un nuevo Círculo Privado para cambiar sus configuraciones predeterminadas.</string>
+    <string name="please_select_public">Seleccionar o crear un nuevo Círculo Público para cambiar sus configuraciones predeterminadas.</string>
+    <string name="do_you_want_update_public">¿Desea realizar esta actualización de su Círculo Público?</string>
+    <string name="do_you_want_update_private">¿Desea realizar esta actualización de su Círculo Privado?</string>
+    <string name="this_circle_has_no_contact"> - No puede crear un Círculo sin contactos. Por favor, agregue por lo menos un contacto ahora.</string>
+
+    <!-- contacts End -->
+
+
+    <!-- Pick Location Screen -->
+    <string name="drag_pin">Presione y arrastre el pin para seleccionar una ubicación en el mapa o elija una de las ubicaciones que figuran a continuación.</string>
+    <string name="enter_loc_manually">Ingrese la ubicación manualmente</string>
+    <string name="no_loc_found">No se encontró ninguna ubicación</string>
+    <string name="dist_mi" tools:ignore="StringFormatMatches">%d millas de distancia</string>
+    <string name="dist_ft">%d pies de distancia</string>
+    <string name="gps_disable_msg">Por Favor, Active el GPS en Su Teléfono</string>
+    <string name="location_disable_msg">Ir a Configuraciones y Activar los Servicios de Ubicación</string>
+    <string name="loc_not_found">No se encontró la ubicación</string>
+
+    <!-- social circles -->
+
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="add">Agregar</string>
+    <string name="remove">Eliminar</string>
+
+    <!-- social circles end -->
+
+
+    <!-- Pending Media File Screen -->
+
+    <string name="txt_pending_media">Usted tiene archivos de medios pendientes</string>
+    <string name="txt_media_file">Archivo de medios</string>
+    <string name="txt_media_resend_delete">Pulsación larga Reenv. o Elim. Arch. Medios</string>
+    <string name="select_action">Seleccionar acción</string>
+    <string name="menu_resend">Reenviar</string>
+    <string name="menu_delete">Eliminar </string>
+    <string name="no_records_found">No se encontraron registros</string>
+    <string name="retry_within_7_days">Se intentará la carga por 7 días.</string>
+    <string name="media_upload_success">Archivos de Medios Cargados Con Éxito</string>
+    <string name="media_upload_fail">Error al cargar el archivo de medios. Por favor, inténtelo nuevamente.</string>
+    <string name="media_uploading_running">Cargando archivo de medios. Verifique de nuevo más tarde.</string>
+    <string name="password_hint"><b>Acerca de su contraseña de Reporta</b></string>
+
+    <string name="a_private_circle"><b>¡Debe crear un Círculo Privado!</b>\n\nSu Círculo Privado es el grupo de contactos que son más cercanos a usted y que tomarán medidas en su nombre si resulta necesario. No hay ningún límite con respecto a la cantidad de contactos que puede designar en este grupo, pero estos contactos son en general los colaboradores más cercanos, familiares o colegas, como su editor, su socio o un hermano.</string>
+
+    <string name="please_try_again">Por favor, inténtelo nuevamente</string>
+    <string name="password_invalid">Su contraseña debe incluir:\n\n■  por lo menos 8 caracteres\n■  por lo menos un carácter en mayúscula\n■  por lo menos un número\n■  por lo menos un carácter especial</string>
+
+    <string name="enableapplock">Paso 3: Habilitar Desbloqueo de la Aplicación</string>
+
+    <string name="youmustenableapplock"><b>Debe habilitar la función de Desbloqueo de la Aplicación</b>\n\nPara usar Reporta, debe designar por lo menos a un contacto en su Círculo Privado para que actúe como contacto de Desbloqueo de la Aplicación. Los contactos de Desbloqueo de la Aplicación recibirán un enlace a un código de verificación para desbloquear la aplicación si usted no responde un mensaje de Registro o envía un SOS. Puede agregar todos los contactos de Desbloqueo de la Aplicación que desee, pero es necesario que haya un contacto de Desbloqueo de la Aplicación designado en su Círculo Privado. Para habilitar el Desbloqueo de la Aplicación, toque el ícono de bloqueo en su perfil de contactos; cuando su contacto acepte el rol el color del bloqueo cambiará a rojo oscuro.</string>
+
+    <string name="see_termsofuse">Ver Términos de Uso</string>
+    <string name="termsofuse"><b>Términos de Uso de Reporta™ </b>\n\nAl usar Reporta, usted acepta respetar el Acuerdo de Términos de Uso que rige el uso de Reporta. IWMF podrá modificar el Acuerdo de Términos de Uso y la Política de Privacidad incorporados al presente en cualquier momento publicando los términos modificados. Usted también acepta quedar obligado por dichos cambios a través de su aceptación del Acuerdo de Términos de Uso. Reporta no funcionará hasta que usted acepte el Acuerdo de Términos de Uso haciendo clic en Aceptar a continuación.</string>
+
+    <string name="confirmmyreg">Confirmar mi registro por correo electrónico</string>
+    <string name="sendmeupdate">Quiero recibir actualizaciones sobre Reporta</string>
+
+    <string name="contactadded">Contacto agregado</string>
+    <string name="addanother">¿Agregar otro contacto?</string>
+
+    <string name="accept">Aceptar</string>
+
+    <string name="duplicate_name">Este nombre ya se encuentra en uso. Por favor elija otro.</string>
+    <string name="duplicate_email"> Esta dirección de correo electrónico ya se encuentra en uso. Por favor elija otra.</string>
+    <string name="duplicate_number">Este número de teléfono ya se encuentra en uso. Por favor elija otro.</string>
+
+    <string name="invite">Invitar</string>
+    <string name="invited">Invitado</string>
+
+    <string name="add_associate_circle">Por favor seleccione por lo menos un Círculo para este contacto.</string>
+
+    <string name="addnow">Añadir ahora</string>
+    <string name="confirm_checkin_10min">Confirmar Su Registro Dentro de los Próximos 10 Minutos</string>
+    <string name="confirm_checkin_now">Confirme su Registro dentro de los próximos 2 minutos o se enviará una Alerta.</string>
+    <string name="save_checkin_changes_msg">¿Quiere guardar los cambios?</string>
+    <string name="add_from_reporta_contacts">Desde contactos de Reporta</string>
+    <string name="facebook_app_id">none</string>
+    <string name="delete_this_contact">Al eliminar este contacto también eliminará este Círculo.</string>
+    <string name="delete_now">Eliminar ahora</string>
+    <string name="gapi">none</string>
+    <string name="fabricapikey">none</string>
+    <string name="change_password">Actualizar contraseña</string>
+    <string name="current_password">Contraseña actual</string>
+    <string name="new_password">Nueva contraseña</string>
+    <string name="confirm_password">Confirmar contraseña</string>
+    <string name="rooting_detected_msg">Reporta cannot run on a rooted device.</string>
+    <string name="rooting_detected_title">Rooting Detected</string>
+    <string name="legal">Legal</string>
+    <string name="plus">+</string>
+
+</resources>

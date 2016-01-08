@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:focusable="true">
+
+    <FrameLayout
+        android:id="@+id/fragment_media_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/lnrBottom">
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/lnrBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/iBtnCamera"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selecter_btn_camera"
+                tools:ignore="ContentDescription"/>
+
+            <ImageButton
+                android:id="@+id/iBtnVideo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selecter_btn_video"
+                tools:ignore="ContentDescription"/>
+
+            <ImageButton
+                android:id="@+id/iBtnAudio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selecter_btn_audio"
+                tools:ignore="ContentDescription"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnDone"
+            style="@style/TextAppearance.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="@dimen/margin_normal"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_large"
+            android:background="@drawable/checkin_start_now_button"
+            android:text="@string/done"
+            android:textColor="@color/orange_color"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frmBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/black"
+        android:paddingBottom="@dimen/margin_large"
+        android:paddingTop="@dimen/margin_large"
+        android:visibility="gone">
+
+        <CheckBox
+            android:id="@+id/chkPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:button="@drawable/selecter_btn_play"/>
+    </FrameLayout>
+
+</RelativeLayout>

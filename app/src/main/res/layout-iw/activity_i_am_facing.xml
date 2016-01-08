@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:clickable="true"
+              android:focusable="true"
+              android:orientation="vertical">
+
+    <TextView
+        style="@style/TextAppearance.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_bg_top_bottom_line_shape"
+        android:padding="@dimen/margin_large"
+        android:text="@string/i_am_facing"/>
+
+    <!-- <ListView -->
+    <!-- android:id="@+id/listView" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="match_parent" -->
+    <!-- android:cacheColorHint="#00000000" -->
+    <!-- android:choiceMode="singleChoice" -->
+    <!-- android:divider="#b5b5b5" -->
+    <!-- android:dividerHeight="1dp" -->
+    <!-- android:fadeScrollbars="true" -->
+    <!-- android:fastScrollEnabled="true" -->
+    <!-- android:listSelector="#00000000" -->
+    <!-- android:smoothScrollbar="true" /> -->
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:fadeScrollbars="true"
+        android:fastScrollEnabled="true"
+        android:listSelector="@android:color/transparent">
+    </ListView>
+
+</LinearLayout>

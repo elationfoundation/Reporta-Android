@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/checkin_bg_color"
+              android:clickable="true"
+              android:focusable="true"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lblPrivateCircle"
+        style="@style/TextAppearance.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:background="@drawable/white_bg_top_bottom_line_shape"
+        android:gravity="top|right"
+        android:padding="@dimen/margin_large"
+        android:text="@string/social_circle"/>
+
+    <RelativeLayout
+        android:id="@+id/rltAddCircle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_large"
+        android:background="@drawable/white_bg_top_bottom_line_shape">
+
+        <TextView
+            android:id="@+id/txt"
+            style="@style/TextAppearance.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|right"
+            android:padding="@dimen/margin_large"
+            android:text="@string/connect_to_your_social"/>
+
+        <include
+            android:id="@+id/line1"
+            layout="@layout/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/txt"
+            android:background="@color/line_color"/>
+
+        <CheckBox
+            android:id="@+id/chkFacebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txtFacebook"
+            android:layout_alignParentRight="true"
+            android:button="@drawable/selector_chkbox_circle"
+            android:checked="false"
+            android:gravity="center"
+            android:paddingRight="@dimen/margin_large"
+            android:visibility="visible"/>
+
+        <TextView
+            android:id="@+id/txtFacebook"
+            style="@style/TextAppearance.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line1"
+            android:layout_toLeftOf="@+id/chkFacebook"
+            android:layout_toRightOf="@+id/txtFacebookLogin"
+            android:drawablePadding="@dimen/margin_normal"
+            android:drawableRight="@drawable/facebook"
+            android:gravity="center_vertical|right"
+            android:padding="@dimen/margin_large"
+            android:text="@string/facebook"/>
+
+        <TextView
+            android:id="@+id/txtFacebookLogin"
+            style="@style/TextAppearance.Medium.Inverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txtFacebook"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical|right"
+            android:padding="@dimen/margin_large"
+            android:text="@string/login"/>
+
+        <include
+            android:id="@+id/line2"
+            layout="@layout/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/txtFacebook"
+            android:layout_marginRight="@dimen/margin_large"
+            android:background="@color/line_color"/>
+
+        <CheckBox
+            android:id="@+id/chkTwitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txtTwitter"
+            android:layout_alignParentRight="true"
+            android:button="@drawable/selector_chkbox_circle"
+            android:checked="false"
+            android:gravity="center"
+            android:paddingRight="@dimen/margin_large"
+            android:visibility="visible"/>
+
+        <TextView
+            android:id="@+id/txtTwitter"
+            style="@style/TextAppearance.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line2"
+            android:layout_toLeftOf="@+id/chkTwitter"
+            android:layout_toRightOf="@+id/txtTwitterLogin"
+            android:drawablePadding="@dimen/margin_normal"
+            android:drawableRight="@drawable/twitter"
+            android:gravity="center_vertical|right"
+            android:padding="@dimen/margin_large"
+            android:text="@string/twitter"/>
+
+        <TextView
+            android:id="@+id/txtTwitterLogin"
+            style="@style/TextAppearance.Medium.Inverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txtTwitter"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical|left"
+            android:padding="@dimen/margin_large"
+            android:text="@string/login"/>
+    </RelativeLayout>
+
+</LinearLayout>

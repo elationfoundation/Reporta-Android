@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Reporta</string>
+    <string name="reporta">Reporta</string>
+    <string name="powered_by">Powered by</string>
+    <string name="iwmf">International Women’s Media Foundation</string>
+    <string name="tw_key">none</string>
+    <string name="tw_secret">none</string>
+
+    <!-- select language -->
+
+    <string name="select_your_language">Select your language</string>
+    <string name="lng_english">English</string>
+    <string name="lng_spanish">Español</string>
+    <string name="lng_french">Français</string>
+    <string name="lng_turkish">Türkçe</string>
+    <string name="lng_arabic">العربية</string>
+    <string name="lng_hebrew">עברית</string>
+
+    <!-- select language end -->
+
+
+    <!-- Alert -->
+
+    <string name="alerts">التنبيهات</string>
+    <string name="i_am_facing">أنا أقوم بإبلاغ</string>
+    <string name="describe_situation">وصف موقفك</string>
+    <string name="enter_location">إدخال موقعك</string>
+    <string name="edit">تحرير</string>
+    <string name="private_circle_default">دائرة اتصال خاصة (افتراضي)</string>
+    <string name="private_circle_name">دائرة جهات الاتصال الخاصة</string>
+    <string name="public_circle">دوائر جهات الاتصال العامة</string>
+    <string name="social_circle">دوائر جهات الاتصال الاجتماعية</string>
+    <string name="optional">اختياري</string>
+    <string name="add_photo_video_audio">إضافة صورة أو فيديو أو صوت</string>
+    <string name="send_alert">إرسال تنبيه</string>
+    <string name="saved_circles">دوائر جهات الاتصال المحفوظة</string>
+    <string name="search_contact">بحث</string>
+    <string name="create_a_list">إنشاء دائرة</string>
+    <string name="choose_valid_situation">يُرجى تحديد موقف</string>
+    <string name="enter_valid_description">يُرجى إدخال وصف</string>
+    <string name="enter_valid_contact">يُرجى إدخال جهة اتصال</string>
+    <string name="choose_valid_location">يُرجى تأكيد موقعك</string>
+    <string name="please_describe">يُرجى التوضيح</string>
+    <string name="select_language">تحديد اللغة</string>
+    <string name="info_alerts">التنبيهات\n\nتتيح لك وظيفة التنبيه أن ترسل معلومات عن موقف تواجهه أنت أو صحفي زميل إلى دوائر جهات الاتصال المحددة. يمكنك استخدام قائمة منسدلة تصف الأحداث المحتملة؛ يمكنك أيضًا اختيار إدخال معلومات إضافية. ويجب تحديد موقع \n\nإما باستخدام موقع جغرافي أو إدخاله يدويًا.\n\nيتم إرسال التنبيهات بدون تأخير ومع خيار إضافة ملفات وسائط.\n\nيمكن تخصيص التنبيهات للمشاركة مع دوائر جهات الاتصال المختلفة.</string>
+    <string name="alert_sent_successfully">تم إرسال تنبيهك</string>
+
+    <!-- Alert End -->
+
+
+    <!-- profile -->
+
+    <string name="info_profile">ملف التعريف\n\nيجب أن يقوم جميع مستخدمي Reporta بإنشاء ملف تعريف. يحتوي ملف التعريف الخاص بك على معلومات هامة ضرورية لكي يعمل Reporta حسبما هو مخطط له.\n\nإن المؤسسة الدولية لإعلام المرأة ملتزمة باحترام خصوصيتك كما أن إدارة Reporta تتبع الممارسات والإجراءات الأمنية المقبولة بشكل عام لحماية المعلومات المعرّفة للشخصية التي تقدمها من الوصول والاستخدام والإفصاح غير المصرح به. نحن أيضًا نطلب من مزودي الخدمة المعتمدين لدينا تنفيذ واتباع هذه الممارسات والإجراءات الأمنية. ومع ذلك، انتبه إلى أن عمليات إرسال البيانات عبر الإنترنت لا يمكن أن تكون خاصة أو آمنة بشكل كامل أبدًا.\n\nلمزيد من المعلومات، يرجى مراجعة شروط استخدام وسياسة خصوصية Reporta.</string>
+    <string name="profile">ملف التعريف</string>
+    <string name="signout_head">تسجيل الخروج؟</string>
+    <string name="cancel">إلغاء</string>
+    <string name="signout">تسجيل الخروج</string>
+    <string name="version">الإصدار</string>
+    <string name="enternewpassword">إدخال كلمة المرور الجديدة</string>
+    <string name="enterpassword">إدخال كلمة المرور</string>
+    <string name="invalid_password">كلمة المرور غير صالحة</string>
+    <string name="selectjobtitle">تحديد المسمى الوظيفي</string>
+    <string name="selectcountryorigin">بلد المنشأ</string>
+    <string name="selectcountryworking">البلد محل العمل</string>
+    <string name="invalid_firstname">يُرجى إدخال اسمك الأول</string>
+    <string name="invalid_lastname">يُرجى إدخال اسمك الأخير</string>
+    <string name="invalid_phone">يُرجى إدخال رقم هاتف صالح</string>
+    <string name="password_notmatch">كلمات المرور غير مطابقة</string>
+    <string name="firstname">الاسم الأول</string>
+    <string name="try_again">حاول مرة أخرى</string>
+    <string name="lastname">الاسم الأخير</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="phone">الهاتف</string>
+    <string name="password">كلمة المرور</string>
+    <string name="re_enternewpassword">أعد إدخال كلمة مرور جديدة</string>
+    <string name="re_enterpassword">أعد إدخال كلمة المرور</string>
+    <string name="professional_details">التفاصيل المهنية</string>
+    <string name="job_title">المسمى الوظيفي</string>
+    <string name="affiliation">الانتساب</string>
+    <string name="freelancer">موظف حر</string>
+    <string name="update">تحديث</string>
+    <string name="signoutdialog">هل تريد بالتأكيد تسجيل الخروج؟</string>
+
+    <!-- profile End -->
+
+
+    <!-- create account -->
+
+    <string name="countries">البلدان</string>
+    <string name="create_account_header">إنشاء حساب</string>
+    <string name="prodetails">الخطوة 1: إضافة تفاصيل مهنية </string>
+    <string name="username">اسم المستخدم</string>
+    <string name="re_email">أعد إدخال بريدك</string>
+    <string name="gender">النوع</string>
+    <string name="male">ذكر</string>
+    <string name="female">أنثى</string>
+    <string name="other">غير ذلك</string>
+    <string name="choose">اختيار</string>
+    <string name="select_country">تحديد البلد</string>
+    <string name="passhint">(8 حروف بحد أدنى)</string>
+    <string name="next">التالي</string>
+    <string name="selectlanguage">تحديد اللغة</string>
+    <string name="email_notmatch">عنوان البريد الإلكتروني غير مطابق</string>
+    <string name="createprivatecircle">الخطوة 2: إنشاء دائرة جهات اتصال خاصة</string>
+    <string name="create_a_new_private">إنشاء دائرة جهات اتصال خاصة جديدة</string>
+    <string name="new_circle">دائرة جديدة</string>
+    <string name="ok">موافق</string>
+    <string name="build_this_circle">بناء هذه الدائرة</string>
+    <string name="done">تم</string>
+    <string name="termcondition">الخطوة 4: قبول شروط الاستخدام</string>
+    <string name="agree">الموافقة على شروط الاستخدام</string>
+    <string name="confirmemail">إرسال بريد إلكتروني لتأكيد التسجيل</string>
+    <string name="completeaccount">إتمام إنشاء الحساب</string>
+    <string name="textagree">أوافق</string>
+    <string name="agree_tc">يُرجى قبول شروط الاستخدام</string>
+    <string name="gender_is_required">النوع هو حقل مطلوب</string>
+    <string name="please_make_your">يُرجى تحديد ذكر، أو أنثى، أو غير ذلك</string>
+    <string name="these_contacts_will_be_notified">سيتم إبلاغ جهات الاتصال هذه عندما تقوم بتسجيل الوصول أو عندما ترسل تنبيه أو استغاثة.</string>
+    <string name="please_enter_username">يُرجى إدخال اسم المستخدم الخاص بك</string>
+    <string name="invalid_username">اسم مستخدم غير صالح</string>
+    <string name="enter_valid_email">يُرجى إدخال عنوان بريد إلكتروني صالح</string>
+    <string name="please_select_jobtitle">يُرجى تحديد مسماك الوظيفي</string>
+    <string name="Please_select_country_of_origin">يُرجى تحديد بلد منشأك</string>
+    <string name="Please_select_country_where_working">يُرجى تحديد البلد محل عملك</string>
+
+    <!-- create account End -->
+
+
+    <!-- Login -->
+
+    <string name="forget_password_dialog">هل نسيت كلمة المرور؟</string>
+    <string name="login_screen">تسجيل الدخول</string>
+    <string name="create_account">إنشاء حساب</string>
+    <string name="stay_logged_in">البقاء مسجلاً الدخول</string>
+    <string name="enter_email_reset">أدخل بريدك الإلكتروني لإعادة تعيينها</string>
+    <string name="enteremail">إدخال بريدك الإلكتروني</string>
+
+    <!-- Login end -->
+
+
+    <!-- home -->
+
+    <string name="home_contacts">جهات الاتصال</string>
+    <string name="home_profile">ملف التعريف</string>
+    <string name="home_checkin">تسجيل الوصول</string>
+    <string name="home_alerts">التنبيهات</string>
+    <string name="about_reporta">حول Reporta</string>
+    <string name="pending_media_files">ملفات قيد الانتظار</string>
+    <string name="app_unlocked">أدخل كلمة مرورك ورمز مرور إلغاء قفل التطبيق لإلغاء قفل Reporta</string>
+    <string name="enter_passcode">إدخال رمز المرور</string>
+    <string name="enable">تمكين</string>
+    <string name="upload_later">تحميل لاحقًا</string>
+    <string name="app_locked">تم قفل Reporta وتم إرسال تنبيه.</string>
+    <string name="media_uploads">تحميلات الوسائط</string>
+    <string name="media_uploads_details">لديك ملفات وسائط قيد الانتظار. تحميل الآن؟</string>
+    <string name="upload_now">تحميل الآن</string>
+    <string name="back">السابق</string>
+    <string name="unlock_reporta">إلغاء قفل Reporta</string>
+    <string name="device_not_supported">الجهاز لا يدعم الإشعارات اللحظية.</string>
+    <string name="pushnotification_will_not_work">الجهاز لا يدعم دفع الإخطارات.</string>
+    <string name="internet_connection_unavailable">لا يوجد اتصال بالإنترنت. يُرجى إعادة المحاولة لاحقًا.</string>
+    <string name="try_later">حدث خطأ! يُرجى إعادة المحاولة لاحقًا.</string>
+
+    <!-- home end -->
+
+
+    <!-- checkin -->
+
+    <string name="enter_your_location">إدخال موقعك</string>
+    <string name="choose_options">تحديد الخيارات</string>
+    <string name="checkin_frequency">تكرار تسجيل الوصول</string>
+    <string name="edit_alert_msgs">تحرير الرسائل</string>
+    <string name="start_now">بدء الآن</string>
+    <string name="start_later">بدء لاحقًا</string>
+    <string name="set_end_time">ضبط وقت الانتهاء</string>
+    <string name="check_in">تسجيل الوصول</string>
+    <string name="checkin_freq_header_title">حدد معدل تكرار عملية تسجيل الوصول</string>
+    <string name="every_fifteen_minutes">كل 15 دقيقة</string>
+    <string name="every_thirty_minutes">كل 30 دقيقة</string>
+    <string name="hourly">كل ساعة</string>
+    <string name="every_three_hours">كل 3 ساعات</string>
+    <string name="create_custom">تعيين معدل تكرار مخصص</string>
+    <string name="receive_promts">استلام مطالبات عن طريق</string>
+    <string name="radio_email">البريد الإلكتروني</string>
+    <string name="radio_notification">الإشعارات</string>
+    <string name="radio_sms">رسالة قصيرة</string>
+    <string name="email_message">رسالة البريد الإلكتروني</string>
+    <string name="sms_message">الرسالة القصيرة</string>
+    <string name="social_media_message">رسالة وسائل التواصل الاجتماعي</string>
+    <string name="end_time">وقت الإنهاء</string>
+    <string name="cancel_checkin_message">أدخل كلمة مرورك لإلغاء عملية تسجيل الوصول هذه</string>
+    <string name="your_next_conf">تأكيدك التالي في :\u0020</string>
+    <string name="confirm_now">تأكيد الآن</string>
+    <string name="closenow">إغلاق </string>
+    <string name="hours">ساعات</string>
+    <string name="minute">دقائق</string>
+    <string name="your_checkin">يتم إغلاق عملية تسجيل وصولك خلال 10 دقائق</string>
+    <string name="addmedia">إضافة وسائط</string>
+    <string name="edit_checkin">تحرير عملية تسجيل الوصول</string>
+    <string name="close_checkin">إغلاق عملية تسجيل الوصول</string>
+    <string name="checkin_frequency_title">تكرار تسجيل الوصول</string>
+    <string name="check_start_message">ستبدأ عملية تسجيل وصولك في \u0020</string>
+    <string name="start_time">وقت البدء</string>
+    <string name="info_checkin">تسجيل الوصول\n\nمن خلال وظيفة تسجيل الوصول، يمكنك تقديم معلومات مخصصة عن موقعك الحالي أو المستقبلي، واختيار معدل التكرار الذي تريده لإجراء عملية تسجيل الوصول، وتحديد أي دوائر جهات الاتصال التي تريد إبلاغها.\n\nيمكن ضبط أو تعيين تسجيل الوصول بحيث يبدأ \"\مباشرة الآن\"\ أو في المستقبل.\n\nيجب أن تحدد أيضًا موقعًا ويمكنك القيام بذلك إما باستخدام الموقع الجغرافي أو بإدخال موقعك يدويًا.\n\nيمكنك أيضًا أن تختار إضافة ملفات صورة، أو فيديو، أو صوت لمشاركتها كجزء من رسالة تسجيل الوصول. ويتم إزالة ملفات الوسائط المتعددة هذه من التطبيق بعد الإرسال. ولا يمكن الوصول إلى الملفات من مكتبة الوسائط الموجودة بالجهاز.\n\nيمكنك تحديد معدل تكرار المطالبة بتسجيل الوصول من قائمة، أو تعيين فواصل زمنية مخصصة. يمكنك أيضًا اختيار الكيفية التي تريد بها استلام مطالبات (رسائل قصيرة، أو بريد إلكتروني أو إشعار بالهاتف الذكي).\n\nلإغلاق تسجيل الوصول، يجب أن تدخل كلمة مرور Reporta الخاصة بك.\n\nإذا فاتك تسجيل وصول، فسيتم إرسال تنبيه إلى جميع دوائر جهات الاتصال المحددة، وسيتم قفل التطبيق. سيقوم تطبيق Reporta بإبلاغ جهات الاتصال الخاصة بإلغاء قفل التطبيق برسالة تحتوي على رابط لرمز تحقق مطلوب لإلغاء قفل التطبيق.</string>
+    <string name="your_checkin_now_active">عملية تسجيل وصولك نشطة الآن</string>
+    <string name="checkin_edited_suc">تم تحديث عملية تسجيل الوصول بنجاح</string>
+    <string name="checkin_will_start_at">ستبدأ عملية تسجيل وصولك في </string>
+    <string name="enter_valid_checkin">يُرجى إدخال معدل تكرار صالح لعملية تسجيل الوصول!</string>
+    <string name="enter_valid_endtime">يُرجى إدخال وقت انتهاء صالح لعملية تسجيل الوصول!</string>
+    <string name="please_select_receive_promts">يُرجى تحديد تفضيلات مطالبتك</string>
+    <string name="missed_checkin_set_for">لقد فاتك تأكيد معين لـ %s</string>
+    <string name="checkin_closed">تم إغلاق عملية تسجيل وصولك</string>
+    <string name="cancel_checkin">إلغاء عملية تسجيل الوصول</string>
+    <string name="checkin_close_at">ستغلق عملية تسجيل وصولك في \u0020</string>
+
+    <!-- checkin End -->
+
+
+    <!-- contacts -->
+
+    <string name="please_enable_sos">يُرجى تمكين "استغاثة"</string>
+    <string name="add_atleast_one_contact">يُرجى تحديد جهة اتصال واحدة على الأقل.</string>
+    <string name="add_from_addressbook">إضافة من دفتر العناوين</string>
+    <string name="no_contacts_found">لا توجد جهات اتصال</string>
+    <string name="add_manually">إضافة يدويًا</string>
+    <string name="all_circle">كل دوائر جهات الاتصال</string>
+    <string name="all_contacts">كل جهات الاتصال</string>
+    <string name="my_contacts">جهات اتصالي</string>
+    <string name="save">حفظ</string>
+    <string name="add_email">إضافة بريد إلكتروني</string>
+    <string name="add_phone">إضافة هاتف</string>
+    <string name="allows_contact_to_help">تمكين إلغاء قفل التطبيق يسمح لجهات الاتصال هذه بمساعدتك في إلغاء قفل Reporta بعد التنبيه بقفل التطبيق.</string>
+    <string name="contact_is_part_of">جهة الاتصال جزء من:</string>
+    <string name="connect_to_your_social">اتصال بوسائل التواصل الاجتماعي</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="enable_friend_unlock">تمكين إلغاء القفل</string>
+    <string name="disable_friend_unlock">تعطيل إلغاء القفل</string>
+    <string name="pending_friend_unlock">جهة اتصال إلغاء القفل مؤجلة</string>
+    <string name="private_">خاص</string>
+    <string name="public_">عام</string>
+    <string name="about_friend_unlock_title">حول إلغاء قفل التطبيق</string>
+    <string name="first_name_mandatory">الاسم الأول إلزامي</string>
+    <string name="last_name_mandatory">الاسم الأخير إلزامي</string>
+    <string name="please_enter_phone">يُرجى إدخال رقم هاتف واحد على الأقل!</string>
+    <string name="please_enter_email">يُرجى إدخال عنوان بريد إلكتروني واحد على الأقل!</string>
+    <string name="please_select_partof_circle">يُرجى تحديد دائرة</string>
+    <string name="you_must_select">يجب أن تمكن جهة اتصال واحدة على الأقل في دائرة جهات الاتصال الخاصة باستخدام حالة إلغاء قفل التطبيق من أجل إكمال الإعداد.</string>
+    <string name="contact_list_name">اسم دائرة جهات الاتصال</string>
+    <string name="info_contacts">دوائر جهات الاتصال\n\nيتمثل المحور الأساسي لتطبيق Reporta في القدرة على الاتصال بالأشخاص الذين يهتمون بأمنك وسلامتك. يمكنك تصنيف جهات اتصالك إلى ثلاث دوائر جهات اتصال مميزة.\n\nدائرة جهات الاتصال الخاصة\nتتمثل دائرة جهات اتصالك الخاصة في مجموعة جهات الاتصال الأقرب إليك والذين سيتصرفون نيابة عنك إذا اقتضت الضرورة ذلك. لا يوجد قيد أو حد على عدد جهات الاتصال التي تحددها في هذه المجموعة، ولكن جهات الاتصال هذه عادة ما تكون من أقرب رفاقك، أو أفراد العائلة أو الزملاء، مثل محررك أو شريكك أو أخوك.\n\nإذا كنت تضيف أفرادًا إلى هذه الدائرة، يجب أن تزودهم بإرشادات، ويفضل أن تكون مكتوبة، حول ما ينبغي القيام به إذا وصلهم تنبيه بواسطة Reporta. وبالتأكيد أنت تريد لجهات الاتصال هذه أن تعرف ما ينبغي القيام به إذا حدث وقمت بتفويت عملية تسجيل وصول، أو أرسلت تنبيهًا، أو قمت بتنشيط استغاثة.\n\nلاستخدام Reporta، يجب أن تحدد جهة اتصال واحدة على الأقل في دائرة جهات اتصالك الخاصة لاستخدامها كجهة الاتصال لإلغاء قفل التطبيق. سوف تستلم جهات الاتصال الخاصة بإلغاء قفل التطبيق رابطًا لرمز تحقق مطلوب لإلغاء قفل التطبيق في حالة ما إذا قمت بتفويت تسجيل الوصول أو أصدرت استغاثة. ويمكنك إضافة أي عدد تريده من جهات اتصال إلغاء قفل التطبيق، ولكن يجب تضمين جهة اتصال محددة لإلغاء قفل التطبيق في دائرة جهات اتصالك الخاصة.\n\nفبمجرد قفل التطبيق، لن تتمكن من الوصول إلى التطبيق على هاتفك ما لم تحصل على رمز إلغاء قفل التطبيق. ولا توجد طريقة أخرى لإلغاء قفل التطبيق.\n\nيمكنك إنشاء أكثر من دائرة جهات اتصال خاصة، ولكن واحدة منها فقط يمكن أن تكون نشطة في أي وقت محدد. يمكنك اختيار إنشاء دوائر جهات اتصال مختلفة بناءً على الخبر الذي تغطيه أو المكان الذي تعمل فيه.\n\nوللتسهيل عليك، سوف يسألك Reporta إذا ما كنت تريد تحديث دوائرك عندما تسافر 100 ميل أو أكثر من آخر مكان استخدمت فيه التطبيق.\n\nدائرة جهات الاتصال العامة\nتتمثل دائرة جهات اتصالك العامة في مجموعة من الأفراد أو المنظمات التي يمكن أن تكون مهتمة بأمنك. ويمكن أن تتضمن تلك الجهات الجمعيات الصحفية، والاتحادات أو المؤسسات الإعلامية. يمكنك إنشاء أكثر من دائرة جهات اتصال عامة، ولكن واحدة منها فقط يمكن أن تكون نشطة في أي وقت محدد. ولكن إنشاء دائرة جهات اتصال عامة ليس من متطلبات استخدام Reporta.\n\nدائرة جهات الاتصال الاجتماعية\nيمكنك توصيل تطبيق الخاص بك بحسابيك على كل من فيسبوك وتويتر. لاحظ أن أي شيء تنشره على وسائل التواصل الاجتماعي من خلال تطبيق Reporta يمكن للآخرين الاطلاع عليه.</string>
+    <string name="your_private">دوائر جهات الاتصال الخاصة سوف تتسلم رسالة عندما يفوتك عملية تسجيل الدخول، أو ترسل تنبيه، أو ترسل رسالة استغاثة.</string>
+    <string name="your_public">تتمثل دائرة جهات اتصالك العامة في مجموعة من الأفراد أو المنظمات التي يمكن أن تكون مهتمة بأمنك. ويمكن أن تتضمن تلك الجهات الجمعيات الصحفية، والاتحادات أو المؤسسات الإعلامية.</string>
+    <string name="private_circle">دوائر جهات الاتصال الخاصة</string>
+    <string name="no_saved_private_circle">لا توجد لديك دوائر جهات اتصال خاصة محفوظة</string>
+    <string name="no_saved_pulic_circle">ليس لديك أية إعدادات جهاز عامة محفوظة</string>
+    <string name="delete_contact_msg">هل تريد بالتأكيد حذف جهة الاتصال هذه؟</string>
+    <string name="delete_circle_msg">هل تريد بالتأكيد حذف جهة الاتصال هذه؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="create_a_new_public">إنشاء دائرة جهات اتصال عامة جديدة</string>
+    <string name="are_you_sure">هل تريد بالتأكيد تسجيل الخروج؟</string>
+    <string name="please_select_private">حدد أو أنشئ دائرة جهات اتصال خاصة جديدة لتغيير إعداداتك الافتراضية.</string>
+    <string name="please_select_public">حدد أو أنشئ دائرة جهات اتصال عامة جديدة لتغيير إعداداتك الافتراضية.</string>
+    <string name="do_you_want_update_public">هل تريد تطبيق هذا التحديث على دائرة جهات اتصالك العامة؟</string>
+    <string name="do_you_want_update_private">هل تريد تطبيق هذا التحديث على دائرة جهات اتصالك العامة؟</string>
+    <string name="this_circle_has_no_contact"> - لا يمكنك إنشاء دائرة بدون وجود جهات اتصال. يُرجى إضافة جهة اتصال واحدة على الأقل الآن.</string>
+
+    <!-- contacts End -->
+
+
+    <!-- Pick Location Screen -->
+    <string name="drag_pin">اضغط على الدبوس واسحبه لتحديد موقع على الخريطة أو اختر من بين المواقع المدرجة أدناه.</string>
+    <string name="enter_loc_manually">إدخال الموقع يدويًا</string>
+    <string name="no_loc_found">لم يتم العثور على موقع</string>
+    <string name="dist_mi" tools:ignore="StringFormatInvalid">على بعد d% ميل</string>
+    <string name="dist_ft" tools:ignore="StringFormatInvalid">على بعد d% قدم</string>
+    <string name="gps_disable_msg">يُرجى تمكين GPS على هاتفك</string>
+    <string name="location_disable_msg">الانتقال إلى الإعدادات وتمكين خدمات الموقع</string>
+    <string name="loc_not_found">لم يتم العثور على الموقع</string>
+
+    <!-- social circles -->
+
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="add">إضافة</string>
+    <string name="remove">إزالة</string>
+
+    <!-- social circles end -->
+
+
+    <!-- Pending Media File Screen -->
+
+    <string name="txt_pending_media">لديك ملفات وسائط قيد الانتظار</string>
+    <string name="txt_media_file">ملف وسائط</string>
+    <string name="txt_media_resend_delete">الصحافة طويلا لإعادة إرسال أو حذف سائل الإعلام ملف</string>
+    <string name="select_action">تحديد الإجراء</string>
+    <string name="menu_resend">إعادة الإرسال</string>
+    <string name="menu_delete">الحذف</string>
+    <string name="no_records_found">لا توجد سجلات</string>
+    <string name="retry_within_7_days">ستتم محاولة التحميل لمدة 7 أيام.</string>
+    <string name="media_upload_success">تم تحميل ملفات الوسائط بنجاح</string>
+    <string name="media_upload_fail">خطأ في تحميل الوسائط. يُرجى إعادة المحاولة.</string>
+    <string name="media_uploading_running">يتم تحميل الوسائط. تحقق مرة أخرى لاحقًا.</string>
+    <string name="password_hint"><b>حول كلمة مرور Reporta الخاصة بك</b>\n\nكلمة المرور الخاصة بك لا ينبغي أن تحتوي على أي معلومات شخصية أو كلمات شائعة، مثل تلك الموجودة في مسرد ما أو اسم المستخدم الخاص بك. يجب أن تحتوي كلمة المرور على 8 أحرف على الأقل بالإضافة إلى:\n\n●  حرف واحد كبير على الأقل\n●  رقم واحد على الأقل\n●  على الأقل حرف واحد خاص\n\nانتبه إلى أن Reporta سيقفل لمدة 24 ساعة بعد ست محاولات فاشلة لتسجيل الدخول. ستحتاج إلى الانتظار 24 ساعة لمحاولة تسجيل الدخول مرة أخرى.</string>
+
+    <string name="a_private_circle"><b>دائرة جهات اتصال خاصة مطلوبة!</b>\n\nدائرة جهات الاتصال الخاصة تمثل دائرة جهات اتصالك الخاصة في مجموعة جهات الاتصال الأقرب إليك والذين سيتصرفون نيابة عنك إذا اقتضت الضرورة ذلك. لا يوجد قيد أو حد على عدد جهات الاتصال التي تحددها في هذه المجموعة، ولكن جهات الاتصال هذه عادة ما تكون من أقرب رفاقك، أو أفراد العائلة أو الزملاء، مثل محررك أو شريكك أو أخوك.</string>
+
+    <string name="please_try_again">يُرجى إعادة المحاولة.</string>
+    <string name="password_invalid">يجب أن تتضمن كلمة المرور الخاصة بك: \n\n■        8 أحرف على الأقل\n■  حرف واحد كبير على الأقل\n■  رقم واحد على الأقل\n■  حرف واحد خاص على الأقل  </string>
+
+    <string name="enableapplock">الخطوة 3: تمكين إلغاء قفل التطبيق</string>
+
+    <string name="youmustenableapplock"><b>يجب تمكين إلغاء قفل التطبيق!</b>\n\nلاستخدام Reporta، يجب أن تحدد جهة اتصال واحدة على الأقل في دائرة جهات اتصالك الخاصة لاستخدامها كجهة الاتصال لإلغاء قفل التطبيق. سوف تستلم جهات الاتصال الخاصة بإلغاء قفل التطبيق رابطًا لرمز تحقق مطلوب لإلغاء قفل التطبيق في حالة ما إذا قمت بتفويت عملية تسجيل الوصول أو أصدرت استغاثة. ويمكنك إضافة أي عدد تريده من جهات اتصال إلغاء قفل التطبيق، ولكن يجب تضمين جهة اتصال محددة لإلغاء قفل التطبيق في دائرة جهات اتصالك الخاصة. لتمكين إلغاء قفل التطبيق، اضغط رمز القفل في ملف تعريف جهة الاتصال لديك؛ سيتحول القفل إلى لون أحمر مستمر عندما تقبل جهة الاتصال هذا الدور.</string>
+
+    <string name="see_termsofuse">انظر شروط الاستخدام</string>
+    <string name="termsofuse"><b>شروط استخدام Reporta™ </b>\n\nباستخدام Reporta، فأنت توافق على الموافقة والتطابق مع اتفاقية شروط الاستخدام والتي تحكم استخدام Reporta. يمكن للمؤسسة الدولية لإعلام المرأة  (IWMF)تعديل اتفاقية شروط الاستخدام وسياسة الاستخدام المتضمنة هنا في أي وقت بواسطة نشر الشروط  المُعدلة. أنت أيضًا توافق على الالتزام بتلك التغييرات من خلال موافقتك على اتفاقية شروط الاستخدام. لن يعمل حتى توافق على اتفاقية شروط الاستخدام من خلال الفيلم أدناه.</string>
+
+    <string name="confirmmyreg">تأكيد التسجيل الخاص بتوصيل بواسطة البريد الإلكتروني.</string>
+    <string name="sendmeupdate"> أرسل تحديثات حول Reporta</string>
+
+    <string name="contactadded">تم إضافة جهة الاتصال</string>
+    <string name="addanother">إضافة آخر؟</string>
+
+    <string name="accept">قبول</string>
+
+    <string name="duplicate_name">هذا الاسم مستخدم بالفعل. يرجى تحديد اسم آخر.</string>
+    <string name="duplicate_email">هذا البريد الإلكتروني مستخدم بالفعل. يرجى تحديد بريد إلكتروني آخر.</string>
+    <string name="duplicate_number">رقم الهاتف هذا مستخدم بالفعل. يرجى تحديد رقم هاتف آخر.</string>
+
+    <string name="invite">دعوة</string>
+    <string name="invited">مدعو</string>
+
+    <string name="add_associate_circle">يرجى تحديد دائرة واحدة على الأقل لجهة الاتصال هذه.</string>
+
+    <string name="addnow">إضافة الآن</string>
+    <string name="confirm_checkin_10min">تأكيد تسجيل وصولك خلال 10 دقائق</string>
+    <string name="confirm_checkin_now">تأكيد تسجيل وصولك خلال 2 دقائق أو سيتم إرسال تنبيه.</string>
+    <string name="save_checkin_changes_msg">هل تريد حفظ التغييرات؟ </string>
+    <string name="add_from_reporta_contacts">إضافة جهات اتصال Reporta</string>
+    <string name="facebook_app_id">none</string>
+    <string name="delete_this_contact">حذف جهة الاتصال ستلغي هذه الدائرة.</string>
+    <string name="delete_now">حذف الان</string>
+    <string name="gapi">none</string>
+    <string name="fabricapikey">none</string>
+    <string name="change_password">تحديث كلمة المرور</string>
+    <string name="current_password">كلمة السر الحالية</string>
+    <string name="new_password">كلمة المرور الجديدة</string>
+    <string name="confirm_password">تأكيد كلمة السر</string>
+    <string name="rooting_detected_msg">Reporta cannot run on a rooted device.</string>
+    <string name="rooting_detected_title">Rooting Detected</string>
+    <string name="legal">Legal</string>
+    <string name="plus">+</string>
+
+</resources>

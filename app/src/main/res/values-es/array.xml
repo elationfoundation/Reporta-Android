@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="Language">
+        <item>العربية</item>
+        <item>English</item>
+        <item>Français</item>
+        <item>עברית</item>
+        <item>Español</item>
+        <item>Türkçe</item>
+    </array>
+    <array name="JobTitle">
+        <item>Cámara / Persona Sonido</item>
+        <item>Editor</item>
+        <item>Periodista / Reportero</item>
+        <item>Trabajador de Soporte de Medios</item>
+        <item>Fotógrafo</item>
+        <item>Presentador</item>
+        <item>Productor</item>
+        <item>Otro</item>
+    </array>
+    <array name="imfacing">
+        <item>Una alerta en nombre de un colega</item>
+        <item>Ataque con una arma de fuego</item>
+        <item>Ataque con un cuchillo</item>
+        <item>Ataque con otro objeto</item>
+        <item>Amenazas de muerte</item>
+        <item>Detención</item>
+        <item>Secuestro/abducción</item>
+        <item>Violencia física (golpe, empujón)</item>
+        <item>Violencia sexual/acoso</item>
+        <item>Amenaza de secuestro/abducción</item>
+        <item>Amenaza de ataque con arma</item>
+        <item>Otro</item>
+    </array>
+
+</resources>

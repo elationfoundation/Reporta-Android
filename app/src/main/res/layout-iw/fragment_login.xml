@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/bg"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_largest"/>
+
+    <include
+        layout="@layout/iwmf_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:layout_marginTop="@dimen/margin_largest"/>
+
+    <LinearLayout
+        android:id="@+id/lnrEditview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginRight="@dimen/margin_large"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!-- <include layout="@layout/iwmf_logo" /> -->
+
+        <EditText
+            android:id="@+id/edtUsername"
+            style="@style/TextAppearance.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white_semi_transparent"
+            android:gravity="center"
+            android:hint="@string/username"
+            android:imeOptions="actionNext"
+            android:maxLength="25"
+            android:padding="@dimen/margin_normal"
+            android:singleLine="true"
+            android:textColorHint="#303030">
+
+            <requestFocus/>
+        </EditText>
+
+        <EditText
+            android:id="@+id/edtPassword"
+            style="@style/TextAppearance.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:background="@color/white_semi_transparent"
+            android:gravity="center"
+            android:hint="@string/password"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:maxLength="25"
+            android:padding="@dimen/margin_normal"
+            android:singleLine="true"
+            android:textColorHint="#303030">
+        </EditText>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:gravity="bottom">
+
+        <TextView
+            android:id="@+id/txtForgetPass"
+            style="@style/TextAppearance.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnLogin"
+            android:layout_marginBottom="@dimen/margin_largest"
+            android:gravity="center"
+            android:text="@string/forget_password_dialog"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            style="@style/TextAppearance.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/chkStayLoggedin"
+            android:layout_marginBottom="@dimen/margin_largest"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_large"
+            android:background="@color/orange_color"
+            android:text="@string/login_screen"
+            android:textColor="@android:color/white"/>
+
+        <CheckBox
+            android:id="@+id/chkStayLoggedin"
+            style="@style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txtCreateAcount"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/margin_normal"
+            android:button="@null"
+            android:drawablePadding="@dimen/login_checkbox_padding"
+            android:drawableRight="@drawable/theme_checkbox"
+            android:padding="@dimen/margin_normal"
+            android:text="@string/stay_logged_in"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/txtCreateAcount"
+            style="@style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:padding="@dimen/margin_normal"
+            android:text="@string/create_account"
+            android:textColor="@android:color/white"/>
+    </RelativeLayout>
+
+</RelativeLayout>

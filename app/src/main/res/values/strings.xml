@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="facebook_app_id" tools:ignore="MissingTranslation">none</string>
+    <string name="fabricapikey" tools:ignore="MissingTranslation">none</string>
+    <string name="gapi" tools:ignore="MissingTranslation">none</string>
+    <string name="tw_key" tools:ignore="MissingTranslation">none</string>
+    <string name="tw_secret" tools:ignore="MissingTranslation">none</string>
+
+
+    <string name="app_name" tools:ignore="MissingTranslation">Reporta</string>
+    <string name="reporta" tools:ignore="MissingTranslation">Reporta</string>
+    <string name="powered_by" tools:ignore="MissingTranslation">Powered by</string>
+    <string name="iwmf" tools:ignore="MissingTranslation">International Women’s Media Foundation</string>
+
+    <!-- select language -->
+
+    <string name="select_your_language" tools:ignore="MissingTranslation">Select your language</string>
+    <string name="lng_english" tools:ignore="MissingTranslation">English</string>
+    <string name="lng_spanish" tools:ignore="MissingTranslation">Español</string>
+    <string name="lng_french" tools:ignore="MissingTranslation">Français</string>
+    <string name="lng_turkish" tools:ignore="MissingTranslation">Türkçe</string>
+    <string name="lng_arabic" tools:ignore="MissingTranslation">العربية</string>
+    <string name="lng_hebrew" tools:ignore="MissingTranslation">עברית</string>
+
+    <!-- select language end -->
+
+
+    <!-- Alert -->
+
+    <string name="plus" tools:ignore="MissingTranslation">+</string>
+    <string name="alerts" tools:ignore="MissingTranslation">Alerts</string>
+    <string name="i_am_facing" tools:ignore="MissingTranslation">I am reporting</string>
+    <string name="describe_situation" tools:ignore="MissingTranslation">Describe your situation</string>
+    <string name="enter_location" tools:ignore="MissingTranslation">Enter your location</string>
+    <string name="edit" tools:ignore="MissingTranslation">Edit</string>
+    <string name="private_circle_default" tools:ignore="MissingTranslation">Private Circle (default)</string>
+    <string name="private_circle_name" tools:ignore="MissingTranslation">Private Circle</string>
+    <string name="public_circle" tools:ignore="MissingTranslation">Public Circles</string>
+    <string name="social_circle" tools:ignore="MissingTranslation">Social Circles</string>
+    <string name="optional" tools:ignore="MissingTranslation">Optional</string>
+    <string name="add_photo_video_audio" tools:ignore="MissingTranslation">Add photo, video, or audio</string>
+    <string name="send_alert" tools:ignore="MissingTranslation">Send Alert</string>
+    <string name="saved_circles" tools:ignore="MissingTranslation">Saved Circles</string>
+    <string name="search_contact" tools:ignore="MissingTranslation">Search</string>
+    <string name="create_a_list" tools:ignore="MissingTranslation">Create a Circle</string>
+    <string name="choose_valid_situation" tools:ignore="MissingTranslation">Please Select a Situation</string>
+    <string name="enter_valid_description" tools:ignore="MissingTranslation">Please Enter a Description</string>
+    <string name="enter_valid_contact" tools:ignore="MissingTranslation">Please Enter a Contact</string>
+    <string name="choose_valid_location" tools:ignore="MissingTranslation">Please Confirm Your Location</string>
+    <string name="please_describe" tools:ignore="MissingTranslation">Please describe</string>
+    <string name="select_language" tools:ignore="MissingTranslation">Select language</string>
+    <string name="info_alerts" tools:ignore="MissingTranslation">ALERTS\n\nThe Alert function allows you to send information about a situation you or a fellow journalist is facing to designated contact Circles. You may use a drop down menu describing possible incidents; you may also choose to enter additional information. A location must be selected either using geolocation or entered manually.\n\nAlerts are sent without delay and with the option to add media files.\n\nAlerts can be customized to share with different Circles.</string>
+    <string name="alert_sent_successfully" tools:ignore="MissingTranslation">Your Alert Was Sent</string>
+
+    <!-- Alert End -->
+
+
+    <!-- profile -->
+
+    <string name="info_profile" tools:ignore="MissingTranslation">PROFILE\n\nAll users of Reporta must create a profile. Your profile contains important information that is necessary to make Reporta work as intended.\n\nIWMF is committed to respecting your privacy and the management of Reporta follows generally accepted security practices and procedures to protect the Personally Identifiable Information you provide from unauthorized access, use and disclosure. We require our authorized service providers to implement and maintain such security practices and procedures as well. Nevertheless, be aware that Internet transmissions are never completely private or secure.\n\nFor more information, please review Reporta\'s Terms of Use and Privacy Policy.</string>
+    <string name="profile" tools:ignore="MissingTranslation">Profile</string>
+    <string name="signout_head" tools:ignore="MissingTranslation">Sign out?</string>
+    <string name="cancel" tools:ignore="MissingTranslation">Cancel</string>
+    <string name="signout" tools:ignore="MissingTranslation">Sign out</string>
+    <string name="version" tools:ignore="MissingTranslation">Version</string>
+    <string name="legal" tools:ignore="MissingTranslation">Legal</string>
+    <string name="enternewpassword" tools:ignore="MissingTranslation">Enter new password</string>
+    <string name="enterpassword" tools:ignore="MissingTranslation">Enter password</string>
+    <string name="invalid_password" tools:ignore="MissingTranslation">Invalid Password</string>
+    <string name="selectjobtitle" tools:ignore="MissingTranslation">Select job title</string>
+    <string name="selectcountryorigin" tools:ignore="MissingTranslation">Country of origin</string>
+    <string name="selectcountryworking" tools:ignore="MissingTranslation">Country where working</string>
+    <string name="invalid_firstname" tools:ignore="MissingTranslation">Please Enter Your First Name</string>
+    <string name="invalid_lastname" tools:ignore="MissingTranslation">Please Enter Your Last Name</string>
+    <string name="invalid_phone" tools:ignore="MissingTranslation">Please Enter a Valid Phone Number</string>
+    <string name="password_notmatch" tools:ignore="MissingTranslation">Passwords Don\'t Match</string>
+    <string name="firstname" tools:ignore="MissingTranslation">First name</string>
+    <string name="try_again" tools:ignore="MissingTranslation">Try Again</string>
+    <string name="lastname" tools:ignore="MissingTranslation">Last name</string>
+    <string name="email" tools:ignore="MissingTranslation">Email</string>
+    <string name="phone" tools:ignore="MissingTranslation">Phone</string>
+    <string name="password" tools:ignore="MissingTranslation">Password</string>
+    <string name="change_password" tools:ignore="MissingTranslation">Update Password</string>
+    <string name="re_enternewpassword" tools:ignore="MissingTranslation">Re-enter new password</string>
+    <string name="re_enterpassword" tools:ignore="MissingTranslation">Re-enter password</string>
+    <string name="professional_details" tools:ignore="MissingTranslation">Professional details</string>
+    <string name="job_title" tools:ignore="MissingTranslation">Job title</string>
+    <string name="affiliation" tools:ignore="MissingTranslation">Affiliation</string>
+    <string name="freelancer" tools:ignore="MissingTranslation">Freelancer</string>
+    <string name="update" tools:ignore="MissingTranslation">Update</string>
+    <string name="signoutdialog" tools:ignore="MissingTranslation">Are you sure you want to sign out?</string>
+
+    <!-- profile End -->
+
+
+    <!-- create account -->
+
+
+    <!-- <string name="info_create_account">The following information outlines how to use Reporta as part of your personal security protocols. A security protocol is your plan to stay safe.\n\nReporta is not a replacement for security training or an emergency relief service. However, by facilitating immediate Check-in, Alert and SOS messages to your customized contact Circles, the app provides critical information to those who could act on your behalf if needed.\n\nCIRCLES\n\nThe heart of Reporta is the ability to contact the people who care about your safety. You can categorize your contacts into three distinct Circles.\n\nPRIVATE CIRCLE\nYour Private Circle is the group of contacts with whom you are closest and those who will take action on your behalf if needed. There is no limit to the number of contacts you designate in this group, but these contacts are usually your closest associates, family members or colleagues, such as your editor, partner or a sibling.\n\nIf you are adding individuals to this Circle, you should provide them with instructions, preferably written, about what to do if alerted by Reporta. You will want these contacts to know what to do if you have missed a Check-in, sent an Alert, or activated an SOS.\n\nTo use Reporta, you must designate at least one contact in your Private Circle to serve as your App-Unlock contact. App-Unlock contacts will receive a link to a verification code required to unlock the app if you miss a Check-in or issue an SOS. You may add as many App-Unlock contacts as you wish, but a designated App-Unlock contact must be included in your Private Circle.\n\nOnce locked, you will not be able to access the app on your phone until you have the App-Unlock code. There is no other way to unlock the app.\n\nYou may create more than one Private Circle, but only one Private Circle can be active at any given time. You may choose to create different Private Circles based on the story you are covering or where you are working.\n\nFor you convenience, Reporta will ask you if you want to update your Circles when you travel 100 miles or more from the last place you used the app.\n\nPUBLIC CIRCLE\nYour Public Circle is a group of individuals or organizations that may be interested in your security. This may include journalism associations, unions or media organizations. You may create more than one Public Circle, but only one Public Circle can be active at any given time. Creating a Public Circle is not required to use Reporta.\n\nSOCIAL CIRCLE\nYou can connect Reporta to your Facebook and Twitter accounts. Note that anything you post to social media through Reporta can be seen by others.\n\nFAMILIARIZE YOURSELF WITH THE THREE KEY FUNCTIONS\n\nCHECK-IN\nThrough the Check-in function you can provide customized information about your current or future location, select how often you want to Check-in, and designate which contact Circles to notify.\n\nYou can set a Check-in to begin “right now” or in the future.\n\nYou must also select a location and can do so either by using geolocation or by entering your location manually.\n\nYou may also choose to add photo, video or audio files to share as part of the Check-in message. These multimedia files are removed from the app after transmission. Files cannot be accessed from the device’s underlying media library.\n\nYou can select Check-in prompt frequency from a list or set custom intervals. You can also choose how you wish to receive prompts (SMS, email or smartphone notification).\n\nTo close a Check-in, you must enter your Reporta password.\n\nIf you miss a Check-in, an alert will be sent to all selected Circles, and the app will lock. Reporta will notify your App-Unlock contacts with a message containing a link to a verification code required to unlock the app.\n\nALERTS\nThe Alert function allows you to send information about a situation you or a fellow journalist is facing to designated contact Circles. You may use a drop down menu describing possible incidents; you may also choose to enter additional information. A location must be selected either using geolocation or entered manually.\n\nAlerts are sent without delay and with the option to add media files.\n\nAlerts can be customized to share with different Circles.\n\nSOS\nThe SOS feature is visible on every page of Reporta. If you press and hold the SOS button for three seconds, an SOS will be sent only to your Private Circle.\n\nActivating the SOS feature locks Reporta. Once locked, it can only be unlocked with a verification process implemented between you and your designated App-Unlock contacts. It is critical that you and your App-Unlock contacts discuss what to do in the event they receive an SOS message.</string> -->
+    <string name="countries" tools:ignore="MissingTranslation">Countries</string>
+    <string name="create_account_header" tools:ignore="MissingTranslation">Create account</string>
+    <string name="prodetails" tools:ignore="MissingTranslation">Step 1: Add Professional Details</string>
+    <string name="username" tools:ignore="MissingTranslation">Username</string>
+    <string name="re_email" tools:ignore="MissingTranslation">Re-enter email</string>
+    <string name="gender" tools:ignore="MissingTranslation">Gender</string>
+    <string name="male" tools:ignore="MissingTranslation">Male</string>
+    <string name="female" tools:ignore="MissingTranslation">Female</string>
+    <string name="other" tools:ignore="MissingTranslation">Other</string>
+    <!-- <string name="please_desc_your_gender">Please describe your Gender</string> -->
+    <string name="choose" tools:ignore="MissingTranslation">Choose</string>
+    <string name="select_country" tools:ignore="MissingTranslation">Select country</string>
+    <string name="passhint" tools:ignore="MissingTranslation">(Minimum 8 characters)</string>
+    <string name="next" tools:ignore="MissingTranslation">Next</string>
+    <string name="selectlanguage" tools:ignore="MissingTranslation">Select language</string>
+    <string name="email_notmatch" tools:ignore="MissingTranslation">Email Address Does Not Match</string>
+    <string name="createprivatecircle" tools:ignore="MissingTranslation">Step 2: Create a Private Circle</string>
+    <string name="create_a_new_private" tools:ignore="MissingTranslation">Create a new Private Circle</string>
+    <string name="new_circle" tools:ignore="MissingTranslation">New Circle</string>
+    <string name="ok" tools:ignore="MissingTranslation">OK</string>
+    <string name="build_this_circle" tools:ignore="MissingTranslation">Build this Circle</string>
+    <string name="done" tools:ignore="MissingTranslation">Done</string>
+    <string name="termcondition" tools:ignore="MissingTranslation">Step 4: Accept Terms of Use</string>
+    <string name="agree" tools:ignore="MissingTranslation">Agree to <b>Terms of Use</b></string>
+    <string name="confirmemail" tools:ignore="MissingTranslation">Send registration confirmation email</string>
+    <string name="completeaccount" tools:ignore="MissingTranslation">Complete account creation</string>
+    <string name="textagree" tools:ignore="MissingTranslation">Agree</string>
+    <!-- <string name="agree_tc_sendmail">Please accept <b>Terms and Conditions</b> and send registration confirmation email</string> -->
+    <string name="agree_tc" tools:ignore="MissingTranslation">Please Accept the <b>Terms of Use</b></string>
+    <!-- <string name="agree_sendmail">Please Accept Send registration confirmation email</string> -->
+    <string name="gender_is_required" tools:ignore="MissingTranslation">Gender Is a Required Field</string>
+    <string name="please_make_your" tools:ignore="MissingTranslation">Please Select Male, Female, or Other</string>
+    <string name="these_contacts_will_be_notified" tools:ignore="MissingTranslation">These contacts will be notified when you Check-in or when you send an Alert or SOS.</string>
+    <string name="please_enter_username" tools:ignore="MissingTranslation">Please Enter Your Username</string>
+    <string name="invalid_username" tools:ignore="MissingTranslation">Invalid Username</string>
+    <string name="enter_valid_email" tools:ignore="MissingTranslation">Please enter valid Email</string>
+    <string name="please_select_jobtitle" tools:ignore="MissingTranslation">Please Select Your Job Title</string>
+    <string name="Please_select_country_of_origin" tools:ignore="MissingTranslation">Please Select Your Country of Origin</string>
+    <string name="Please_select_country_where_working" tools:ignore="MissingTranslation">Please Select the Country Where You Are Working</string>
+
+    <!-- create account End -->
+
+
+    <!-- Login -->
+
+    <string name="forget_password_dialog" tools:ignore="MissingTranslation">Forgot your password?</string>
+    <string name="login_screen" tools:ignore="MissingTranslation">Log in</string>
+    <string name="create_account" tools:ignore="MissingTranslation">Create an account</string>
+    <string name="stay_logged_in" tools:ignore="MissingTranslation">Stay logged in</string>
+    <string name="enter_email_reset" tools:ignore="MissingTranslation">Enter Your Email to Reset It</string>
+    <string name="enteremail" tools:ignore="MissingTranslation">Enter your email</string>
+
+    <!-- Login end -->
+
+
+    <!-- home -->
+
+    <string name="home_contacts" tools:ignore="MissingTranslation">Contacts</string>
+    <string name="home_profile" tools:ignore="MissingTranslation">Profile</string>
+    <string name="home_checkin" tools:ignore="MissingTranslation">Check-in</string>
+    <string name="home_alerts" tools:ignore="MissingTranslation">Alerts</string>
+    <string name="about_reporta" tools:ignore="MissingTranslation">About Reporta</string>
+    <string name="pending_media_files" tools:ignore="MissingTranslation">Pending Files</string>
+    <string name="app_unlocked" tools:ignore="MissingTranslation">Enter Your Password and App-Unlock Passcode to Unlock Reporta</string>
+    <string name="enter_passcode" tools:ignore="MissingTranslation">Enter passcode</string>
+    <string name="enable" tools:ignore="MissingTranslation">Enable</string>
+    <string name="upload_later" tools:ignore="MissingTranslation">Upload later</string>
+    <string name="app_locked" tools:ignore="MissingTranslation">Reporta has been locked and an alert has been sent.</string>
+    <string name="media_uploads" tools:ignore="MissingTranslation">Media uploads</string>
+    <string name="media_uploads_details" tools:ignore="MissingTranslation">You have pending media files. Upload now?</string>
+    <string name="upload_now" tools:ignore="MissingTranslation">Upload now</string>
+    <string name="back" tools:ignore="MissingTranslation">Back</string>
+    <string name="unlock_reporta" tools:ignore="MissingTranslation">Unlock Reporta</string>
+    <string name="device_not_supported" tools:ignore="MissingTranslation">Device does not support push notifications.</string>
+    <string name="pushnotification_will_not_work" tools:ignore="MissingTranslation">Device does not support push notifications.</string>
+    <string name="internet_connection_unavailable" tools:ignore="MissingTranslation">No Internet connection. Please try again later.</string>
+    <string name="try_later" tools:ignore="MissingTranslation">Something went wrong! Please try again later.</string>
+
+    <!-- home end -->
+
+
+    <!-- checkin -->
+
+    <string name="enter_your_location" tools:ignore="MissingTranslation">Enter your location</string>
+    <string name="choose_options" tools:ignore="MissingTranslation">Choose Options</string>
+    <string name="checkin_frequency" tools:ignore="MissingTranslation">Check-in frequency</string>
+    <string name="edit_alert_msgs" tools:ignore="MissingTranslation">Edit alert messages</string>
+    <string name="start_now" tools:ignore="MissingTranslation">Start now</string>
+    <string name="start_later" tools:ignore="MissingTranslation">Start later</string>
+    <string name="set_end_time" tools:ignore="MissingTranslation">Set end time</string>
+    <string name="check_in" tools:ignore="MissingTranslation">Check-in</string>
+    <string name="checkin_freq_header_title" tools:ignore="MissingTranslation">Select Check-in Frequency</string>
+    <string name="every_fifteen_minutes" tools:ignore="MissingTranslation">Every 15 minutes</string>
+    <string name="every_thirty_minutes" tools:ignore="MissingTranslation">Every 30 minutes</string>
+    <string name="hourly" tools:ignore="MissingTranslation">Hourly</string>
+    <string name="every_three_hours" tools:ignore="MissingTranslation">Every 3 hours</string>
+    <string name="create_custom" tools:ignore="MissingTranslation">Set custom frequency</string>
+    <string name="receive_promts" tools:ignore="MissingTranslation">Receive prompts by</string>
+    <string name="radio_email" tools:ignore="MissingTranslation">Email</string>
+    <string name="radio_notification" tools:ignore="MissingTranslation">Notifications</string>
+    <string name="radio_sms" tools:ignore="MissingTranslation">SMS</string>
+    <string name="email_message" tools:ignore="MissingTranslation">Email message</string>
+    <string name="sms_message" tools:ignore="MissingTranslation">SMS message</string>
+    <string name="social_media_message" tools:ignore="MissingTranslation">Social media message</string>
+    <string name="end_time" tools:ignore="MissingTranslation">End Time</string>
+    <string name="cancel_checkin_message" tools:ignore="MissingTranslation">Enter Your Password to Cancel This Check-in</string>
+    <string name="your_next_conf" tools:ignore="MissingTranslation">Your next confirmation is at:\u0020</string>
+    <string name="confirm_now" tools:ignore="MissingTranslation">Confirm now</string>
+    <string name="closenow" tools:ignore="MissingTranslation">Close</string>
+    <string name="hours" tools:ignore="MissingTranslation">Hours</string>
+    <string name="minute" tools:ignore="MissingTranslation">Minutes</string>
+    <string name="your_checkin" tools:ignore="MissingTranslation">Your Check-in closes in 10 minutes</string>
+    <string name="addmedia" tools:ignore="MissingTranslation">Add media</string>
+    <string name="edit_checkin" tools:ignore="MissingTranslation">Edit Check-in</string>
+    <string name="close_checkin" tools:ignore="MissingTranslation">Close Check-in</string>
+    <string name="checkin_frequency_title" tools:ignore="MissingTranslation">Check-in Frequency</string>
+    <string name="check_start_message" tools:ignore="MissingTranslation">Your Check-in Will Start at\u0020</string>
+    <string name="start_time" tools:ignore="MissingTranslation">Start Time</string>
+    <string name="info_checkin" tools:ignore="MissingTranslation">CHECK-IN\nThrough the Check-in function you can provide customized information about your current or future location, select how often you want to Check-in and designate which contact Circles to notify.\n\nYou can set a Check-in to begin “right now” or in the future.\n\nYou must also select a location and can do so either by using geolocation or by entering your location manually.\n\nYou may also choose to add photo, video or audio files to share as part of the Check-in message. These multimedia files are removed from the app after transmission. Files cannot be accessed from the device’s underlying media library.\n\nYou can select Check-in prompt frequency from a list or set custom intervals. You can also choose how you wish to receive prompts (SMS, email or smartphone notification).\n\nTo close a Check-in, you must enter your Reporta password.\n\nIf you miss a Check-in, an alert will be sent to all selected Circles, and the app will lock. Reporta will notify your App-Unlock contacts with a message containing a link to a verification code required to unlock the app.</string>
+    <!-- <string name="cannot_close_app">Your Check In is running, you can\'t close App.</string> -->
+    <string name="your_checkin_now_active" tools:ignore="MissingTranslation">Your Check-in is Now Active</string>
+    <string name="checkin_edited_suc" tools:ignore="MissingTranslation">Check-in Successfully Updated</string>
+    <string name="checkin_will_start_at" tools:ignore="MissingTranslation">Your Check-in\nwill start at\u0020</string>
+    <string name="enter_valid_checkin" tools:ignore="MissingTranslation">Please enter a valid Check-in frequency!</string>
+    <string name="enter_valid_endtime" tools:ignore="MissingTranslation">Please enter a valid Check-in end-time!</string>
+    <string name="please_select_receive_promts" tools:ignore="MissingTranslation">Please Select Your Prompt Preferences</string>
+    <string name="missed_checkin_set_for" tools:ignore="MissingTranslation">You Missed a Confirmation Set for %s</string>
+    <string name="checkin_closed" tools:ignore="MissingTranslation">Your Check-in is Closed</string>
+    <string name="cancel_checkin" tools:ignore="MissingTranslation">Cancel Check-in</string>
+    <string name="checkin_close_at" tools:ignore="MissingTranslation">Your Check-in Will Close at\u0020</string>
+
+    <!-- checkin End -->
+
+
+    <!-- contacts -->
+
+    <string name="please_enable_sos" tools:ignore="MissingTranslation">Please Enable SOS</string>
+    <string name="add_atleast_one_contact" tools:ignore="MissingTranslation">Please add at least one contact.</string>
+    <string name="add_from_addressbook" tools:ignore="MissingTranslation">Add From Address Book</string>
+    <string name="add_from_reporta_contacts" tools:ignore="MissingTranslation">Add From Reporta contacts</string>
+    <string name="no_contacts_found" tools:ignore="MissingTranslation">No Contacts</string>
+    <string name="add_manually" tools:ignore="MissingTranslation">Add manually</string>
+    <string name="all_circle" tools:ignore="MissingTranslation">All Circles</string>
+    <string name="all_contacts" tools:ignore="MissingTranslation">All Contacts</string>
+    <string name="my_contacts" tools:ignore="MissingTranslation">My Contacts</string>
+    <string name="save" tools:ignore="MissingTranslation">Save</string>
+    <string name="add_email" tools:ignore="MissingTranslation">Add email</string>
+    <string name="add_phone" tools:ignore="MissingTranslation">Add phone</string>
+    <string name="allows_contact_to_help" tools:ignore="MissingTranslation">Enabling App-Unlock allows these contacts to help you unlock Reporta after an alert locks the app.</string>
+    <string name="contact_is_part_of" tools:ignore="MissingTranslation">Contact is part of:</string>
+    <string name="connect_to_your_social" tools:ignore="MissingTranslation">Connect to your social media</string>
+    <string name="login" tools:ignore="MissingTranslation">Login</string>
+    <string name="enable_friend_unlock" tools:ignore="MissingTranslation">Enable App-Unlock</string>
+    <string name="disable_friend_unlock" tools:ignore="MissingTranslation">Disable App-Unlock</string>
+    <string name="pending_friend_unlock" tools:ignore="MissingTranslation">App-Unlock Contact Pending</string>
+    <string name="private_" tools:ignore="MissingTranslation">Private</string>
+    <string name="public_" tools:ignore="MissingTranslation">Public</string>
+    <string name="about_friend_unlock_title" tools:ignore="MissingTranslation">About App-Unlock</string>
+    <string name="first_name_mandatory" tools:ignore="MissingTranslation">First Name Is Mandatory</string>
+    <string name="last_name_mandatory" tools:ignore="MissingTranslation">Last Name Is Mandatory</string>
+    <string name="please_enter_phone" tools:ignore="MissingTranslation">Please enter at least one phone number!</string>
+    <string name="please_enter_email" tools:ignore="MissingTranslation">Please enter at least one email address!</string>
+    <string name="please_select_partof_circle" tools:ignore="MissingTranslation">Please Select Circle</string>
+    <string name="you_must_select" tools:ignore="MissingTranslation">You must enable at least one Private Circle contact with App-Unlock status to complete setup.</string>
+    <string name="contact_list_name" tools:ignore="MissingTranslation">Contact Circle Name</string>
+    <string name="info_contacts" tools:ignore="MissingTranslation">CIRCLES\n\nThe heart of Reporta is the ability to contact the people who care about your safety. You can categorize your contacts into three distinct Circles.\n\nPRIVATE CIRCLE\nYour Private Circle is the group of contacts with whom you are closest and those who will take action on your behalf if needed. There is no limit to the number of contacts you designate in this group, but these contacts are usually your closest associates, family members or colleagues, such as your editor, partner or a sibling.\n\nIf you are adding individuals to this Circle, you should provide them with instructions, preferably written, about what to do if alerted by Reporta. You will want these contacts to know what to do if you have missed a Check-in, sent an Alert, or activated an SOS. \n\nTo use Reporta, you must designate at least one contact in your Private Circle to serve as your App-Unlock contact. App-Unlock contacts will receive a link to a verification code required to unlock the app if you miss a Check-in or issue an SOS. You may add as many App-Unlock contacts as you wish, but a designated App-Unlock contact must be included in your Private Circle.\n\nOnce locked, you will not be able to access the app on your phone until you have the App-Unlock code. There is no other way to unlock the app. \n\nYou may create more than one Private Circle, but only one Private Circle can be active at any given time. You may choose to create different Private Circles based on the story you are covering or where you are working.\n\nFor you convenience, Reporta will ask you if you want to update your Circles when you travel 100 miles or more from the last place you used the app.\n\nPUBLIC CIRCLE\nYour Public Circle is a group of individuals or organizations that may be interested in your security. This may include journalism associations, unions or media organizations. You may create more than one Public Circle, but only one Public Circle can be active at any given time. Creating a Public Circle is not required to use Reporta.\n\nSOCIAL CIRCLE\nYou can connect Reporta to your Facebook and Twitter accounts. Note that anything you post to social media through Reporta can be seen by others.</string>
+    <string name="your_private" tools:ignore="MissingTranslation">Your Private Circle will receive a message when you miss a Check-in, send an Alert, or send an SOS message.</string>
+    <string name="your_public" tools:ignore="MissingTranslation">Your Public Circle is a group of individuals or organizations that may be interested in your security. This may include journalism associations, unions or media organizations.</string>
+    <string name="private_circle" tools:ignore="MissingTranslation">Private Circles</string>
+    <string name="no_saved_private_circle" tools:ignore="MissingTranslation">You Have No Saved Private Circles</string>
+    <string name="no_saved_pulic_circle" tools:ignore="MissingTranslation">You Have No Saved Public Device Settings</string>
+    <string name="delete_contact_msg" tools:ignore="MissingTranslation">Are you sure you want to delete this contact?</string>
+    <string name="delete_circle_msg" tools:ignore="MissingTranslation">Are you sure you want to delete this Circle?</string>
+    <string name="yes" tools:ignore="MissingTranslation">Yes</string>
+    <string name="no" tools:ignore="MissingTranslation">No</string>
+    <string name="create_a_new_public" tools:ignore="MissingTranslation">Create a new Public Circle</string>
+    <string name="are_you_sure" tools:ignore="MissingTranslation">Are you sure you want to disable App-Unlock?</string>
+    <string name="please_select_private" tools:ignore="MissingTranslation">Select or create a new Private Circle to change your default settings.</string>
+    <string name="please_select_public" tools:ignore="MissingTranslation">Select or create a new Public Circle to change your default settings.</string>
+    <string name="do_you_want_update_public" tools:ignore="MissingTranslation">Do you want to make this update to your Public Circle?</string>
+    <string name="do_you_want_update_private" tools:ignore="MissingTranslation">Do you want to make this update to your Private Circle?</string>
+    <string name="this_circle_has_no_contact" tools:ignore="MissingTranslation"> - You cannot create a Circle without having contacts. Please add at least one contact now.</string>
+
+    <!-- contacts End -->
+
+
+    <!-- Pick Location Screen -->
+    <string name="drag_pin" tools:ignore="MissingTranslation">Press and drag the pin to select a location on the map or choose from locations listed below.</string>
+    <string name="enter_loc_manually" tools:ignore="MissingTranslation">Enter location manually</string>
+    <string name="no_loc_found" tools:ignore="MissingTranslation">No location found</string>
+    <string name="dist_mi" tools:ignore="MissingTranslation,StringFormatMatches">%1$,.1f mi away</string>
+    <string name="dist_ft" tools:ignore="MissingTranslation">%d ft away</string>
+    <string name="gps_disable_msg" tools:ignore="MissingTranslation">Please Enable GPS on Your Phone</string>
+    <!-- <string name="gps_disable_msg">GPS is disabled in your device. Would you like to enable it?</string> -->
+    <string name="location_disable_msg" tools:ignore="MissingTranslation">Go to Settings and Enable Location Services</string>
+    <string name="loc_not_found" tools:ignore="MissingTranslation">Location not found</string>
+
+    <!-- social circles -->
+
+    <string name="facebook" tools:ignore="MissingTranslation">Facebook</string>
+    <string name="twitter" tools:ignore="MissingTranslation">Twitter</string>
+    <string name="add" tools:ignore="MissingTranslation">Add</string>
+    <string name="remove" tools:ignore="MissingTranslation">Remove</string>
+
+    <!-- social circles end -->
+
+
+    <!-- Pending Media File Screen -->
+
+    <string name="txt_pending_media" tools:ignore="MissingTranslation">You have pending media files</string>
+    <string name="txt_media_file" tools:ignore="MissingTranslation">Media file</string>
+    <string name="txt_media_resend_delete" tools:ignore="MissingTranslation">Long press to Resend or Delete Media File</string>
+    <string name="select_action" tools:ignore="MissingTranslation">Select Action</string>
+    <string name="menu_resend" tools:ignore="MissingTranslation">Resend</string>
+    <string name="menu_delete" tools:ignore="MissingTranslation">Delete</string>
+    <string name="delete_now" tools:ignore="MissingTranslation">Delete Now</string>
+    <string name="delete_this_contact" tools:ignore="MissingTranslation">Deleting this contact will also delete this Circle.</string>
+    <string name="no_records_found" tools:ignore="MissingTranslation">No records found</string>
+    <string name="retry_within_7_days" tools:ignore="MissingTranslation">Upload will be attempted for 7 days.</string>
+    <string name="media_upload_success" tools:ignore="MissingTranslation">Media Files Successfully Uploaded</string>
+    <string name="media_upload_fail" tools:ignore="MissingTranslation">Error uploading media. Please try again.</string>
+    <string name="media_uploading_running" tools:ignore="MissingTranslation">Media is uploading. Check again later.</string>
+    <string name="password_hint" tools:ignore="MissingTranslation"><b>About Your Reporta Password</b>\n\nYour password should not contain any personal information or common words, such as those found in a dictionary and cannot include your username. Your password must include at least 8 characters as well as:\n\n●  At least one uppercase character\n●  At least one numeral\n●  At least one special character\n\nBe aware that Reporta will lock for 24 hours after six failed login attempts. You will need to wait 24 hours to attempt another login.</string>
+
+    <string name="a_private_circle" tools:ignore="MissingTranslation"><b>A Private Circle is Required</b>\n\nYour Private Circle is the group of contacts with whom you are closest and those who will take action on your behalf if needed. There is no limit to the number of contacts you designate in this group, but these contacts are usually your closest associates, family members or colleagues, such as your editor, partner or a sibling.</string>
+
+    <string name="please_try_again" tools:ignore="MissingTranslation">Please Try Again</string>
+    <string name="password_invalid" tools:ignore="MissingTranslation">Your password must include:\n\n■  At least 8 characters\n■  At least one uppercase character\n■  At least one numeral\n■  At least one special character</string>
+    <string name="enableapplock" tools:ignore="MissingTranslation">Step 3: Enable App-Unlock</string>
+
+    <string name="youmustenableapplock" tools:ignore="MissingTranslation"><b>You must enable App-Unlock!</b>\n\nTo use Reporta, you must designate at least one contact in your Private Circle to serve as your App-Unlock contact. App-Unlock contacts will receive a link to a verification code required to unlock the app if you miss a Check-in or issue an SOS. You may add as many App-Unlock contacts as you wish, but a designated App-Unlock contact must be included in your Private Circle. To enable App-Unlock, tap the lock icon in your contact\'s profile; the lock will turn solid red when your contact accepts the role.</string>
+
+    <string name="see_termsofuse" tools:ignore="MissingTranslation">See Terms of Use</string>
+    <string name="termsofuse" tools:ignore="MissingTranslation"><b>Terms of Use for Reporta™ </b>\n\nBy using Reporta, you agree to accept and comply with the Terms of Use Agreement which governs the use of Reporta. IWMF may modify the Terms of Use Agreement and the Privacy Policy incorporated therein at any time by posting the amended terms. You also agree to be bound by such changes through your acceptance of the Terms of Use Agreement. Reporta will not work until you agree to the Terms of Use Agreement by clicking Accept below.</string>
+
+    <string name="confirmmyreg" tools:ignore="MissingTranslation">Confirm my registration by email</string>
+    <string name="sendmeupdate" tools:ignore="MissingTranslation">Send me updates about Reporta</string>
+
+    <string name="contactadded" tools:ignore="MissingTranslation">Contact Added</string>
+    <string name="addanother" tools:ignore="MissingTranslation">Add another?</string>
+
+    <string name="accept" tools:ignore="MissingTranslation">Accept</string>
+
+    <string name="duplicate_name" tools:ignore="MissingTranslation">This name is already in use. Please select another.</string>
+    <string name="duplicate_email" tools:ignore="MissingTranslation">This email is already in use. Please select another.</string>
+    <string name="duplicate_number" tools:ignore="MissingTranslation">This phone number is already in use. Please select another.</string>
+
+    <string name="invite" tools:ignore="MissingTranslation">Invite</string>
+    <string name="invited" tools:ignore="MissingTranslation">Invited</string>
+
+    <string name="add_associate_circle" tools:ignore="MissingTranslation">Please select at least one Circle for this contact.</string>
+
+    <string name="addnow" tools:ignore="MissingTranslation">Add Now</string>
+
+    <string name="confirm_checkin_10min" tools:ignore="MissingTranslation">Confirm Your Check-in Within 10 Minutes</string>
+    <string name="confirm_checkin_now" tools:ignore="MissingTranslation">Confirm your Check-in within 2 minutes or an alert will be sent.</string>
+
+    <string name="save_checkin_changes_msg" tools:ignore="MissingTranslation">Do you want to save your changes?</string>
+
+    <string name="current_password" tools:ignore="MissingTranslation">Current Password</string>
+    <string name="new_password" tools:ignore="MissingTranslation">New Password</string>
+    <string name="confirm_password" tools:ignore="MissingTranslation">Confirm Password</string>
+
+    <string name="rooting_detected_title" tools:ignore="MissingTranslation">Rooting Detected</string>
+    <string name="rooting_detected_msg" tools:ignore="MissingTranslation">Reporta cannot run on a rooted device.</string>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:clickable="true"
+              android:focusable="true"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rltCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_bg_top_bottom_line_shape">
+
+        <TextView
+            android:id="@+id/txtSave"
+            style="@style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingBottom="@dimen/margin_normal"
+            android:paddingLeft="@dimen/margin_large"
+            android:paddingRight="@dimen/margin_large"
+            android:paddingTop="@dimen/margin_normal"
+            android:text="@string/done"
+            android:textColor="@color/orange_color"/>
+
+        <TextView
+            android:id="@+id/txtCancel"
+            style="@style/TextAppearance.Medium.Inverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingBottom="@dimen/margin_normal"
+            android:paddingLeft="@dimen/margin_large"
+            android:paddingRight="@dimen/margin_large"
+            android:paddingTop="@dimen/margin_normal"
+            android:text="@string/cancel"/>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/edt_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_normal"
+        android:background="@drawable/bg_corder_raduis"
+        android:drawablePadding="@dimen/margin_small"
+        android:drawableRight="@drawable/search_icon_ar"
+        android:hint="@string/search_contact"
+        android:imeOptions="actionDone"
+        android:maxLength="25"/>
+
+    <include layout="@layout/line"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtNoDataFound"
+            style="@style/TextAppearance.Medium.Inverse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/no_contacts_found"
+            android:visibility="gone"/>
+
+        <!-- <com.iwmf.views.IndexableListView -->
+        <!-- android:id="@+id/listView" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="match_parent" -->
+        <!-- android:cacheColorHint="@android:color/transparent" -->
+        <!-- android:divider="@null" -->
+        <!-- android:dividerHeight="0dp" -->
+        <!-- android:fadeScrollbars="true" -->
+        <!-- android:fastScrollEnabled="true" > -->
+        <!-- </com.iwmf.views.IndexableListView> -->
+
+        <com.iwmf.views.stickylistheaders.StickyListHeadersListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:fastScrollEnabled="true"
+            android:listSelector="@android:color/transparent"
+            android:overScrollMode="never">
+        </com.iwmf.views.stickylistheaders.StickyListHeadersListView>
+    </FrameLayout>
+
+</LinearLayout>

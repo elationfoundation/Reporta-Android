@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"
+            android:clickable="true"
+            android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/margin_largest"
+        android:paddingRight="@dimen/margin_largest">
+
+        <ImageView
+            android:id="@+id/ivConfirmNotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:src="@drawable/notification"
+            tools:ignore="ContentDescription"/>
+
+        <TextView
+            android:id="@+id/lblCheckinConfirmation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_largest"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/lblAlertSent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_largest"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/orange_color"/>
+
+        <TextView
+            android:id="@+id/lblMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_largest"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+</ScrollView>

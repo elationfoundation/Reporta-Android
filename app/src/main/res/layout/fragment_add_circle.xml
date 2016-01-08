@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/checkin_bg_color"
+              android:clickable="true"
+              android:focusable="true"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lblCircle"
+        style="@style/TextAppearance.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_bg_top_bottom_line_shape"
+        android:padding="@dimen/margin_large"
+        android:text="@string/private_circle"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/rltAddCircle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_large"
+            android:background="@drawable/white_bg_top_bottom_line_shape"
+            android:padding="@dimen/margin_large"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/txtAddCircle"
+                style="@style/TextAppearance.Large.Inverse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="left|center_vertical"
+                android:gravity="left|center_vertical"
+                android:text="@string/plus"
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:id="@+id/lbl_add_circle"
+                style="@style/TextAppearance.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="left|center_vertical"
+                android:layout_toLeftOf="@+id/txtAddCircle"
+                android:gravity="left|center_vertical"
+                android:text="@string/create_a_list"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rltActiveCircle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_large"
+            android:background="@drawable/white_bg_top_bottom_line_shape"
+            android:padding="@dimen/margin_large"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/txtActiveCircle"
+                style="@style/TextAppearance.Medium.Inverse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="left|center_vertical"
+                android:gravity="left|center_vertical"
+                android:text="@string/edit"/>
+
+            <TextView
+                android:id="@+id/lblActiveCircle"
+                style="@style/TextAppearance.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="left|center_vertical"
+                android:layout_toLeftOf="@+id/txtActiveCircle"
+                android:gravity="left|center_vertical"
+                android:text="@string/create_a_list"
+                android:textColor="@color/active_circle_text"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/rltSavedCircles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_large"
+        android:background="@drawable/white_bg_top_bottom_line_shape"
+        android:paddingBottom="@dimen/margin_normal"
+        android:paddingLeft="@dimen/margin_large"
+        android:paddingRight="@dimen/margin_large"
+        android:paddingTop="@dimen/margin_normal">
+
+        <TextView
+            android:id="@+id/txtAddSavedCircle"
+            style="@style/TextAppearance.Large.Inverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="left|center_vertical"
+            android:gravity="left|center_vertical"
+            android:text="@string/plus"
+            android:textSize="24sp"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:id="@+id/lblAddSavedCircle"
+            style="@style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="left|center_vertical"
+            android:layout_toLeftOf="@+id/txtAddSavedCircle"
+            android:gravity="left|center_vertical"
+            android:text="@string/saved_circles"/>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtNoDataFound"
+            style="@style/TextAppearance.Medium.Inverse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginTop="@dimen/margin_large"
+            android:gravity="top|center_horizontal"
+            android:text="@string/no_saved_private_circle"
+            android:visibility="gone"/>
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:descendantFocusability="blocksDescendants"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:fadeScrollbars="true"
+            android:fastScrollEnabled="true"
+            android:listSelector="@android:color/transparent">
+        </ListView>
+    </FrameLayout>
+
+</LinearLayout>

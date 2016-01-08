@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/fragment_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/checkin_bg_color"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/margin_normal"
+            android:paddingTop="@dimen/margin_normal">
+
+            <EditText
+                android:id="@+id/edtDescribeSituationMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|top"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:gravity="right|top"
+                android:imeOptions="actionDone"
+                android:inputType="textLongMessage"
+                android:lines="10"
+                android:maxLength="1000"
+                android:padding="@dimen/margin_normal"
+                android:singleLine="false">
+
+                <requestFocus/>
+            </EditText>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnSituationMessageDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginRight="@dimen/margin_large"
+        android:background="@drawable/checkin_start_now_button"
+        android:text="@string/done"
+        android:textColor="@color/orange_color"
+        android:visibility="gone"/>
+
+</FrameLayout>

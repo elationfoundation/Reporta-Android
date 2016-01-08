@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/checkin_bg_color"
+              android:clickable="true"
+              android:focusable="true"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtEdit"
+            style="@style/TextAppearance.Medium.Inverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="left|center_vertical"
+            android:gravity="left|center_vertical"
+            android:paddingBottom="@dimen/margin_normal"
+            android:paddingLeft="@dimen/margin_large"
+            android:paddingRight="@dimen/margin_normal"
+            android:paddingTop="@dimen/margin_normal"
+            android:text="@string/edit"/>
+
+        <EditText
+            android:id="@+id/edtCircleName"
+            style="@style/TextAppearance.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="left|center_vertical"
+            android:layout_toLeftOf="@+id/txtContactTotal"
+            android:layout_toRightOf="@+id/txtEdit"
+            android:background="@color/checkin_bg_color"
+            android:enabled="false"
+            android:gravity="left|center_vertical"
+            android:hint="@string/contact_list_name"
+            android:inputType="textCapWords"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/txtContactTotal"
+            style="@style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="left|center_vertical"
+            android:layout_toLeftOf="@+id/txtAdd"
+            android:gravity="left|center_vertical"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/txtAdd"
+            style="@style/TextAppearance.Large.Inverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="left|center_vertical"
+            android:gravity="left|center_vertical"
+            android:paddingBottom="@dimen/margin_normal"
+            android:paddingLeft="@dimen/margin_large"
+            android:paddingRight="@dimen/margin_large"
+            android:paddingTop="@dimen/margin_normal"
+            android:text="@string/plus"
+            tools:ignore="HardcodedText"/>
+    </RelativeLayout>
+
+    <include layout="@layout/line"/>
+
+    <EditText
+        android:id="@+id/edt_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:layout_margin="@dimen/margin_normal"
+        android:background="@drawable/bg_corder_raduis"
+        android:drawableLeft="@drawable/search_icon"
+        android:drawablePadding="@dimen/margin_small"
+        android:gravity="left|center_vertical"
+        android:hint="@string/search_contact"
+        android:imeOptions="actionDone"
+        android:maxLength="25"
+        android:visibility="gone"/>
+
+    <include
+        android:id="@+id/line"
+        layout="@layout/line"
+        android:visibility="gone"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtNoDataFound"
+            style="@style/TextAppearance.Medium.Inverse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_large"
+            android:gravity="center"
+            android:text="@string/no_contacts_found"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/margin_largest"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtMsg"
+                style="@style/TextAppearance.Medium.Inverse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin_large"
+                android:gravity="center"
+                android:text="@string/your_private"
+                android:visibility="visible"/>
+
+            <Button
+                android:id="@+id/btnBuildThisCircle"
+                style="@style/TextAppearance.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/bg_orange_border"
+                android:minWidth="150dp"
+                android:paddingLeft="@dimen/margin_large"
+                android:paddingRight="@dimen/margin_large"
+                android:text="@string/build_this_circle"
+                android:textColor="@color/orange_color"/>
+
+            <Button
+                android:id="@+id/btnCancel"
+                style="@style/TextAppearance.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="36dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg_orange_border"
+                android:minWidth="150dp"
+                android:paddingLeft="@dimen/margin_large"
+                android:paddingRight="@dimen/margin_large"
+                android:text="@string/cancel"
+                android:textColor="@color/orange_color"/>
+
+        </LinearLayout>
+
+        <!-- <ListView -->
+        <!-- android:id="@+id/listView" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="match_parent" -->
+        <!-- android:divider="@null" -->
+        <!-- android:dividerHeight="0dp" -->
+        <!-- android:fadeScrollbars="true" -->
+        <!-- android:fastScrollEnabled="true" -->
+        <!-- android:smoothScrollbar="true" -->
+        <!-- android:visibility="gone" > -->
+        <!-- </ListView> -->
+
+        <com.iwmf.views.stickylistheaders.StickyListHeadersListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:descendantFocusability="blocksDescendants"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:fastScrollEnabled="true"
+            android:listSelector="@android:color/transparent"
+            android:overScrollMode="never">
+        </com.iwmf.views.stickylistheaders.StickyListHeadersListView>
+
+        <Button
+            android:id="@+id/btnDone"
+            style="@style/TextAppearance.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="@dimen/margin_large"
+            android:background="@drawable/checkin_start_now_button"
+            android:text="@string/done"
+            android:textColor="@color/orange_color"/>
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg"
+                android:clickable="true"
+                android:focusable="true">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_largest"/>
+
+    <include
+        layout="@layout/iwmf_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:layout_marginTop="@dimen/margin_largest"/>
+
+    <LinearLayout
+        android:id="@+id/lnrSelectLng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginRight="@dimen/margin_large"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtLanguage"
+            style="@style/TextAppearance.Medium"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:text="@string/lng_english"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/dropdown_lng"
+            tools:ignore="ContentDescription"/>
+    </LinearLayout>
+
+    <TextView
+        style="@style/TextAppearance.Large.Inverse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lnrSelectLng"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_largest"
+        android:gravity="center"
+        android:text="@string/select_your_language"
+        android:textColor="@color/info_popup_color"/>
+
+    <TextView
+        android:id="@+id/txtNext"
+        style="@style/TextAppearance.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="@dimen/margin_largest"
+        android:gravity="bottom|center_horizontal"
+        android:padding="@dimen/margin_normal"
+        android:text="@string/next"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>

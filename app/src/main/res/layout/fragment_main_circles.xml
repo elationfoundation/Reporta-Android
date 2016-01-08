@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:clickable="true"
+              android:focusable="true"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rltPrivate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_large"
+        android:background="@drawable/white_bg_top_bottom_line_shape"
+        android:paddingBottom="@dimen/margin_large"
+        android:paddingLeft="@dimen/margin_large"
+        android:paddingTop="@dimen/margin_large">
+
+        <ImageView
+            android:id="@+id/imgvArwProvate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_large"
+            android:src="@drawable/arrow"
+            tools:ignore="ContentDescription"/>
+
+        <TextView
+            android:id="@+id/lblPrivateCircle"
+            style="@style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/imgvArwProvate"
+            android:drawablePadding="@dimen/margin_normal"
+            android:text="@string/private_circle"
+            android:textColor="@android:color/black"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rltPublic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_large"
+        android:background="@drawable/white_bg_top_bottom_line_shape"
+        android:paddingBottom="@dimen/margin_large"
+        android:paddingLeft="@dimen/margin_large"
+        android:paddingTop="@dimen/margin_large">
+
+        <ImageView
+            android:id="@+id/imgvArwPublic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_large"
+            android:src="@drawable/arrow"
+            tools:ignore="ContentDescription"/>
+
+        <TextView
+            android:id="@+id/lblPublicCircle"
+            style="@style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/imgvArwPublic"
+            android:drawablePadding="@dimen/margin_normal"
+            android:text="@string/public_circle"
+            android:textColor="@android:color/black"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rltSocial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_large"
+        android:background="@drawable/white_bg_top_bottom_line_shape"
+        android:paddingBottom="@dimen/margin_large"
+        android:paddingLeft="@dimen/margin_large"
+        android:paddingTop="@dimen/margin_large">
+
+        <ImageView
+            android:id="@+id/imgvArwSocial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_large"
+            android:src="@drawable/arrow"
+            tools:ignore="ContentDescription"/>
+
+        <TextView
+            android:id="@+id/lblSocialCircle"
+            style="@style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/imgvArwSocial"
+            android:drawablePadding="@dimen/margin_normal"
+            android:text="@string/social_circle"
+            android:textColor="@android:color/black"/>
+    </RelativeLayout>
+
+</LinearLayout>

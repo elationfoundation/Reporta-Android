@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg"
+                android:clickable="true"
+                android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/frm_bottomview"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/includeLayout"
+            layout="@layout/iwmf_logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_large"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imvContact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/btn_contacts"
+                    tools:ignore="ContentDescription"/>
+
+                <TextView
+                    style="@style/TextAppearance.Large.Inverse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:gravity="center_horizontal"
+                    android:text="@string/home_contacts"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/font_20"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imvProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/btn_profile"
+                    tools:ignore="ContentDescription"/>
+
+                <TextView
+                    style="@style/TextAppearance.Large.Inverse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:gravity="center_horizontal"
+                    android:text="@string/home_profile"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/font_20"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_large"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imvCheckin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:src="@drawable/btn_checkin"
+                    tools:ignore="ContentDescription"/>
+
+                <TextView
+                    style="@style/TextAppearance.Large.Inverse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:gravity="center_horizontal"
+                    android:text="@string/home_checkin"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/font_20"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imvAlert"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn_alert"
+                    tools:ignore="ContentDescription"/>
+
+                <TextView
+                    style="@style/TextAppearance.Large.Inverse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:gravity="center_horizontal"
+                    android:text="@string/home_alerts"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/font_20"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/frm_bottomview"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_above="@+id/imbSOS">
+
+        <TextView
+            android:id="@+id/txtAboutReporta"
+            style="@style/TextAppearance.Small"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#AA000000"
+            android:gravity="center"
+            android:text="@string/about_reporta"
+            android:textColor="@color/orange_color"/>
+
+        <LinearLayout
+            android:id="@+id/lnrPendingMedia"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#55000000">
+
+            <TextView
+                style="@style/TextAppearance.Small"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/pending_media_files"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/font_12"
+                tools:ignore="NestedWeights"/>
+
+            <TextView
+                android:id="@+id/txtPendingMediaCount"
+                android:layout_width="@dimen/min_height"
+                android:layout_height="@dimen/min_height"
+                android:layout_gravity="center"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/round_badge"
+                android:gravity="center"
+                android:padding="8dp"
+                android:textColor="@color/orange_color"
+                android:textSize="@dimen/font_12"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imbSOS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/black"
+        android:padding="@dimen/margin_normal"
+        android:src="@drawable/sos_new"
+        tools:ignore="ContentDescription"/>
+
+</RelativeLayout>

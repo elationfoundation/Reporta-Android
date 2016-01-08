@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="Language">
+        <item>العربية</item>
+        <item>English</item>
+        <item>Français</item>
+        <item>עברית</item>
+        <item>Español</item>
+        <item>Türkçe</item>
+    </array>
+    <array name="JobTitle">
+        <item>Kamera/Ses Personeli</item>
+        <item>Editör</item>
+        <item>Gazeteci/Muhabir</item>
+        <item>Medya Destek Personeli</item>
+        <item>Fotoğrafçı</item>
+        <item>Sunucu</item>
+        <item>Prodüktör</item>
+        <item>Başka</item>
+    </array>
+    <array name="imfacing">
+        <item>Bir uyarıyı bildiriyorum</item>
+        <item>Silahlı saldırı</item>
+        <item>Bıçaklı saldırı</item>
+        <item>Başka nesneyle saldırı</item>
+        <item>Ölüm tehditleri</item>
+        <item>Alıkoyma</item>
+        <item>Kaçırma</item>
+        <item>Fiziksel şiddet (yumruk, itme)</item>
+        <item>Cinsel şiddet/taciz</item>
+        <item>Kaçırma tehdidi</item>
+        <item>Silahlı saldırı tehdidi</item>
+        <item>Başka</item>
+    </array>
+
+</resources>

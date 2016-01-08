@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rltMain"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3E4041"
+    android:clickable="true"
+    android:focusable="true">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#64FFFFFF"
+            android:paddingBottom="@dimen/margin_large"
+            android:paddingTop="@dimen/margin_large"
+            android:text="@string/txt_pending_media"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/font_16"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/lnrBottom"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/margin_normal"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/margin_large"
+            android:paddingTop="@dimen/margin_large"
+            android:text="@string/txt_pending_media"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/font_16"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@android:color/white"
+            tools:ignore="ContentDescription"/>
+
+        <RelativeLayout
+            android:id="@+id/rel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:id="@+id/lstPendingMedia"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@android:color/white"
+                android:dividerHeight="2px"
+                android:listSelector="@android:color/transparent">
+            </ListView>
+
+            <TextView
+                android:id="@+id/txtEmptyMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/no_records_found"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/font_16"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnrBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@android:color/white"
+            tools:ignore="ContentDescription"/>
+
+        <ImageView
+            android:id="@+id/imgSlideUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/margin_normal"
+            android:src="@drawable/arrow_up"
+            tools:ignore="ContentDescription"/>
+    </LinearLayout>
+
+</RelativeLayout>

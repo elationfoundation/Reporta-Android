@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rltReportaMain"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_dialog"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/margin_normal"
+        android:paddingTop="@dimen/margin_largest">
+
+        <TextView
+            android:id="@+id/txtReporta"
+            style="@style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margin_largest"
+            android:layout_marginRight="@dimen/margin_largest"
+            android:gravity="center"
+            android:text="@string/reporta"
+            android:textColor="@android:color/white"/>
+
+        <ImageView
+            android:id="@+id/imvNotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margin_largest"
+            android:layout_marginRight="@dimen/margin_largest"
+            android:layout_marginTop="@dimen/margin_largest"
+            android:src="@drawable/notification"
+            tools:ignore="ContentDescription"/>
+
+        <TextView
+            android:id="@+id/txtYourCheckin"
+            style="@style/TextAppearance.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_largest"
+            android:layout_marginRight="@dimen/margin_largest"
+            android:layout_marginTop="@dimen/margin_largest"
+            android:gravity="center"
+            android:text="@string/your_checkin"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/btnClosenow"
+            style="@style/TextAppearance.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_largest"
+            android:layout_marginRight="@dimen/margin_largest"
+            android:layout_marginTop="@dimen/margin_largest"
+            android:background="@drawable/selector_btn_closenow"
+            android:gravity="center"
+            android:text="@string/confirm_now"
+            android:textColor="@color/orange_color"/>
+
+        <!-- <include -->
+        <!-- android:id="@+id/contact_list_header_bottom_line" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="1dp" -->
+        <!-- android:layout_marginTop="@dimen/margin_largest" -->
+        <!-- layout="@layout/line" -->
+        <!-- android:background="@color/light_gray_color" /> -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/margin_largest"
+            android:background="@color/light_gray_color">
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnAddmedia"
+                style="@style/TextAppearance.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white_semi_transparent"
+                android:padding="23dp"
+                android:text="@string/addmedia"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:id="@+id/btnEditCheckin"
+                style="@style/TextAppearance.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:padding="23dp"
+                android:text="@string/edit_checkin"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/contact_list_header_bottom_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/light_gray_color">
+        </FrameLayout>
+
+        <!-- <include -->
+        <!-- android:id="@+id/contact_list_header_bottom_line" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="1dp" -->
+        <!-- layout="@layout/line" /> -->
+
+        <Button
+            android:id="@+id/btnUpdateEndTime"
+            style="@style/TextAppearance.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_largest"
+            android:layout_marginRight="@dimen/margin_largest"
+            android:layout_marginTop="@dimen/min_height"
+            android:background="@drawable/selecter_btn_update_end_time"
+            android:text="@string/close_checkin"/>
+    </LinearLayout>
+
+    <!-- <LinearLayout -->
+    <!-- android:id="@+id/lnrBottom" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_alignParentBottom="true" -->
+    <!-- android:orientation="vertical" > -->
+
+
+    <!-- <ImageView -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="2px" -->
+    <!-- android:background="@android:color/white" /> -->
+
+
+    <!-- <ImageView -->
+    <!-- android:id="@+id/imvSlideUp" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_gravity="center_horizontal" -->
+    <!-- android:padding="@dimen/margin_normal" -->
+    <!-- android:src="@drawable/arrow_up" /> -->
+    <!-- </LinearLayout> -->
+
+</RelativeLayout>

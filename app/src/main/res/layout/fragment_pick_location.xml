@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white"
+              android:clickable="true"
+              android:focusable="true"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7">
+
+        <FrameLayout
+            android:id="@+id/frmMapContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/txtDragPin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#C8383838"
+            android:paddingBottom="@dimen/margin_normal"
+            android:paddingLeft="@dimen/margin_large"
+            android:paddingRight="@dimen/margin_large"
+            android:paddingTop="@dimen/margin_normal"
+            android:text="@string/drag_pin"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/font_12"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relListContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3">
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadeScrollbars="true"
+            android:fastScrollEnabled="true"
+            android:listSelector="@android:color/transparent">
+        </ListView>
+
+        <TextView
+            android:id="@+id/txtEmptyView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/no_loc_found"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_normal"
+        android:background="@drawable/gray_bg_top_bottom_line_shape">
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:gravity="left|top"
+        android:hint="@string/enter_loc_manually"
+        android:imeOptions="actionDone"
+        android:maxLength="250"
+        android:padding="@dimen/margin_normal"
+        android:singleLine="false">
+    </EditText>
+
+</LinearLayout>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/fragment_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="82dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/checkin_bg_color"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:background="@drawable/white_bg_top_bottom_line_shape"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/margin_normal"
+                android:paddingLeft="@dimen/margin_large"
+                android:paddingTop="@dimen/margin_normal">
+
+                <TextView
+                    android:id="@+id/lblEmailMessageHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/email_message"
+                    android:textColor="@android:color/black"/>
+
+                <include
+                    android:id="@+id/email_messages_header_bottom_line"
+                    layout="@layout/line"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/margin_normal"/>
+
+                <EditText
+                    android:id="@+id/edtEmailsuggestedmessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:layout_marginRight="@dimen/margin_normal"
+                    android:layout_marginTop="@dimen/margin_normal"
+                    android:gravity="left|top"
+                    android:imeOptions="actionNext"
+                    android:inputType="textCapSentences"
+                    android:lines="4"
+                    android:maxLength="1000"
+                    android:singleLine="false"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:background="@drawable/white_bg_top_bottom_line_shape"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/margin_normal"
+                android:paddingLeft="@dimen/margin_large"
+                android:paddingTop="@dimen/margin_normal">
+
+                <TextView
+                    android:id="@+id/lblSMSMessageHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/sms_message"
+                    android:textColor="@android:color/black"/>
+
+                <include
+                    android:id="@+id/sms_messages_header_bottom_line"
+                    layout="@layout/line"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/margin_normal"/>
+
+                <EditText
+                    android:id="@+id/edtSMSmessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:layout_marginTop="@dimen/margin_normal"
+                    android:gravity="left|top"
+                    android:imeOptions="actionNext"
+                    android:inputType="textCapSentences"
+                    android:lines="4"
+                    android:maxLength="160"
+                    android:singleLine="false"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:background="@drawable/white_bg_top_bottom_line_shape"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/margin_normal"
+                android:paddingLeft="@dimen/margin_large"
+                android:paddingTop="@dimen/margin_normal">
+
+                <TextView
+                    android:id="@+id/lblSocialMediaMessageHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/social_media_message"
+                    android:textColor="@android:color/black"/>
+
+                <include
+                    android:id="@+id/social_media_messages_header_bottom_line"
+                    layout="@layout/line"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/margin_normal"/>
+
+                <EditText
+                    android:id="@+id/edtSocialMediamessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:layout_marginTop="@dimen/margin_normal"
+                    android:gravity="top|left"
+                    android:imeOptions="actionDone"
+                    android:inputType="textCapSentences"
+                    android:lines="4"
+                    android:maxLength="160"
+                    android:singleLine="false"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnDone"
+        style="@style/TextAppearance.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginRight="@dimen/margin_large"
+        android:background="@drawable/checkin_start_now_button"
+        android:text="@string/done"
+        android:textColor="@color/orange_color"/>
+
+</FrameLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/fragment_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/checkin_frequency_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/lnrFrequency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblHeader"
+                style="@style/TextAppearance.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:padding="@dimen/margin_large"
+                android:text="@string/create_custom"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/font_20"
+                android:textStyle="bold"/>
+
+            <include
+                layout="@layout/line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_largest"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:padding="@dimen/margin_large">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/TextAppearance.Medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:padding="@dimen/margin_normal"
+                        android:text="@string/hours"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/font_18"
+                        android:textStyle="bold"
+                        android:visibility="gone"/>
+
+                    <NumberPicker
+                        android:id="@+id/npHours"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/TextAppearance.Medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:padding="@dimen/margin_normal"
+                        android:text="@string/minute"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/font_18"
+                        android:textStyle="bold"
+                        android:visibility="gone"/>
+
+                    <NumberPicker
+                        android:id="@+id/npMinute"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnCustomHoursDone"
+        style="@style/TextAppearance.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_margin="@dimen/margin_large"
+        android:background="@drawable/checkin_start_now_button"
+        android:text="@string/done"
+        android:textColor="@color/orange_color"/>
+
+</FrameLayout> <!-- this is an framelayout end ....... -->

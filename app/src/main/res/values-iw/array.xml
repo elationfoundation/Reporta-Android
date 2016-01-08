@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="Language">
+        <item>العربية</item>
+        <item>English</item>
+        <item>Français</item>
+        <item>עברית</item>
+        <item>Español</item>
+        <item>Türkçe</item>
+    </array>
+    <array name="JobTitle">
+        <item>צלם/איש קול</item>
+        <item>עורך</item>
+        <item>עיתונאי/כתב</item>
+        <item>עובד תמיכה במדיה</item>
+        <item>צלם</item>
+        <item>מגיש</item>
+        <item>מפיק</item>
+        <item>אחר</item>
+    </array>
+    <array name="imfacing">
+        <item>אתראה מטעם עמית לעבודה</item>
+        <item>תקיפה עם אקדח</item>
+        <item>תקיפה עם סכין</item>
+        <item>תקיפה עם חפץ אחר</item>
+        <item>איומי מוות</item>
+        <item>מאסר</item>
+        <item>חטיפה</item>
+        <item>אלימות פיזית (חבטות, דחיפות)</item>
+        <item>אלימות/תקיפה מינית</item>
+        <item>איום חטיפה</item>
+        <item>איום תקיפה בנשק</item>
+        <item>אחר</item>
+    </array>
+
+</resources>

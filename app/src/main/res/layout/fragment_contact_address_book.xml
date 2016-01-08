@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/checkin_bg_color"
+              android:clickable="true"
+              android:focusable="true"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_bg_top_bottom_line_shape"
+        android:paddingBottom="@dimen/margin_normal"
+        android:paddingLeft="@dimen/margin_large"
+        android:paddingTop="@dimen/margin_normal">
+
+        <TextView
+            android:id="@+id/txtCancel"
+            style="@style/TextAppearance.Medium.Inverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginRight="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:gravity="left|center_vertical"
+            android:text="@string/cancel"/>
+
+        <TextView
+            android:id="@+id/lblPrivateCircle"
+            style="@style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="left|center_vertical"
+            android:layout_toLeftOf="@+id/txtCancel"
+            android:drawablePadding="@dimen/margin_normal"
+            android:gravity="left|center_vertical"
+            android:text="@string/add_from_addressbook"
+            android:textColor="@android:color/black"/>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/edt_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:layout_margin="@dimen/margin_normal"
+        android:background="@drawable/bg_corder_raduis"
+        android:drawableLeft="@drawable/search_icon"
+        android:drawablePadding="@dimen/margin_small"
+        android:gravity="left|center_vertical"
+        android:hint="@string/search_contact"
+        android:imeOptions="actionDone"
+        android:maxLength="25"/>
+
+    <!-- <FrameLayout -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="1dp" -->
+    <!-- android:background="@color/line_color" > -->
+    <!-- </FrameLayout> -->
+
+    <include layout="@layout/line"/>
+
+    <!-- <ListView -->
+    <!-- android:id="@+id/listView" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="match_parent" -->
+    <!-- android:divider="@null" -->
+    <!-- android:dividerHeight="0dp" > -->
+    <!-- </ListView> -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtNoDataFound"
+            style="@style/TextAppearance.Medium.Inverse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/no_contacts_found"
+            android:visibility="gone"/>
+
+        <com.iwmf.views.stickylistheaders.StickyListHeadersListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:fastScrollEnabled="true"
+            android:listSelector="@android:color/transparent"
+            android:overScrollMode="never">
+        </com.iwmf.views.stickylistheaders.StickyListHeadersListView>
+
+        <!-- <ListView -->
+        <!-- android:id="@+id/listView" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="match_parent" -->
+        <!-- android:divider="@null" -->
+        <!-- android:dividerHeight="0dp" -->
+        <!-- android:fadeScrollbars="true" -->
+        <!-- android:fastScrollEnabled="true" -->
+        <!-- android:smoothScrollbar="true" > -->
+        <!-- </ListView> -->
+    </FrameLayout>
+
+</LinearLayout>

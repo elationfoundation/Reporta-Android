@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rlt_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/checkin_bg_color"
+    android:clickable="true"
+    android:focusable="true">
+
+    <TextView
+        android:id="@+id/lblCircle"
+        style="@style/TextAppearance.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="left|center_vertical"
+        android:background="@drawable/white_bg_top_bottom_line_shape"
+        android:gravity="left|center_vertical"
+        android:padding="@dimen/margin_large"
+        android:text="@string/createprivatecircle"/>
+
+    <ScrollView
+        android:id="@+id/scroll_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnNext"
+        android:layout_below="@+id/lblCircle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtPwdInfo"
+                style="@style/TextAppearance.Medium.Inverse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_large"
+                android:background="@drawable/white_bg_with_border"
+                android:padding="@dimen/margin_large"
+                android:text="@string/a_private_circle"
+                android:textAppearance="@style/TextAppearance.Medium.Inverse"/>
+
+
+            <!--<RelativeLayout-->
+            <!--android:id="@+id/rltSOS"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="@dimen/margin_large"-->
+            <!--android:background="@drawable/white_bg_top_bottom_line_shape">-->
+
+            <!--<ImageView-->
+            <!--android:id="@+id/imgvLock"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:paddingBottom="@dimen/margin_normal"-->
+            <!--android:paddingLeft="@dimen/margin_normal"-->
+            <!--android:paddingRight="@dimen/margin_normal"-->
+            <!--android:paddingTop="@dimen/margin_normal"-->
+            <!--android:src="@drawable/notification"/>-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_toLeftOf="@+id/imgvInfo"-->
+            <!--android:layout_toRightOf="@+id/imgvLock"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/txtEnableLock"-->
+            <!--style="@style/TextAppearance.Medium.Inverse"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="left|center_vertical"-->
+            <!--android:layout_marginTop="@dimen/margin_normal"-->
+            <!--android:ellipsize="end"-->
+            <!--android:gravity="left|center_vertical"-->
+            <!--android:maxLines="2"-->
+            <!--android:text="@string/a_private_circle"/>-->
+
+            <!--<TextView-->
+            <!--style="@style/TextAppearance.Small.Inverse"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="left|center_vertical"-->
+            <!--android:layout_marginBottom="@dimen/margin_normal"-->
+            <!--android:gravity="left|center_vertical"-->
+            <!--android:text="@string/these_contacts_will_be_notified"/>-->
+
+            <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="@color/line_color"-->
+            <!--android:visibility="gone"/>-->
+            <!--</LinearLayout>-->
+
+            <!--<ImageView-->
+            <!--android:id="@+id/imgvInfo"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:paddingBottom="@dimen/margin_normal"-->
+            <!--android:paddingLeft="@dimen/margin_large"-->
+            <!--android:paddingRight="@dimen/margin_large"-->
+            <!--android:paddingTop="@dimen/margin_normal"-->
+            <!--android:src="@drawable/info_gray"-->
+            <!--android:visibility="visible"/>-->
+            <!--</RelativeLayout>-->
+
+            <RelativeLayout
+                android:id="@+id/rltAddManually"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_bg_top_bottom_line_shape"
+                android:padding="@dimen/margin_large">
+
+                <TextView
+                    android:id="@+id/txtAddManually"
+                    style="@style/TextAppearance.Medium.Inverse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="left|center_vertical"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/add"/>
+
+                <TextView
+                    android:id="@+id/lblAddManually"
+                    style="@style/TextAppearance.Medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_toLeftOf="@+id/txtAddSavedCircle"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/add_manually"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rltAddressbook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_large"
+                android:background="@drawable/white_bg_top_bottom_line_shape"
+                android:padding="@dimen/margin_large">
+
+                <TextView
+                    android:id="@+id/txtAddressbook"
+                    style="@style/TextAppearance.Medium.Inverse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="left|center_vertical"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/add"/>
+
+                <TextView
+                    android:id="@+id/lblAddressbook"
+                    style="@style/TextAppearance.Medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_toLeftOf="@+id/txtAddSavedCircle"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/add_from_addressbook"/>
+            </RelativeLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txtNoDataFound"
+                    style="@style/TextAppearance.Medium.Inverse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_marginTop="@dimen/margin_large"
+                    android:gravity="top|center_horizontal"
+                    android:text="@string/no_records_found"
+                    android:visibility="gone"/>
+
+                <!-- <ListView -->
+                <!-- android:id="@+id/listView" -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="match_parent" -->
+                <!-- android:divider="@null" -->
+                <!-- android:dividerHeight="0dp" -->
+                <!-- android:fadeScrollbars="true" -->
+                <!-- android:fastScrollEnabled="true" > -->
+                <!-- </ListView> -->
+
+                <LinearLayout
+                    android:id="@+id/lnrContactsList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+                </LinearLayout>
+            </FrameLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnNext"
+        style="@style/TextAppearance.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_margin="@dimen/margin_large"
+        android:background="@drawable/checkin_start_now_button"
+        android:text="@string/next"
+        android:textColor="@color/orange_color"/>
+
+</RelativeLayout>

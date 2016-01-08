@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:focusable="true">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/imbSOS"
+        android:orientation="vertical">
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imbSOS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/black"
+        android:padding="@dimen/margin_normal"
+        android:src="@drawable/sos_new"
+        tools:ignore="ContentDescription"/>
+
+    <ScrollView
+        android:id="@+id/scrollview_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:background="@color/info_popup_color"
+                android:gravity="left|center_vertical"
+                android:padding="@dimen/margin_large"
+                android:text=""
+                android:textColor="@android:color/white"/>
+
+            <include layout="@layout/line"/>
+
+            <ImageView
+                android:id="@+id/imvInfoClose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/info_popup_color"
+                android:padding="@dimen/margin_large"
+                android:src="@drawable/arrow_up"
+                tools:ignore="ContentDescription"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

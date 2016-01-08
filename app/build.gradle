@@ -1,0 +1,72 @@
+buildscript {
+    repositories {
+
+    }
+
+    dependencies {
+
+    }
+}
+
+apply plugin: 'com.android.application'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+}
+
+android {
+    signingConfigs {
+
+    }
+    compileSdkVersion 22
+    buildToolsVersion '22.0.1'
+    defaultConfig {
+        applicationId "com.iwmf"
+        minSdkVersion 15
+        targetSdkVersion 22
+        versionCode 10
+        versionName '1.1.2'
+        multiDexEnabled false
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            debuggable false
+            jniDebuggable false
+            renderscriptDebuggable false
+            zipAlignEnabled true
+        }
+        debug {
+            debuggable true
+            jniDebuggable false
+            renderscriptDebuggable false
+            minifyEnabled false
+            zipAlignEnabled true
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':facebook')
+    compile('com.twitter.sdk.android:twitter:1.6.1@aar') {
+        transitive = true;
+    }
+    compile 'com.squareup.okhttp:okhttp:2.5.0'
+    //noinspection GradleDependency
+    compile 'com.google.code.gson:gson:2.3'
+    //noinspection GradleDependency
+    compile 'com.google.android.gms:play-services:7.5.0'
+    compile files('libs/commons-lang3-3.4.jar')
+    compile files('libs/commons-codec-1.4.jar')
+    compile files('libs/commons-io-2.4.jar')
+    compile files('libs/gcm.jar')
+    //noinspection GradleDependency
+    compile 'com.android.support:appcompat-v7:22.2.0'
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="Language">
+        <item>العربية</item>
+        <item>English</item>
+        <item>Français</item>
+        <item>עברית</item>
+        <item>Español</item>
+        <item>Türkçe</item>
+    </array>
+    <array name="JobTitle">
+        <item>Journaliste/Reporter</item>
+        <item>Éditeur</item>
+        <item>Photographe</item>
+        <item>Employé d\'un programme d\'aide aux médias</item>
+        <item>Producteur</item>
+        <item>Présentateur</item>
+        <item>Cadreur/Ingénieur son</item>
+        <item>Autre</item>
+    </array>
+    <array name="imfacing">
+        <item>Une alerte au nom d\'un (une) collègue</item>
+        <item>attaqué(e) à main armée</item>
+        <item>attaqué(e) au couteau</item>
+        <item>attaqué(e) avec un autre objet</item>
+        <item>menacé(e) de mort</item>
+        <item>emprisonné(e)/pris(e) en otage</item>
+        <item>victime d\'un enlèvement</item>
+        <item>menace physique (cp de poing/bousculade)</item>
+        <item>attaqué(e) sexuellement</item>
+        <item>Menacé(e) d\'enlèvement</item>
+        <item>Menacé(e) d\'attaque à main armée</item>
+        <item>Autre</item>
+    </array>
+
+</resources>

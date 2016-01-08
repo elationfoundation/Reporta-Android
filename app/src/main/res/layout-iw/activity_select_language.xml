@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:clickable="true"
+              android:focusable="true"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtHeaderSelectlanguage"
+        style="@style/TextAppearance.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_bg_top_bottom_line_shape"
+        android:padding="@dimen/margin_large"
+        android:text="@string/selectlanguage"/>
+
+    <EditText
+        android:id="@+id/edt_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:layout_margin="@dimen/margin_normal"
+        android:background="@drawable/bg_corder_raduis"
+        android:drawablePadding="@dimen/margin_small"
+        android:drawableRight="@drawable/search_icon_ar"
+        android:gravity="right|center_vertical"
+        android:hint="@string/search_contact"
+        android:imeOptions="actionDone"
+        android:maxLength="25"/>
+
+    <include layout="@layout/line"/>
+
+    <ListView
+        android:id="@+id/listView"
+        style="@style/TextAppearance.Medium.Inverse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:fadeScrollbars="true"
+        android:fastScrollEnabled="true"
+        android:listSelector="@android:color/transparent">
+    </ListView>
+
+    <EditText
+        android:id="@+id/edtOther"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:hint="@string/please_describe"
+        android:imeOptions="actionDone"
+        android:inputType="textCapSentences"
+        android:maxLength="25"
+        android:paddingBottom="@dimen/margin_large"
+        android:paddingLeft="@dimen/margin_largest"
+        android:paddingTop="@dimen/margin_large"
+        android:singleLine="true"
+        android:visibility="gone"/>
+
+</LinearLayout>

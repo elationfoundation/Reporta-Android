@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/margin_normal"
+        android:paddingLeft="@dimen/margin_large"
+        android:paddingRight="@dimen/margin_large"
+        android:paddingTop="@dimen/margin_normal">
+
+        <CheckBox
+            android:id="@+id/chkItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:button="@null"
+            android:checked="true"
+            android:drawablePadding="0dp"
+            android:drawableRight="@drawable/selector_chkbox_circle"
+            android:focusable="false"
+            android:padding="0dp"/>
+
+        <TextView
+            android:id="@+id/txtName"
+            style="@style/TextAppearance.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="right|center_vertical"
+            android:layout_toLeftOf="@+id/chkItem"
+            android:layout_toRightOf="@+id/txtCircle"
+            android:ellipsize="end"
+            android:gravity="right|center_vertical"
+            android:maxLines="2"
+            android:paddingLeft="@dimen/margin_normal"
+            android:paddingRight="@dimen/margin_normal"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/txtCircle"
+            style="@style/TextAppearance.Medium.Inverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text=""/>
+    </RelativeLayout>
+
+    <include
+        layout="@layout/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginRight="@dimen/margin_large"/>
+
+</LinearLayout>

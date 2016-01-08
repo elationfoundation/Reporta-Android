@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:descendantFocusability="blocksDescendants">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/switchActive"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtName"
+            style="@style/TextAppearance.Medium.Inverse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_margin="@dimen/margin_large"
+            android:ellipsize="end"
+            android:gravity="left|center_vertical"
+            android:maxLines="2"
+            android:text=""/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:background="@color/line_color"/>
+    </LinearLayout>
+
+    <!-- <Switch -->
+    <!-- android:id="@+id/switchActive" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_alignParentRight="true" -->
+    <!-- android:layout_centerVertical="true" -->
+    <!-- android:text="" -->
+    <!-- android:textOff="" -->
+    <!-- android:textOn="" /> -->
+
+    <CheckBox
+        android:id="@+id/switchActive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:button="@drawable/selector_chkbox_switch"
+        android:checked="false"/>
+
+</RelativeLayout>
